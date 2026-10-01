@@ -1,0 +1,7 @@
+{
+  "parent": "block/custom/sky_lantern",
+  "textures": {
+    "2": "block/custom/white_sky_lantern",
+    "particle": "block/white_stained_glass"
+  }
+}

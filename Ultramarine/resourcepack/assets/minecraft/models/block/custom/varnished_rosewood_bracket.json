@@ -1,0 +1,6 @@
+{
+  "parent": "block/custom/wooden_bracket",
+  "textures": {
+    "1": "block/custom/varnished_rosewood"
+  }
+}

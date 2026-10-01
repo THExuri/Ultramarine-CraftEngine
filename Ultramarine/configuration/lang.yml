@@ -1,0 +1,1577 @@
+lang#items:
+ en_us:
+# Building Blocks
+    item.ultramarine.black_brick: Black Brick
+    item.ultramarine.cyan_brick: Cyan Brick
+    item.ultramarine.brownish_red_stone_brick: Brownish Red Stone Brick
+    item.ultramarine.green_weathered_brick: Green Weathered Brick
+    item.ultramarine.variegated_rock: Variegated Rock
+    item.ultramarine.white_and_pink_mixed_brick: White And Pink Mixed Brick
+    item.ultramarine.pale_yellow_stone: Pale Yellow Stone
+    item.ultramarine.weathered_stone: Weathered Stone
+    item.ultramarine.polished_weathered_stone: Polished Weathered Stone
+    item.ultramarine.green_weathered_stone: Green Weathered Stone
+    item.ultramarine.light_cyan_floor_tile: Light Cyan Floor Tile
+    item.ultramarine.cyan_floor_tile: Cyan Floor Tile
+    item.ultramarine.dark_cyan_floor_tile: Dark Cyan Floor Tile
+    item.ultramarine.layered_cyan_floor_tile: Layered Cyan Floor Tile
+    item.ultramarine.vertical_cyan_floor_tile: Vertiacl Cyan Floor Tile
+    item.ultramarine.mixed_cyan_floor_tile: Mixed Cyan Floor Tile
+    item.ultramarine.chiseled_cyan_floor_tile: Chiseld Cyan Floor Tile
+    item.ultramarine.cut_cyan_floor_tile: Cut Cyan Floor Tile
+    item.ultramarine.weathered_red_stone_tile: Weathered Red Stone Tile
+    item.ultramarine.red_floor_tile: Red Floor Tile
+    item.ultramarine.blue_and_black_tile: Blue And Black Tile
+    item.ultramarine.green_glazed_tile: Green Glazed Tile
+    item.ultramarine.black_floor_tile: Black Floor Tile
+    item.ultramarine.black_floor_tile_little_mossy: Black Floor Tile Lite Mossy
+    item.ultramarine.black_floor_tile_moderate_mossy: Black Floor Tile Moderate Mossy
+    item.ultramarine.black_floor_tile_big_mossy: Black Floor Tile Big Mossy
+    item.ultramarine.rosewood_plank: Rosewood Plank
+    item.ultramarine.varnished_rosewood: Varnished Rosewood
+    item.ultramarine.bamboo_mat: Bamboo Mat
+    item.ultramarine.gray_roof_tile: Gary Roof Tile
+    item.ultramarine.gray_roof_tile_stair: Gary Roof Tile Stair
+    item.ultramarine.gray_roof_tile_edge: Gary Roof Tile Edge
+    item.ultramarine.yellow_roof_tile: Yellow Roof Tile
+    item.ultramarine.yellow_roof_tile_stair: Yellow Roof Tile Stair
+    item.ultramarine.yellow_roof_tile_edge: Yellow Roof Tile Edge
+    item.ultramarine.green_roof_tile: Green Roof Tile
+    item.ultramarine.green_roof_tile_stair: Green Roof Tile Stair
+    item.ultramarine.green_roof_tile_edge: Green Roof Tile Edge
+    item.ultramarine.blue_roof_tile: Blue Roof Tile
+    item.ultramarine.blue_roof_tile_stair: Blue Roof Tile Stair
+    item.ultramarine.blue_roof_tile_edge: Blue Roof Tile Edge
+    item.ultramarine.cyan_roof_tile: Cyan Roof Tile
+    item.ultramarine.cyan_roof_tile_stair: Cyan Roof Tile Stair
+    item.ultramarine.cyan_roof_tile_edge: Cyan Roof Tile Edge
+    item.ultramarine.black_roof_tile: Black Roof Tile
+    item.ultramarine.black_roof_tile_stair: Black Roof Tile Stair
+    item.ultramarine.black_roof_tile_edge: Black Roof Tile Edge
+    item.ultramarine.black_roof_ridge_upper: Black Roof Ridge Upper
+    item.ultramarine.black_roof_ridge_lower: Black Roof Ridge Lower
+    item.ultramarine.black_roof_ridge_connection: Black Roof Ridge Connection
+    item.ultramarine.black_main_roof_ridge_connection: Black Main Roof Ridge Connection
+    item.ultramarine.black_main_roof_ridge_panel: Black Main Roof Ridge Panel
+    item.ultramarine.black_main_roof_ridge_plate: Black Main Roof Ridge Plate
+    item.ultramarine.yellow_roof_ridge_upper: Yellow Roof Ridge Upper
+    item.ultramarine.yellow_roof_ridge_lower: Yellow Roof Ridge Lower
+    item.ultramarine.yellow_roof_ridge_connection: Yellow Roof Ridge Connection
+    item.ultramarine.yellow_main_roof_ridge_connection: Yellow Main Roof Ridge Connection
+    item.ultramarine.yellow_main_roof_ridge_panel: Yellow Main Roof Ridge Panel
+    item.ultramarine.yellow_main_roof_ridge_plate: Yellow Main Roof Ridge Plate
+    item.ultramarine.wooden_crate: Wooden Crate
+# Decorative Blocks
+    item.ultramarine.oak_bracket: Oak Bracket
+    item.ultramarine.spruce_bracket: Spruce Bracket
+    item.ultramarine.birch_bracket: Birch Bracket
+    item.ultramarine.jungle_bracket: Jungle Bracket
+    item.ultramarine.acacia_bracket: Acacia Bracket
+    item.ultramarine.dark_oak_bracket: Dark Oak Bracket
+    item.ultramarine.crimson_bracket: Crimson Bracket
+    item.ultramarine.warped_bracket: Warped Bracket
+    item.ultramarine.mangrove_bracket: Mangrove Bracket
+    item.ultramarine.cherry_bracket: Cherry Bracket
+    item.ultramarine.varnished_rosewood_bracket: Varnished Rosewood Bracket
+    item.ultramarine.red_carved_wood: Red Carved Wood
+    item.ultramarine.blue_carved_wood: Blue Carved Wood
+    item.ultramarine.blue_carved_wooden_bracket: Blue Carved Wooden Bracket
+    item.ultramarine.cyan_carved_wood: Cyan Carved Wood
+    item.ultramarine.cyan_carved_wooden_bracket: Cyan Carved Wooden Bracket
+    item.ultramarine.green_carved_wood: Green Carved Wood
+    item.ultramarine.green_carved_wooden_bracket: Green Carved Wooden Bracket
+    item.ultramarine.orange_and_blue_carved_wood: Orange And Blue Carved Wood
+    item.ultramarine.orange_and_green_carved_wood: Orange And Green Carved Wood
+    item.ultramarine.green_and_blue_carved_wood: Green And Blue Carved Wood
+    item.ultramarine.dark_green_and_dark_blue_carved_wood: Dark Green And Dark Blue Carved Wood
+    item.ultramarine.dark_blue_and_dark_green_carved_wood: Dark Blue And Dark Green Carved Wood
+    item.ultramarine.black_white_green_carved_wood: Black White Green  Carved Wood
+    item.ultramarine.black_white_blue_carved_wood: Black White Blue Carved Wood
+    item.ultramarine.red_and_green_carved_wood: Red And Green Carved Wood
+    item.ultramarine.blue_and_red_carved_wood: Blue And Red Carved Wood
+    item.ultramarine.blue_white_red_carved_wood: Blue White Red Carved Wood
+    item.ultramarine.green_white_red_carved_wood: Green white Red Carved Wood
+    item.ultramarine.blue_and_yellow_carved_wood: Blue And Yellow Carved Wood
+    item.ultramarine.yellow_and_green_carved_wood: Yellow And Green Carved Wood
+    item.ultramarine.yellow_green_blue_carved_wood: Yellow Green Blue Carved Wood
+    item.ultramarine.carved_dark_oak_beam: Carved Dark Oak Beam
+    item.ultramarine.carved_dark_oak_beam_edge: Carved Dark Oak Beam Edge
+    item.ultramarine.gilded_dark_oak: Gilded Dark Oak
+    item.ultramarine.chiseled_gilded_dark_oak: Chiseld Gilded Dark Oak
+    item.ultramarine.gilded_dark_oak_bracket: Gilded Dark Oak Bracket
+    item.ultramarine.red_carved_carpet: Red Carved Carpet
+    item.ultramarine.blue_carved_carpet: Blue Carved Carpet
+    item.ultramarine.carved_red_pillar: Carved Red Pillar
+    item.ultramarine.carved_red_pillar_base: Carved Red Pillar Base
+    item.ultramarine.carved_red_pillar_head: Carved Red Pillar Head
+    item.ultramarine.spruce_pillar_base: Spruce Pillar Base
+    item.ultramarine.stripped_dark_oak_pillar_base: Stripped Dark Oak Pillar Base
+    item.ultramarine.gilded_dark_oak_pillar_head_variant_1: Gilded Dark Oak Pillar Head (Double Triangle)
+    item.ultramarine.gilded_dark_oak_pillar_head_variant_2: Gilded Dark Oak Pillar Head (Full)
+    item.ultramarine.gilded_dark_oak_pillar_head_variant_3: Gilded Dark Oak Pillar Head (Single Triangle)
+    item.ultramarine.gilded_dark_oak_pillar_head_variant_4: Gilded Dark Oak Pillar Head (Rectangles)  
+    item.ultramarine.gilded_dark_oak_pillar_head_variant_5: Gilded Dark Oak Pillar Head (Border)  
+    item.ultramarine.cyan_and_white_pillar_base: Cyan And White Pillar Base
+    item.ultramarine.cyan_and_white_decorated_pillar: Cyan And White Decorated Pillar
+    item.ultramarine.cyan_and_white_pillar_head: Cyan And White Pillar Head
+    item.ultramarine.stone_pillar_base: Stone Pillar Base
+    item.ultramarine.green_fangxin: Green FangXin
+    item.ultramarine.green_fangxin_edge: Green FangXin Edge
+    item.ultramarine.blue_fangxin: Blue FangXin
+    item.ultramarine.blue_fangxin_edge: Blue FangXin Edge
+    item.ultramarine.cyan_and_blue_fangxin: Cyan And Blue FangXin
+    item.ultramarine.cyan_and_blue_fangxin_edge: Cyan And Blue FangXin Edge
+    item.ultramarine.cyan_and_blue_fangxin_edge_variant: Cyan And Blue FangXin Edge variant
+    item,ultramarine.cyan_blue_white_fangxin: Cyan Blue White FangXin
+    item.ultramarine.cyan_blue_white_fangxin_edge: Cyan Blue White FangXin Edge
+    item.ultramarine.blue_and_green_fangxin_edge: Blue And Green FangXin Edge
+    item.ultramarine.yellow_and_green_fangxin_edge: Yellow And Green FangXin Edge
+    item.ultramarine.dark_blue_fangxin: Dark Blue FangXin
+    item.ultramarine.dark_blue_fangxin_edge: Dark Blue FangXin Edge
+    item.ultramarine.blue_and_white_fangxin: Blue And White FangXin
+    item.ultramarine.green_and_dark_blue_fangxin: Green And Dark Blue FangXin
+    item.ultramarine.white_and_cyan_fangxin: White And Cyan FangXin
+    item.ultramarine.white_and_cyan_fangxin_edge: White And Cyan FangXin Edge
+    item.ultramarine.white_and_blue_fangxin: White And Blue FangXin
+    item.ultramarine.white_and_blue_fangxin_edge: White And Blue FangXin Edge
+    item.ultramarine.red_cyan_blue_fangxin: Red Cyan Blue FangXin
+    item.ultramarine.cyan_and_yellow_fangxin_edge: Cyan And Yellow FangXin Edge
+    item.ultramarine.ming_blue_jinzhuomo_shinianyu_xuanzi_fangxin_edge: Ming Blue Jinzhuomo Shinianyu Xuanzi Fangxin Edge
+    item.ultramarine.ming_blue_gilded_jinzhuomo_shinianyu_xuanzi_fangxin: Ming Blue Gilded Jinzhuomo Shinianyu Xuanzi Fangxin
+    item.ultramarine.ming_blue_gilded_jinzhuomo_shinianyu_xuanzi_fangxin_edge: Ming Blue Gilded Jinzhuomo Shinianyu Xuanzi Fangxin Edge
+    item.ultramarine.ming_green_gilded_jinzhuomo_shinianyu_xuanzi_fangxin: Ming Green Gilded Jinzhuomo Shinianyu Xuanzi Fangxin
+    item.ultramarine.ming_green_gilded_jinzhuomo_shinianyu_xuanzi_fangxin_edge: Ming Green Gilded Jinzhuomo Shinianyu Xuanzi Fangxin Edge
+    item.ultramarine.qing_blue_plain_jinzhuomo_shinianyu_fangxin: Qing Blue Plain Jinzhuomo Shinianyu Fangxin
+    item.ultramarine.yuan_nianyuzhuang_fangxin: Yuan Nianyuzhuan FangXin
+    item.ultramarine.yuan_nianyuzhuang_fangxin_edge: Yuan Nianyuzhuan FangXin Edge
+    item.ultramarine.yuan_patterned_nianyuzhuang_fangxin: Yuan Patterned Nianyuzhuan Fangxin
+    item.ultramarine.yuan_patterned_nianyuzhuang_fangxin_edge: Yuan Patterned Nianyuzhuan FangXin Edge
+    item.ultramarine.yuan_green_nianyuzhuang_fangxin: Yuan Green Nianyuzhuan FangXin
+    item.ultramarine.yuan_green_nianyuzhuang_fangxin_edge: Yuan Green Nianyuzhuan FangXin Edge
+    item.ultramarine.yuan_patterned_wuchaizhuang_fangxin: Yuan Patterned Wuchaizhuang FangXin
+    item.ultramarine.yuan_patterned_wuchaizhuang_fangxin_edge: Yuan Patterned Wuchaizhuang FangXin Edge
+    item.ultramarine.yuan_green_wuchaizhuang_fangxin: Yuan Green Wuchaizhuang FangXin
+    item.ultramarine.yuan_green_wuchaizhuang_fangxin_edge: Yuan Green Wuchaizhuang FangXin Edge
+    item.ultramarine.blue_zhaotou_edge: Blue Zhaotou Edge
+    item.ultramarine.green_and_blue_zhaotou: Green And Blue Zhaotou
+    item.ultramarine.blue_and_green_zhaotou: Blue And Green Zhaotou
+    item.ultramarine.blue_and_green_double_layered_zhaotou: Blue And Green Double Layered Zhaotou
+    item.ultramarine.cyan_and_red_zhaotou: Cyan And Red Zhaotou
+    item.ultramarine.cyan_and_blue_zhaotou: Cyan And Blue Zhaotou
+    item.ultramarine.gray_black_red_zhaotou: Gary Black Red Zhaotou
+    item.ultramarine.blue_green_red_zhaotou: Blue Green Red Zhaotou
+    item.ultramarine.red_and_blue_zhaotou: Red And Blue Zhaotou
+    item.ultramarine.green_and_yellow_zhaotou: Green And Yellow Zhaotou
+    item.ultramarine.red_green_blue_zhaotou: Red Green Blue Zhaotou
+    item.ultramarine.white_blue_green_zhaotou: White Blue Green Zhaotou
+    item.ultramarine.ming_yanzhuomo_shinianyu_outer_zhaotou: Ming Yanzhuomo Shinianyu Outer Zhaotou
+    item.ultramarine.ming_yanzhuomo_shinianyu_outer_zhaotou_edge: Ming Yanzhuomo Shinianyu Outer Zhaotou Edge
+    item.ultramarine.yuan_nianyuzhuang_zhaotou: Yuan Nianyuzhuan Zhaotou
+    item.ultramarine.yuan_nianyuzhuang_zhaotou_connection: Yuan Nianyuzhuan Zhaotou Connection
+    item.ultramarine.green_blue_black_gutou: Green Blue Black Gutou
+    item.ultramarine.blue_green_yellow_gutou: Blue Green Yellow Gutou
+    item.ultramarine.green_and_yellow_gutou: Green And Yellow Gutou
+    item.ultramarine.ming_yanzhuomo_shinianyu_outer_gutou_edge: Ming Yanzhuomo Shinianyu Outer Gutou Edge
+    item.ultramarine.yuan_nianyuzhuang_gutou: Yuan Nianyuzhuan Gutou
+    item.ultramarine.oak_rafter: Oak Rafter 
+    item.ultramarine.oak_rafter_end: Oak Rafter End
+    item.ultramarine.spruce_rafter: Spruce Rafter
+    item.ultramarine.spruce_rafter_end: Spruce Rafter End
+    item.ultramarine.birch_rafter: Birch Rafter
+    item.ultramarine.birch_rafter_end: Birch Rafter End
+    item.ultramarine.jungle_rafter: Jungle Rafter
+    item.ultramarine.jungle_rafter_end: Jungle Rafter End
+    item.ultramarine.acacia_rafter: Acacia Rafter
+    item.ultramarine.acacia_rafter_end: Acacia Rafter End
+    item.ultramarine.crimson_rafter: Crimson Rafter
+    item.ultramarine.crimson_rafter_end: Crimson Rafter End
+    item.ultramarine.warped_rafter: Warped Rafter
+    item.ultramarine.warped_rafter_end: Warped Rafter End
+    item.ultramarine.mangrove_rafter: Mangrove Rafter
+    item.ultramarine.mangrove_rafter_end: Mangrove Rafter End
+    item.ultramarine.cherry_rafter: Cherry Rafter
+    item.ultramarine.cherry_rafter_end: Cherry Rafter End
+    item.ultramarine.gilded_dark_oak_rafter: Gilded Dark Oak Rafter
+    item.ultramarine.gilded_dark_oak_rafter_end: Gilded Dark Oak Rafter End
+    item.ultramarine.dark_oak_rafter: Dark Oak Rafter
+    item.ultramarine.dark_oak_rafter_end: Dark Oak Rafter End
+    item.ultramarine.blue_tiger_eye_rafter: Blue Tiger Eye Rafter
+    item.ultramarine.blue_tiger_eye_rafter_end: Blue Tiger Eye Rafter
+    item.ultramarine.blue_carved_tiger_eye_rafter: Blue Carved Tiger Eye Rafter
+    item.ultramarine.blue_carved_tiger_eye_rafter_end: Blue Carved Tiger Eye Rafter End
+    item.ultramarine.green_tiger_eye_rafter: Green Tiger Eye Rafter
+    item.ultramarine.green_tiger_eye_rafter_end: Green Tiger Eye Rafter End
+    item.ultramarine.green_wanzi_rafter: Green Wanzi Rafter
+    item.ultramarine.green_wanzi_rafter_end: Green Wanzi Rafter End
+    item.ultramarine.green_carved_wanzi_rafter: Green Carved Wanzi Rafter
+    item.ultramarine.green_carved_wanzi_rafter_end: Green Carved Wanzi Rafter End
+    item.ultramarine.gilded_dark_oak_beam_head: Gilded Dark Oak Beam Head
+    item.ultramarine.qing_green_beam_head: Qing Green Beam Head
+    item.ultramarine.red_and_cyan_carved_architrave: Red And Cyan Carved Architrave
+    item.ultramarine.red_and_blue_carved_architrave: Red And Blue Carved Architrave
+    item.ultramarine.long_gilded_dark_oak_queti: Long Gilded Dark Oak Queti
+    item.ultramarine.horizontal_gilded_dark_oak_queti: Horizontal Gilded Dark Oak Queti
+    item.ultramarine.central_gilded_dark_oak_queti: Central Gilded Dark Oak Queti
+    item.ultramarine.vertical_gilded_dark_oak_queti: Vertiacl Gilded Dark Oak Queti
+    item.ultramarine.thick_carved_queti: Thick Carved Queti
+    item.ultramarine.short_thick_glazed_queti: Short Thick Glazed Queti
+    item.ultramarine.carved_stone_panel: Carved Stone Panel
+    item.ultramarine.carved_stone_panel_edge: Carved Stone Panel Edge
+    item.ultramarine.carved_stone_panel_center: Carved Stone Panel center
+    item.ultramarine.carved_stone_queti_part: Carved Stone Queti Part
+    item.ultramarine.carved_stone_beam: Carved Stone Beam
+    item.ultramarine.carved_stone_queti: Carved Stone Queti
+    item.ultramarine.blue_and_green_chuihua: Blue And Green Chuihua
+    item.ultramarine.cyan_and_yellow_chuihua: Cyan And Yellow Chuihua
+    item.ultramarine.gilded_dark_oak_chuihua: Gilded Dark Oak Chuihua
+    item.ultramarine.golden_glazed_roof_charm: Golden Glazed Roof Charm
+    item.ultramarine.green_glazed_roof_charm: Green Glazed Roof Charm
+    item.ultramarine.dark_prismarine_chiwei: Dark Prismarine Chiwei
+    item.ultramarine.qing_golden_dragon_ceiling: Qing Golden Dragon ceiling
+    item.ultramarine.white_marble_railing_slant: White Marble Railing Slant
+    item.ultramarine.red_wooden_railing: Red Wooden Railing
+    item.ultramarine.red_wooden_railing_edge: Red Wooden Railing Edge
+    item.ultramarine.wooden_railing: Wooden Railing
+    item.ultramarine.wooden_railing_variant: Wooden Railing variant
+    item.ultramarine.small_wooden_guardian_lion: Small Wooden Guardian Lion
+    item.ultramarine.small_stone_guardian_lion: Small Stone Guardian Lion
+    item.ultramarine.small_jade_guardian_lion: Small Jade Guardian Lion
+    item.ultramarine.small_yellow_glazed_guardian_lion: Small Yellow Glazed Guardian Lion
+    item.ultramarine.small_green_glazed_guardian_lion: Small Green Glazed Guardian Lion
+    item.ultramarine.xumi_stone_monolith: Xumi Stone Monolith
+    item.ultramarine.bookshelf: Bookshelf
+    item.ultramarine.bookshelf_variant: Bookshelf Variant
+    item.ultramarine.stone_flower_window: Stone Flower Window
+# Material
+    item.ultramarine.jade_ore: Jade Ore
+    item.ultramarine.deepslate_jade_ore: Deepslate Jade Ore
+    item.ultramarine.magnesite_ore: Magnesite Ore
+    item.ultramarine.deepslate_magnesite_ore: Deepslate Magnesite Ore
+    item.ultramarine.hematite_ore: Hematite Ore
+    item.ultramarine.deepslate_hematite_ore: Deepslate Hematite Ore
+    item.ultramarine.nether_cobalt_ore: Nether Cobalt Ore
+    item.ultramarine.jade: Jade
+    item.ultramarine.magnesite: Magnesite
+    item.ultramarine.magnesite_dust: Magnesite Dust
+    item.ultramarine.raw_hematite: Raw Hematite
+    item.ultramarine.hematite_dust: Hematite Dust
+    item.ultramarine.raw_cobalt: Raw Cobalt
+    item.ultramarine.cobalt_dust: Cobalt Dust
+    item.ultramarine.brownish_red_stone_brick_item: Brownish Red Stone Brick
+    item.ultramarine.unfired_clay_brick: Unfired Clay Brick
+    item.ultramarine.unfired_cyan_brick: Unfired Cyan Brick
+    item.ultramarine.unfired_black_brick: Unfired Black Brick
+    item.ultramarine.unfired_brownish_red_stone_brick: Unfired Brownish Red Stone Brick
+    item.ultramarine.fired_brick: Fired Brick
+    item.ultramarine.prismarine_dust: Prismarine Dust
+    item.ultramarine.unfired_roof_tile: Unfired Roof Tile
+    item.ultramarine.gray_roof_tile_item: Gray Roof Tile
+    item.ultramarine.yellow_roof_tile_item: Yellow Roof Tile
+    item.ultramarine.green_roof_tile_item: Green Roof Tile
+    item.ultramarine.blue_roof_tile_item: Blue Roof Tile
+    item.ultramarine.cyan_roof_tile_item: Cyan Roof Tile
+    item.ultramarine.black_roof_tile_item: Black Roof Tile
+    item.ultramarine.polished_oak_plank: Polished Oak Plank
+    item.ultramarine.polished_birch_plank: Polished Birch Plank
+    item.ultramarine.polished_spruce_plank: Polished Spruce Plank
+    item.ultramarine.polished_jungle_plank: Polished Jungle Plank
+    item.ultramarine.polished_acacia_plank: Polished Acacia Plank
+    item.ultramarine.polished_dark_oak_plank: Polished Dark Oak Plank
+    item.ultramarine.polished_warped_plank: Polished Warped Plank
+    item.ultramarine.polished_crimson_plank: Polished Crimson Plank
+    item.ultramarine.polished_mangrove_plank: Polished Mangrove Plank
+    item.ultramarine.polished_cherry_plank: Polished Cherry Plank
+    item.ultramarine.polished_rosewood_plank: Polished Rosewood Plank
+    item.ultramarine.polished_ebony_plank: Polished Ebony Plank
+    item.ultramarine.wooden_frame: Wooden Frame
+    item.ultramarine.calcite_dust: Calcite Dust
+    item.ultramarine.blue_and_white_glaze_powder: Blue And White Glaze Powder
+    item.ultramarine.small_clay_vase: Small Clay Vase
+    item.ultramarine.medium_clay_vase: Medium Clay Vase
+    item.ultramarine.large_clay_vase: Large Clay Vase
+    item.ultramarine.tall_clay_vase: Tall Clay Vase
+    item.ultramarine.clay_pot: Clay Pot
+    item.ultramarine.tall_clay_pot: Tall Clay Pot
+    item.ultramarine.clay_plate: Clay Plate
+    item.ultramarine.clay_bowl: Clay Bowl
+    item.ultramarine.small_white_porcelain_vase: Small White Porcelain Vase
+    item.ultramarine.medium_white_porcelain_vase: Medium White Porcelain Vase
+    item.ultramarine.large_white_porcelain_vase: Large White Porcelain Vase
+    item.ultramarine.small_green_porcelain_vase: Small Green Porcelain Vase
+    item.ultramarine.medium_green_porcelain_vase: Medium Green Porcelain Vase
+    item.ultramarine.tall_blue_porcelain_vase: Tall Blue Porcelain Vase
+    item.ultramarine.tall_blue_and_white_porcelain_vase: Tall Blue And White Porcelain Vase
+    item.ultramarine.black_porcelain_plate: Black Porcelain Plate
+    item.ultramarine.blue_and_white_porcelain_plate: Blue And White Porcelain Plate
+    item.ultramarine.blue_and_white_porcelain_piece: Blue And White Porcelain Piece
+    item.ultramarine.blue_and_white_porcelain_shards: Blue And White Porcelain Shards
+    item.ultramarine.porcelain_piece: Porcelain Piece
+    item.ultramarine.wooden_parts: Wooden Parts
+    item.ultramarine.gold_parts: Golden Parts
+    item.ultramarine.jade_parts: Jade Parts
+    item.ultramarine.porcelain_parts: Porcelain Parts
+    item.ultramarine.bronze_parts: Bronze Parts
+    item.ultramarine.white_dye_powder: White Dye Powder
+    item.ultramarine.orange_dye_powder: Orange Dye Powder
+    item.ultramarine.magenta_dye_powder: Magenta Dye Powder
+    item.ultramarine.light_blue_dye_powder: Light Blue Dye Powder
+    item.ultramarine.yellow_dye_powder: Yellow Dye Powder
+    item.ultramarine.lime_dye_powder: Lime Dye Powder
+    item.ultramarine.pink_dye_powder: Pink Dye Powder
+    item.ultramarine.gray_dye_powder: Gray Dye Powder
+    item.ultramarine.light_gray_dye_powder: Light Gray Dye Powder
+    item.ultramarine.cyan_dye_powder: Cyan Dye Powder
+    item.ultramarine.purple_dye_powder: Purple Dye Powder
+    item.ultramarine.blue_dye_powder: Blue Dye Powder
+    item.ultramarine.brown_dye_powder: Brown Dye Powder
+    item.ultramarine.green_dye_powder: Green Dye Powder
+    item.ultramarine.red_dye_powder: Red Dye Powder
+    item.ultramarine.black_dye_powder: Black Dye Powder
+    item.ultramarine.gold_dye_powder: Gold Dye Powder
+    item.ultramarine.carved_wood_template: Carved Wood Template
+    item.ultramarine.carved_wool_template: Carved Wool Template
+    item.ultramarine.fangxin_template: FangXin Template
+    item.ultramarine.fangxin_edge_template: FangXin Edge Template
+    item.ultramarine.zhaotou_template: Zhaotou Template
+    item.ultramarine.gutou_template: Gutou Template
+    item.ultramarine.rafter_template: Rafter Template
+    item.ultramarine.rafter_end_template: Rafter End Template
+    item.ultramarine.architrave_template: Architrave Template
+    item.ultramarine.caihua_template: Caihua Template
+    item.ultramarine.incense: Incense
+    item.ultramarine.fur: Fur
+    item.ultramarine.grease: Grease
+    item.ultramarine.silk: Silk
+    item.ultramarine.xuan_paper: Xuan Paper
+    item.ultramarine.copper_cash_coin: Copper Cash Coin
+    item.ultramarine.bronze_ingot: Bronze Ingot
+    item.ultramarine.bronze_dust: Bronze Dust
+    item.ultramarine.jade_block: Jade Block
+    item.ultramarine.bronze_block: Bronze Block
+    item.ultramarine.mooncake: Mooncake
+    item.ultramarine.mung_bean_cake: Mung Bean Cake
+    item.ultramarine.raw_meat: Raw Meat
+    item.ultramarine.cooked_meat: Cooked Meat
+    item.ultramarine.baozi: Baozi
+    item.ultramarine.blue_and_white_porcelain_upgrade_smithing_template: Blue And White Porcelain Upgrade Smithing Template
+    item.ultramarine.blue_and_white_porcelain_sword: Blue And White Porcelain Sword
+    item.ultramarine.blue_and_white_porcelain_shovel: Blue And White Porcelain Shovel
+    item.ultramarine.blue_and_white_porcelain_axe: Blue And White Porcelain Axe
+    item.ultramarine.blue_and_white_porcelain_pickaxe: Blue And Porcelain pickaxe
+# Furniture
+    item.ultramarine.oak_cabinet: Oak Cabinet
+    item.ultramarine.warped_cabinet: Warped Cabinet     
+    item.ultramarine.ebony_cabinet: Ebony Cabinet
+    item.ultramarine.large_tea_table: Crystal Cabinet
+    item.ultramarine.high_table_with_white_top: High Table With White Top
+    item.ultramarine.censer_table: Censer Table
+    item.ultramarine.porcelain_inlaid_table: Porcelain Inlaid Table
+    item.ultramarine.small_table: Small Table
+    item.ultramarine.small_ebony_table: Small Ebony Table
+    item.ultramarine.large_table: Large Table
+    item.ultramarine.long_table: Long Table
+    item.ultramarine.ebony_chair: Ebony Chair
+    item.ultramarine.chair_with_yellow_cushion: Chair With Yellow Cushion
+    item.ultramarine.painted_chair: Painted Chair
+    item.ultramarine.wooden_stool: Wooden Stool
+    item.ultramarine.porcelain_inlaid_grand_chair: Porcelain Inlaid Grand Chair
+    item.ultramarine.yellow_cushion: Yellow Cushion
+    item.ultramarine.oak_bed: Oak Bed
+    item.ultramarine.ebony_bed: Ebony Bed
+    item.ultramarine.painted_screen: Painted Screen
+    item.ultramarine.large_landscape_painting_screen: Large Landscape Painting Screen
+    item.ultramarine.carved_wooden_door: Carved Wooden Door
+    item.ultramarine.song_wooden_door: Song Wooden Door
+    item.ultramarine.song_wooden_window: Song Wooden Window
+    item.ultramarine.royal_rosewood_window: Royal Rosewood Window
+    item.ultramarine.tall_royal_rosewood_window: Tall Royal Rosewood Window
+    item.ultramarine.glazed_tile_grid_window: Glazed Tile Grid Window
+# Sundry
+    item.ultramarine.small_lotus_leaf: Small Louts Leaf
+    item.ultramarine.small_dark_green_lotus_leaf: Small Dark Green Louts Leaf
+    item.ultramarine.medium_lotus_leaf: Medium Louts Leaf
+    item.ultramarine.large_lotus_leaf: Large Louts Leaf
+    item.ultramarine.tilted_lotus_leaf: Tilted Louts Leaf
+    item.ultramarine.small_lotus_leaf_cluster: Small Louts Leaf Cluster
+    item.ultramarine.medium_lotus_leaf_cluster: Medium Louts Leaf Cluster
+    item.ultramarine.lotus_bud: Louts Bud
+    item.ultramarine.medium_lotus: Medium Louts
+    item.ultramarine.small_greeting_pine_bonsai: Small Greeting Pine Bonsai
+    item.ultramarine.medium_greeting_pine_bonsai: Medium Greeting Pine Bonsai
+    item.ultramarine.large_greeting_pine_bonsai: Large Greeting Pine Bonsai
+    item.ultramarine.small_white_porcelain_vase_bonsai: Small White Porcelain Vase Bonsai
+    item.ultramarine.medium_white_porcelain_vase_bonsai: Medium White Porcelain Vase Bonsai
+    item.ultramarine.large_white_porcelain_vase_bonsai: Large white Porcelain Vase Bonsai
+    item.ultramarine.small_green_porcelain_vase_bonsai: Small Green Porcelain Vase Bonsai
+    item.ultramarine.green_porcelain_vase_bonsai: Green Porcelain Vase Bonsai
+    item.ultramarine.red_coral_bonsai: Red Coral Bonsai
+    item.ultramarine.red_plum_bonsai: Red Plum Bonsai
+    item.ultramarine.bamboo_bonsai: Bamboo Bonsai
+    item.ultramarine.tall_blue_vase_bonsai: Tall Blue Vase Bonsai
+    item.ultramarine.tall_blue_and_white_porcelain_bonsai: Tall Blue And White Porcelain Bonsai
+    item.ultramarine.medium_bonsai: Medium Bonsai
+    item.ultramarine.large_bonsai: Large Bonsai
+    item.ultramarine.bronze_ding: Bronze Ding
+    item.ultramarine.lotus_leaves_bowl: Lotus Leaves Bowl
+# Light
+    item.ultramarine.octagonal_palace_lantern: Octagonal Palace Lantern
+    item.ultramarine.square_palace_lantern: Square Palace Lantern
+    item.ultramarine.small_red_lantern: Small Red Lantern
+    item.ultramarine.white_sky_lantern: White Sky Lantern
+    item.ultramarine.red_sky_lantern: Red Sky Lantern
+    item.ultramarine.yellow_sky_lantern: Yellow Sky Lantern
+    item.ultramarine.standing_lamp: Standing Lamp
+    item.ultramarine.small_standing_lamp: Small Standing Lamp
+    item.ultramarine.stone_lamp: Stone Lamp
+    item.ultramarine.red_lantern_streetlight_0: Red Lantern Streetlight
+    item.ultramarine.red_lantern_streetlight_1: Red Lantern Streetlight
+    item.ultramarine.red_lantern_streetlight_2: Red Lantern Streetlight
+    item.ultramarine.red_lantern_streetlight: Red Lantern Streetlight
+# Decoration
+    item.ultramarine.back_cushion: Back Cushion
+    item.ultramarine.blue_and_white_porcelain_vase: Blue And White Porcelain Vase
+    item.ultramarine.large_blue_and_white_porcelain_vase: Large Blue And White Porcelain Vase
+    item.ultramarine.short_blue_and_white_porcelain_pot: Short Blue And White Porcelain Pot
+    item.ultramarine.tall_blue_and_white_porcelain_pot: Tall Blue And White Porcelain Pot
+    item.ultramarine.blue_and_white_porcelain_bowl: Blue And White Porcelain Bowl
+    item.ultramarine.blue_and_white_porcelain_flowerpot: Blue And White Porcelain Flowerpot
+    item.ultramarine.sundial: Sundial
+    item.ultramarine.wind_chime: Wind Chime
+    item.ultramarine.wooden_mallet: Wooden Mallet
+ zh_cn:
+# 建筑方块
+    item.ultramarine.black_brick: 黑砖
+    item.ultramarine.cyan_brick: 青砖
+    item.ultramarine.brownish_red_stone_brick: 棕红石砖
+    item.ultramarine.green_weathered_brick: 绿风化砖
+    item.ultramarine.variegated_rock: 杂色石
+    item.ultramarine.white_and_pink_mixed_brick: 白粉杂色块
+    item.ultramarine.pale_yellow_stone: 淡黄石
+    item.ultramarine.weathered_stone: 风化石
+    item.ultramarine.polished_weathered_stone: 磨制风化石
+    item.ultramarine.green_weathered_stone: 绿风化石
+    item.ultramarine.light_cyan_floor_tile: 淡青色地砖
+    item.ultramarine.cyan_floor_tile: 青地砖
+    item.ultramarine.dark_cyan_floor_tile: 深色青地砖
+    item.ultramarine.layered_cyan_floor_tile: 青色地砖（横一字）
+    item.ultramarine.vertical_cyan_floor_tile: 青色地砖（竖一字）
+    item.ultramarine.mixed_cyan_floor_tile: 青色地砖（丁字）
+    item.ultramarine.chiseled_cyan_floor_tile: 青色地砖（回字）
+    item.ultramarine.cut_cyan_floor_tile: 青色地砖（十字）
+    item.ultramarine.weathered_red_stone_tile: 风化红石砖
+    item.ultramarine.red_floor_tile: 红地砖
+    item.ultramarine.blue_and_black_tile: 蓝黑砖
+    item.ultramarine.green_glazed_tile: 绿琉璃砖
+    item.ultramarine.black_floor_tile: 黑地砖
+    item.ultramarine.black_floor_tile_little_mossy: 黑地砖（少量青苔）
+    item.ultramarine.black_floor_tile_moderate_mossy: 黑地砖（中量青苔）
+    item.ultramarine.black_floor_tile_big_mossy: 黑地砖（大量青苔）
+    item.ultramarine.rosewood_plank: 红木板
+    item.ultramarine.varnished_rosewood: 漆红木
+    item.ultramarine.bamboo_mat: 竹席
+    item.ultramarine.gray_roof_tile: 灰色瓦当
+    item.ultramarine.gray_roof_tile_stair: 灰色瓦当楼梯
+    item.ultramarine.gray_roof_tile_edge: 灰色瓦当边缘
+    item.ultramarine.yellow_roof_tile: 黄色瓦当
+    item.ultramarine.yellow_roof_tile_stair: 黄色瓦当楼梯
+    item.ultramarine.yellow_roof_tile_edge: 黄色瓦当边缘
+    item.ultramarine.green_roof_tile: 绿色瓦当
+    item.ultramarine.green_roof_tile_stair: 绿色瓦当楼梯
+    item.ultramarine.green_roof_tile_edge: 绿色瓦当边缘
+    item.ultramarine.blue_roof_tile: 蓝色瓦当
+    item.ultramarine.blue_roof_tile_stair: 蓝色瓦当楼梯
+    item.ultramarine.blue_roof_tile_edge: 蓝色瓦当边缘
+    item.ultramarine.cyan_roof_tile: 青色瓦当
+    item.ultramarine.cyan_roof_tile_stair: 青色瓦当楼梯
+    item.ultramarine.cyan_roof_tile_edge: 青色瓦当边缘
+    item.ultramarine.black_roof_tile: 黑色瓦当
+    item.ultramarine.black_roof_tile_stair: 黑色瓦当楼梯
+    item.ultramarine.black_roof_tile_edge: 黑色瓦当边缘
+    item.ultramarine.black_roof_ridge_upper: 黑脊上皮
+    item.ultramarine.black_roof_ridge_lower: 黑脊下皮
+    item.ultramarine.black_roof_ridge_connection: 黑脊链接
+    item.ultramarine.black_main_roof_ridge_connection: 黑脊正链接
+    item.ultramarine.black_main_roof_ridge_panel: 黑脊正脊厚板
+    item.ultramarine.black_main_roof_ridge_plate: 黑脊正脊薄板
+    item.ultramarine.yellow_roof_ridge_upper: 黄脊上皮
+    item.ultramarine.yellow_roof_ridge_lower: 黄脊下皮
+    item.ultramarine.yellow_roof_ridge_connection: 黄脊链接
+    item.ultramarine.yellow_main_roof_ridge_connection: 黄脊正链接
+    item.ultramarine.yellow_main_roof_ridge_panel: 黄脊正脊厚板
+    item.ultramarine.yellow_main_roof_ridge_plate: 黄脊正脊薄板
+    item.ultramarine.wooden_crate: 板条箱
+# 装饰方块
+    item.ultramarine.oak_bracket: 橡木木拱
+    item.ultramarine.spruce_bracket: 云杉木拱
+    item.ultramarine.birch_bracket: 白桦木拱
+    item.ultramarine.jungle_bracket: 丛林木拱
+    item.ultramarine.acacia_bracket: 金合欢木拱
+    item.ultramarine.dark_oak_bracket: 深色橡木拱
+    item.ultramarine.crimson_bracket: 绯红木拱
+    item.ultramarine.warped_bracket: 诡异木拱
+    item.ultramarine.mangrove_bracket: 红树木拱
+    item.ultramarine.cherry_bracket: 樱花木拱
+    item.ultramarine.varnished_rosewood_bracket: 漆红木拱
+    item.ultramarine.red_carved_wood: 红雕花木
+    item.ultramarine.blue_carved_wood: 蓝雕花木
+    item.ultramarine.blue_carved_wooden_bracket: 蓝雕花木拱
+    item.ultramarine.cyan_carved_wood: 青雕花木
+    item.ultramarine.cyan_carved_wooden_bracket: 青雕花木拱
+    item.ultramarine.green_carved_wood: 绿雕花木
+    item.ultramarine.green_carved_wooden_bracket: 绿雕花木拱
+    item.ultramarine.orange_and_blue_carved_wood: 橙蓝雕花木
+    item.ultramarine.orange_and_green_carved_wood: 橙绿雕花木
+    item.ultramarine.green_and_blue_carved_wood: 绿蓝雕花木
+    item.ultramarine.dark_green_and_dark_blue_carved_wood: 深绿深蓝雕花木
+    item.ultramarine.dark_blue_and_dark_green_carved_wood: 深蓝深绿雕花木
+    item.ultramarine.black_white_green_carved_wood: 黑白绿雕花木
+    item.ultramarine.black_white_blue_carved_wood: 黑白蓝雕花木
+    item.ultramarine.red_and_green_carved_wood: 红绿雕花木
+    item.ultramarine.blue_and_red_carved_wood: 蓝红雕花木
+    item.ultramarine.blue_white_red_carved_wood: 蓝白红雕花木
+    item.ultramarine.green_white_red_carved_wood: 绿白红雕花木
+    item.ultramarine.blue_and_yellow_carved_wood: 蓝黄雕花木
+    item.ultramarine.yellow_and_green_carved_wood: 黄绿雕花木
+    item.ultramarine.yellow_green_blue_carved_wood: 黄绿蓝雕花木
+    item.ultramarine.carved_dark_oak_beam: 雕花深色橡木横梁
+    item.ultramarine.carved_dark_oak_beam_edge: 雕花深色橡木横梁边缘
+    item.ultramarine.gilded_dark_oak: 黑金深色橡木整砖边框
+    item.ultramarine.chiseled_gilded_dark_oak: 黑金深色橡木整砖中心
+    item.ultramarine.gilded_dark_oak_bracket: 黑金深色橡木供
+    item.ultramarine.red_carved_carpet: 红雕花地毯
+    item.ultramarine.blue_carved_carpet: 蓝雕花地毯
+    item.ultramarine.carved_red_pillar: 雕花红柱子
+    item.ultramarine.carved_red_pillar_base: 雕花红柱础
+    item.ultramarine.carved_red_pillar_head: 雕花找头红柱子
+    item.ultramarine.spruce_pillar_base: 云杉柱础
+    item.ultramarine.stripped_dark_oak_pillar_base: 去皮深色橡木柱础
+    item.ultramarine.gilded_dark_oak_pillar_head_variant_1: 黑金深色橡木桩头（双三角形）
+    item.ultramarine.gilded_dark_oak_pillar_head_variant_2: 黑金深色橡木桩头（铺满）
+    item.ultramarine.gilded_dark_oak_pillar_head_variant_3: 黑金深色橡木桩头（单三角形）
+    item.ultramarine.gilded_dark_oak_pillar_head_variant_4: 黑金深色橡木桩头（长方形）
+    item.ultramarine.gilded_dark_oak_pillar_head_variant_5: 黑金深色橡木桩头（边框）
+    item.ultramarine.cyan_and_white_pillar_base: 青白柱础
+    item.ultramarine.cyan_and_white_decorated_pillar: 青白束带
+    item.ultramarine.cyan_and_white_pillar_head: 青白柱头
+    item.ultramarine.stone_pillar_base: 石花纹柱础
+    item.ultramarine.green_fangxin: 绿色枋心中心
+    item.ultramarine.green_fangxin_edge: 绿色枋心外侧
+    item.ultramarine.blue_fangxin: 蓝色枋心中心
+    item.ultramarine.blue_fangxin_edge: 蓝色枋心外侧
+    item.ultramarine.cyan_and_blue_fangxin: 青蓝枋心中心
+    item.ultramarine.cyan_and_blue_fangxin_edge: 青蓝枋心外侧
+    item.ultramarine.cyan_and_blue_fangxin_edge_variant: 青蓝枋心外侧变种
+    item.ultramarine.cyan_blue_white_fangxin: 青蓝白枋心中心
+    item.ultramarine.cyan_blue_white_fangxin_edge: 青蓝白枋心外侧
+    item.ultramarine.blue_and_green_fangxin_edge: 蓝绿枋心外侧
+    item.ultramarine.yellow_and_green_fangxin_edge: 黄绿枋心外侧
+    item.ultramarine.dark_blue_fangxin: 深蓝枋心中心
+    item.ultramarine.dark_blue_fangxin_edge: 深蓝枋心外侧
+    item.ultramarine.blue_and_white_fangxin: 蓝白枋心中心
+    item.ultramarine.green_and_dark_blue_fangxin: 绿深蓝枋心中心
+    item.ultramarine.white_and_cyan_fangxin: 白青枋心中心
+    item.ultramarine.white_and_cyan_fangxin_edge: 白青枋心外侧
+    item.ultramarine.white_and_blue_fangxin: 白蓝枋心中心
+    item.ultramarine.white_and_blue_fangxin_edge: 白蓝枋心外侧
+    item.ultramarine.red_cyan_blue_fangxin: 红青蓝枋心中心
+    item.ultramarine.cyan_and_yellow_fangxin_edge: 青黄枋心外侧
+    item.ultramarine.ming_blue_jinzhuomo_shinianyu_xuanzi_fangxin_edge: 明代金琢墨石碾玉旋子蓝底枋心外侧
+    item.ultramarine.ming_blue_gilded_jinzhuomo_shinianyu_xuanzi_fangxin: 明代金琢墨石碾玉旋子蓝底金纹枋心中心
+    item.ultramarine.ming_blue_gilded_jinzhuomo_shinianyu_xuanzi_fangxin_edge: 明代金琢墨石碾玉旋子蓝底金纹枋心外侧
+    item.ultramarine.ming_green_gilded_jinzhuomo_shinianyu_xuanzi_fangxin: 明代金琢墨石碾玉旋子绿底金纹枋心中心
+    item.ultramarine.ming_green_gilded_jinzhuomo_shinianyu_xuanzi_fangxin_edge: 明代金琢墨石碾玉旋子绿底金纹枋心外侧
+    item.ultramarine.qing_blue_plain_jinzhuomo_shinianyu_fangxin: 清代金琢墨石碾玉选子蓝底无花纹枋心中心
+    item.ultramarine.yuan_nianyuzhuang_fangxin: 元代碾玉装枋心中心
+    item.ultramarine.yuan_nianyuzhuang_fangxin_edge: 元代碾玉枋心外侧
+    item.ultramarine.yuan_patterned_nianyuzhuang_fangxin: 元代碾玉装枋心带花纹枋心中心
+    item.ultramarine.yuan_patterned_nianyuzhuang_fangxin_edge: 元代碾玉装枋心带花纹枋心外侧
+    item.ultramarine.yuan_green_nianyuzhuang_fangxin: 元代碾玉装枋心绿底枋心中心
+    item.ultramarine.yuan_green_nianyuzhuang_fangxin_edge: 元代碾玉装枋心绿底枋心外侧
+    item.ultramarine.yuan_patterned_wuchaizhuang_fangxin: 元代五彩装枋心带花纹枋心中心
+    item.ultramarine.yuan_patterned_wuchaizhuang_fangxin_edge: 元代五彩装枋心带花纹枋心外侧
+    item.ultramarine.yuan_green_wuchaizhuang_fangxin: 元代五彩装枋心绿底枋心中心
+    item.ultramarine.yuan_green_wuchaizhuang_fangxin_edge: 元代五彩装枋心绿底枋心外侧
+    item.ultramarine.blue_zhaotou_edge: 蓝找头边缘
+    item.ultramarine.green_and_blue_zhaotou: 绿蓝找头
+    item.ultramarine.blue_and_green_zhaotou: 蓝绿找头
+    item.ultramarine.blue_and_green_double_layered_zhaotou: 蓝绿双层找头
+    item.ultramarine.cyan_and_red_zhaotou: 青红找头
+    item.ultramarine.cyan_and_blue_zhaotou: 青蓝找头
+    item.ultramarine.gray_black_red_zhaotou: 灰黑红找头
+    item.ultramarine.blue_green_red_zhaotou: 蓝绿红找头
+    item.ultramarine.red_and_blue_zhaotou: 红蓝找头
+    item.ultramarine.green_and_yellow_zhaotou: 绿黄找头
+    item.ultramarine.red_green_blue_zhaotou: 红绿蓝找头
+    item.ultramarine.white_blue_green_zhaotou: 白蓝绿找头
+    item.ultramarine.ming_yanzhuomo_shinianyu_outer_zhaotou: 明代烟琢墨石碾玉找头外侧里
+    item.ultramarine.ming_yanzhuomo_shinianyu_outer_zhaotou_edge: 明代烟琢墨石碾玉找头外侧外
+    item.ultramarine.yuan_nianyuzhuang_zhaotou: 元代碾玉装找头
+    item.ultramarine.yuan_nianyuzhuang_zhaotou_connection: 元代碾玉装找头链接
+    item.ultramarine.green_blue_black_gutou: 绿蓝黑箍头
+    item.ultramarine.blue_green_yellow_gutou: 蓝绿黄箍头
+    item.ultramarine.green_and_yellow_gutou: 绿黄箍头
+    item.ultramarine.ming_yanzhuomo_shinianyu_outer_gutou_edge: 明代烟琢墨石碾玉箍头外侧外
+    item.ultramarine.yuan_nianyuzhuang_gutou: 元代碾玉装箍头
+    item.ultramarine.oak_rafter: 橡木椽身
+    item.ultramarine.oak_rafter_end: 橡木椽头
+    item.ultramarine.spruce_rafter: 云杉木椽身
+    item.ultramarine.spruce_rafter_end: 云杉木椽头
+    item.ultramarine.birch_rafter: 白桦木椽身
+    item.ultramarine.birch_rafter_end: 白桦木椽头
+    item.ultramarine.jungle_rafter: 丛林木椽身
+    item.ultramarine.jungle_rafter_end: 丛林木椽头
+    item.ultramarine.acacia_rafter: 金合欢木椽身
+    item.ultramarine.acacia_rafter_end: 金合欢木椽头
+    item.ultramarine.crimson_rafter: 绯红木椽身
+    item.ultramarine.crimson_rafter_end: 绯红木椽头
+    item.ultramarine.warped_rafter: 诡异木椽身
+    item.ultramarine.warped_rafter_end: 诡异木椽头
+    item.ultramarine.mangrove_rafter: 红树木椽身
+    item.ultramarine.mangrove_rafter_end: 红树木椽头
+    item.ultramarine.cherry_rafter: 樱花木椽身
+    item.ultramarine.cherry_rafter_end: 樱花木椽头
+    item.ultramarine.gilded_dark_oak_rafter: 黑金深色橡木椽身
+    item.ultramarine.gilded_dark_oak_rafter_end: 黑金深色橡木椽头
+    item.ultramarine.dark_oak_rafter: 深色橡木椽身
+    item.ultramarine.dark_oak_rafter_end: 深色橡木椽头
+    item.ultramarine.blue_tiger_eye_rafter: 蓝虎眼椽身
+    item.ultramarine.blue_tiger_eye_rafter_end: 蓝虎眼椽头
+    item.ultramarine.blue_carved_tiger_eye_rafter: 蓝雕花虎眼椽身
+    item.ultramarine.blue_carved_tiger_eye_rafter_end: 蓝雕花虎眼椽头
+    item.ultramarine.green_tiger_eye_rafter: 绿虎眼椽身
+    item.ultramarine.green_tiger_eye_rafter_end: 绿虎眼椽头
+    item.ultramarine.green_wanzi_rafter: 绿万字椽身
+    item.ultramarine.green_wanzi_rafter_end: 绿万字椽头
+    item.ultramarine.green_carved_wanzi_rafter: 雕花绿万字椽身
+    item.ultramarine.green_carved_wanzi_rafter_end: 雕花绿万字椽头
+    item.ultramarine.gilded_dark_oak_beam_head: 黑金深色橡木梁头
+    item.ultramarine.qing_green_beam_head: 清代绿梁头
+    item.ultramarine.red_and_cyan_carved_architrave: 红青雕花额枋
+    item.ultramarine.red_and_blue_carved_architrave: 红蓝雕花额枋
+    item.ultramarine.long_gilded_dark_oak_queti: 黑金长省替中心
+    item.ultramarine.horizontal_gilded_dark_oak_queti: 黑金省替横向
+    item.ultramarine.central_gilded_dark_oak_queti: 黑金省替横向
+    item.ultramarine.vertical_gilded_dark_oak_queti: 黑金省替竖向
+    item.ultramarine.thick_carved_queti: 清代雕花厚省替
+    item.ultramarine.short_thick_glazed_queti: 短粗琉璃省替
+    item.ultramarine.carved_stone_panel: 石雕板
+    item.ultramarine.carved_stone_panel_edge: 石雕板边缘
+    item.ultramarine.carved_stone_panel_center: 石雕板中心
+    item.ultramarine.carved_stone_queti_part: 石雕省替部分
+    item.ultramarine.carved_stone_beam: 石雕横梁
+    item.ultramarine.carved_stone_queti: 石雕雀替
+    item.ultramarine.blue_and_green_chuihua: 蓝绿垂花
+    item.ultramarine.cyan_and_yellow_chuihua: 青黄垂花
+    item.ultramarine.gilded_dark_oak_chuihua: 黑金深色橡木垂花
+    item.ultramarine.golden_glazed_roof_charm: 金琉璃正吻
+    item.ultramarine.green_glazed_roof_charm: 青琉璃吻兽
+    item.ultramarine.dark_prismarine_chiwei: 暗海晶石鸱尾
+    item.ultramarine.qing_golden_dragon_ceiling: 金龙清代天花
+    item.ultramarine.white_marble_railing_slant: 斜向汉白玉栏杆
+    item.ultramarine.red_wooden_railing: 大红栏杆中心
+    item.ultramarine.red_wooden_railing_edge: 大红栏杆
+    item.ultramarine.wooden_railing: 木栏杆
+    item.ultramarine.wooden_railing_variant: 木栏杆变种
+    item.ultramarine.small_wooden_guardian_lion: 小木狮子
+    item.ultramarine.small_stone_guardian_lion: 小石狮子
+    item.ultramarine.small_jade_guardian_lion: 小玉狮子
+    item.ultramarine.small_yellow_glazed_guardian_lion: 小黄琉璃狮子
+    item.ultramarine.small_green_glazed_guardian_lion: 小绿琉璃狮子
+    item.ultramarine.xumi_stone_monolith: 须弥石座
+    item.ultramarine.bookshelf: 中式书架
+    item.ultramarine.bookshelf_variant: 中式书架（半满）
+    item.ultramarine.stone_flower_window: 石头窗花
+# 材料
+    item.ultramarine.jade_ore: 玉矿石
+    item.ultramarine.deepslate_jade_ore: 深层玉矿石
+    item.ultramarine.magnesite_ore: 菱美矿石
+    item.ultramarine.deepslate_magnesite_ore: 深层菱美矿石
+    item.ultramarine.hematite_ore: 赤铁矿石
+    item.ultramarine.deepslate_hematite_ore: 深层赤铁矿石
+    item.ultramarine.nether_cobalt_ore: 下界钴矿石
+    item.ultramarine.jade: 玉
+    item.ultramarine.magnesite: 白松石
+    item.ultramarine.magnesite_dust: 白松石粉
+    item.ultramarine.raw_hematite: 粗赤铁
+    item.ultramarine.hematite_dust: 赤铁粉
+    item.ultramarine.raw_cobalt: 粗钴
+    item.ultramarine.cobalt_dust: 钴粉
+    item.ultramarine.brownish_red_stone_brick_item: 棕红砖
+    item.ultramarine.unfired_clay_brick: 砖胚
+    item.ultramarine.unfired_cyan_brick: 青砖胚
+    item.ultramarine.unfired_black_brick: 黑砖胚
+    item.ultramarine.unfired_brownish_red_stone_brick: 棕红砖胚
+    item.ultramarine.fired_brick: 新砖
+    item.ultramarine.prismarine_dust: 海晶石粉
+    item.ultramarine.unfired_roof_tile: 瓦片胚
+    item.ultramarine.gray_roof_tile_item: 灰色瓦片
+    item.ultramarine.yellow_roof_tile_item: 黄色瓦片
+    item.ultramarine.green_roof_tile_item: 绿色瓦片
+    item.ultramarine.blue_roof_tile_item: 蓝色瓦片
+    item.ultramarine.cyan_roof_tile_item: 青色瓦片
+    item.ultramarine.black_roof_tile_item: 黑色瓦片
+    item.ultramarine.polished_oak_plank: 橡木板材
+    item.ultramarine.polished_birch_plank: 白桦木板材
+    item.ultramarine.polished_spruce_plank: 云杉木板材
+    item.ultramarine.polished_jungle_plank: 丛林木板材
+    item.ultramarine.polished_acacia_plank: 金合欢木板材
+    item.ultramarine.polished_dark_oak_plank: 深色橡木板材
+    item.ultramarine.polished_warped_plank: 诡异木板材
+    item.ultramarine.polished_crimson_plank: 绯红木板材
+    item.ultramarine.polished_mangrove_plank: 红树木板材
+    item.ultramarine.polished_cherry_plank: 樱花木板材
+    item.ultramarine.polished_rosewood_plank: 红木板材
+    item.ultramarine.polished_ebony_plank: 乌木板材
+    item.ultramarine.wooden_frame: 木质框架
+    item.ultramarine.calcite_dust: 方解石粉
+    item.ultramarine.blue_and_white_glaze_powder: 青花釉粉
+    item.ultramarine.small_clay_vase: 小粘土瓶
+    item.ultramarine.medium_clay_vase: 中粘土瓶
+    item.ultramarine.large_clay_vase: 大粘土瓶
+    item.ultramarine.tall_clay_vase: 高粘土瓶
+    item.ultramarine.clay_pot: 粘土罐
+    item.ultramarine.tall_clay_pot: 高粘土罐
+    item.ultramarine.clay_plate: 粘土盘
+    item.ultramarine.clay_bowl: 粘土碗
+    item.ultramarine.small_white_porcelain_vase: 小白瓷瓶
+    item.ultramarine.medium_white_porcelain_vase: 中白瓷瓶
+    item.ultramarine.large_white_porcelain_vase: 大白瓷瓶
+    item.ultramarine.small_green_porcelain_vase: 小绿瓷瓶
+    item.ultramarine.medium_green_porcelain_vase: 中绿瓷瓶
+    item.ultramarine.tall_blue_porcelain_vase: 高蓝瓷瓶
+    item.ultramarine.tall_blue_and_white_porcelain_vase: 高青花瓷瓶
+    item.ultramarine.black_porcelain_plate: 黑瓷盘
+    item.ultramarine.blue_and_white_porcelain_plate: 青花瓷盘
+    item.ultramarine.blue_and_white_porcelain_piece: 青花瓷片
+    item.ultramarine.blue_and_white_porcelain_shards: 青花瓷碎片
+    item.ultramarine.porcelain_piece: 瓷片
+    item.ultramarine.wooden_parts: 木质部件
+    item.ultramarine.gold_parts: 黄金部件
+    item.ultramarine.jade_parts: 玉部件
+    item.ultramarine.porcelain_parts: 陶瓷部件
+    item.ultramarine.bronze_parts: 青铜部件
+    item.ultramarine.white_dye_powder: 白色染料粉
+    item.ultramarine.orange_dye_powder: 橙色染料粉
+    item.ultramarine.magenta_dye_powder: 品红色染料粉
+    item.ultramarine.light_blue_dye_powder: 淡蓝色染料粉
+    item.ultramarine.yellow_dye_powder: 黄色染料粉
+    item.ultramarine.lime_dye_powder: 黄绿色染料粉
+    item.ultramarine.pink_dye_powder: 粉红色染料粉
+    item.ultramarine.gray_dye_powder: 灰色染料粉
+    item.ultramarine.light_gray_dye_powder: 淡灰色染料粉
+    item.ultramarine.cyan_dye_powder: 青色染料粉
+    item.ultramarine.purple_dye_powder: 紫色染料粉
+    item.ultramarine.blue_dye_powder: 蓝色染料粉
+    item.ultramarine.brown_dye_powder: 棕色染料粉
+    item.ultramarine.green_dye_powder: 绿色染料粉
+    item.ultramarine.red_dye_powder: 红色染料粉
+    item.ultramarine.black_dye_powder: 黑色染料粉
+    item.ultramarine.gold_dye_powder: 金色染料粉
+    item.ultramarine.carved_wood_template: 模板:雕花木
+    item.ultramarine.carved_wool_template: 模板:雕花羊毛
+    item.ultramarine.fangxin_template: 模板:枋心
+    item.ultramarine.fangxin_edge_template: 模板:枋心边缘
+    item.ultramarine.zhaotou_template: 模板:找头
+    item.ultramarine.gutou_template: 模板:箍头
+    item.ultramarine.rafter_template: 模板:椽身
+    item.ultramarine.rafter_end_template: 模板:椽头
+    item.ultramarine.architrave_template: 模板:额枋
+    item.ultramarine.caihua_template: 模板:彩画
+    item.ultramarine.incense: 熏香
+    item.ultramarine.fur: 毛发
+    item.ultramarine.grease: 油脂
+    item.ultramarine.silk: 丝绸
+    item.ultramarine.xuan_paper: 宣纸
+    item.ultramarine.copper_cash_coin: 铜钱
+    item.ultramarine.bronze_ingot: 青铜锭
+    item.ultramarine.bronze_dust: 青铜粉
+    item.ultramarine.jade_block: 玉块
+    item.ultramarine.bronze_block: 青铜块
+    item.ultramarine.mooncake: 月饼
+    item.ultramarine.mung_bean_cake: 绿豆糕
+    item.ultramarine.raw_meat: 生肉
+    item.ultramarine.cooked_meat: 熟肉
+    item.ultramarine.baozi: 包子
+    item.ultramarine.blue_and_white_porcelain_upgrade_smithing_template: 青花瓷升级
+    item.ultramarine.blue_and_white_porcelain_sword: 青花瓷剑
+    item.ultramarine.blue_and_white_porcelain_shovel: 青花瓷锹
+    item.ultramarine.blue_and_white_porcelain_axe: 青花瓷斧
+    item.ultramarine.blue_and_white_porcelain_pickaxe: 青花瓷镐
+# 家具
+    item.ultramarine.oak_cabinet: 橡木橱柜
+    item.ultramarine.warped_cabinet: 诡异木橱柜
+    item.ultramarine.ebony_cabinet: 乌木橱柜
+    item.ultramarine.large_tea_table: 大茶几
+    item.ultramarine.high_table_with_white_top: 白底高几 
+    item.ultramarine.censer_table: 香几
+    item.ultramarine.porcelain_inlaid_table: 镶瓷桌子
+    item.ultramarine.small_table: 小型桌子 
+    item.ultramarine.small_ebony_table: 乌木小桌子
+    item.ultramarine.large_table: 大号桌子
+    item.ultramarine.long_table: 长桌子
+    item.ultramarine.ebony_chair: 乌木椅子
+    item.ultramarine.chair_with_yellow_cushion: 黄坐垫椅子
+    item.ultramarine.painted_chair: 黄山水画椅子
+    item.ultramarine.wooden_stool: 凳子
+    item.ultramarine.porcelain_inlaid_grand_chair: 镶瓷太师椅
+    item.ultramarine.yellow_cushion: 黄坐垫
+    item.ultramarine.oak_bed: 橡木床
+    item.ultramarine.ebony_bed: 乌木床
+    item.ultramarine.painted_screen: 彩画屏风
+    item.ultramarine.large_landscape_painting_screen: 大山水屏风
+    item.ultramarine.carved_wooden_door: 雕花木门
+    item.ultramarine.song_wooden_door: 宋代木门
+    item.ultramarine.song_wooden_window: 宋代木窗
+    item.ultramarine.royal_rosewood_window: 红皇家窗户
+    item.ultramarine.tall_royal_rosewood_window: 高红皇家窗户
+    item.ultramarine.glazed_tile_grid_window: 琉璃砖网格窗户
+# 杂项
+    item.ultramarine.small_lotus_leaf: 小荷叶
+    item.ultramarine.small_dark_green_lotus_leaf: 深绿小荷叶
+    item.ultramarine.medium_lotus_leaf: 中型荷叶
+    item.ultramarine.large_lotus_leaf: 大荷叶
+    item.ultramarine.tilted_lotus_leaf: 倾斜大荷叶
+    item.ultramarine.small_lotus_leaf_cluster: 小型荷叶群
+    item.ultramarine.medium_lotus_leaf_cluster: 中型荷叶群
+    item.ultramarine.lotus_bud: 荷花苞
+    item.ultramarine.medium_lotus: 中型荷花
+    item.ultramarine.small_greeting_pine_bonsai: 小型迎客松盆景
+    item.ultramarine.medium_greeting_pine_bonsai: 中型迎客松盆景
+    item.ultramarine.large_greeting_pine_bonsai: 大型迎客松盆景
+    item.ultramarine.small_white_porcelain_vase_bonsai: 小型白瓷瓶盆栽
+    item.ultramarine.medium_white_porcelain_vase_bonsai: 中型白瓷瓶盆栽
+    item.ultramarine.large_white_porcelain_vase_bonsai: 大型白瓷瓶盆栽
+    item.ultramarine.small_green_porcelain_vase_bonsai: 小型绿瓷瓶盆栽
+    item.ultramarine.green_porcelain_vase_bonsai: 绿瓷瓶盆栽
+    item.ultramarine.red_coral_bonsai: 红珊瑚盆栽
+    item.ultramarine.red_plum_bonsai: 红梅盆景
+    item.ultramarine.bamboo_bonsai: 竹子盆景
+    item.ultramarine.tall_blue_vase_bonsai: 蓝色高瓶盆栽
+    item.ultramarine.tall_blue_and_white_porcelain_bonsai: 高青花瓷盆栽
+    item.ultramarine.medium_bonsai: 中型盆栽
+    item.ultramarine.large_bonsai: 大型盆栽
+    item.ultramarine.bronze_ding: 青铜鼎
+    item.ultramarine.lotus_leaves_bowl: 荷花盆
+# 灯
+    item.ultramarine.octagonal_palace_lantern: 八角宫灯
+    item.ultramarine.square_palace_lantern: 四角宫灯
+    item.ultramarine.small_red_lantern: 小红灯笼
+    item.ultramarine.white_sky_lantern: 白孔明灯
+    item.ultramarine.red_sky_lantern: 红孔明灯
+    item.ultramarine.yellow_sky_lantern: 黄孔明灯
+    item.ultramarine.standing_lamp: 立灯
+    item.ultramarine.small_standing_lamp: 小立灯
+    item.ultramarine.stone_lamp: 石灯
+    item.ultramarine.red_lantern_streetlight_0: 红灯笼路灯
+    item.ultramarine.red_lantern_streetlight_1: 红灯笼路灯
+    item.ultramarine.red_lantern_streetlight_2: 红灯笼路灯
+    item.ultramarine.red_lantern_streetlight: 红灯笼路灯
+# 装饰
+    item.ultramarine.back_cushion: 靠枕
+    item.ultramarine.blue_and_white_porcelain_vase: 青花瓷瓶
+    item.ultramarine.large_blue_and_white_porcelain_vase: 青花瓷大瓶
+    item.ultramarine.short_blue_and_white_porcelain_pot: 青花瓷矮罐
+    item.ultramarine.tall_blue_and_white_porcelain_pot: 青花瓷高罐
+    item.ultramarine.blue_and_white_porcelain_bowl: 青花瓷碗
+    item.ultramarine.blue_and_white_porcelain_flowerpot: 青花瓷花盆
+    item.ultramarine.sundial: 日冕
+    item.ultramarine.wind_chime: 风铃
+    item.ultramarine.wooden_mallet: 木锤
+    item.ultramarine.straw_hat: 草帽
+lang#blocks:
+  en_us:
+# Building Blocks
+    block_name:ultramarine:black_brick: Black Brick
+    block_name:ultramarine:cyan_brick: Cyan Brick
+    block_name:ultramarine:brownish_red_stone_brick: Brownish Red Stone Brick
+    block_name:ultramarine:green_weathered_brick: Green Weathered Brick
+    block_name:ultramarine:variegated_rock: Variegated Rock
+    block_name:ultramarine:white_and_pink_mixed_brick: White And Pink Mixed Brick
+    block_name:ultramarine:pale_yellow_stone: Pale Yellow Stone
+    block_name:ultramarine:weathered_stone: Weathered Stone
+    block_name:ultramarine:polished_weathered_stone: Polished Weathered Stone
+    block_name:ultramarine:green_weathered_stone: Green Weathered Stone
+    block_name:ultramarine:light_cyan_floor_tile: Light Cyan Floor Tile
+    block_name:ultramarine:cyan_floor_tile: Cyan Floor Tile
+    block_name:ultramarine:dark_cyan_floor_tile: Dark Cyan Floor Tile
+    block_name:ultramarine:layered_cyan_floor_tile: Layered Cyan Floor Tile
+    block_name:ultramarine:vertical_cyan_floor_tile: Vertiacl Cyan Floor Tile
+    block_name:ultramarine:mixed_cyan_floor_tile: Mixed Cyan Floor Tile
+    block_name:ultramarine:chiseled_cyan_floor_tile: Chiseld Cyan Floor Tile
+    block_name:ultramarine:cut_cyan_floor_tile: Cut Cyan Floor Tile
+    block_name:ultramarine:weathered_red_stone_tile: Weathered Red Stone Tile
+    block_name:ultramarine:red_floor_tile: Red Floor Tile
+    block_name:ultramarine:blue_and_black_tile: Blue And Black Tile
+    block_name:ultramarine:green_glazed_tile: Green Gilded Tile
+    block_name:ultramarine:black_floor_tile: Black Floor Tile
+    block_name:ultramarine:black_floor_tile_little_mossy: Black Floor Tile Lite Mossy
+    block_name:ultramarine:black_floor_tile_moderate_mossy: Black Floor Tile Moderate Mossy
+    block_name:ultramarine:black_floor_tile_big_mossy: Black Floor Tile Big Mossy
+    block_name:ultramarine:rosewood_plank: Rosewood Plank
+    block_name:ultramarine:varnished_rosewood: Varnished Rosewood
+    block_name:ultramarine:bamboo_mat: Bamboo Mat
+    block_name:ultramarine:gray_roof_tile: Gary Roof Tile
+    block_name:ultramarine:gray_roof_tile_stair: Gary Roof Tile Stair
+    block_name:ultramarine:gray_roof_tile_edge: Gary Roof Tile Edge
+    block_name:ultramarine:yellow_roof_tile: Yellow Roof Tile
+    block_name:ultramarine:yellow_roof_tile_stair: Yellow Roof Tile Stair
+    block_name:ultramarine:yellow_roof_tile_edge: Yellow Roof Tile Edge
+    block_name:ultramarine:green_roof_tile: Green Roof Tile
+    block_name:ultramarine:green_roof_tile_stair: Green Roof Tile Stair
+    block_name:ultramarine:green_roof_tile_edge: Green Roof Tile Edge
+    block_name:ultramarine:blue_roof_tile: Blue Roof Tile
+    block_name:ultramarine:blue_roof_tile_stair: Blue Roof Tile Stair
+    block_name:ultramarine:blue_roof_tile_edge: Blue Roof Tile Edge
+    block_name:ultramarine:cyan_roof_tile: Cyan Roof Tile
+    block_name:ultramarine:cyan_roof_tile_stair: Cyan Roof Tile Stair
+    block_name:ultramarine:cyan_roof_tile_edge: Cyan Roof Tile Edge
+    block_name:ultramarine:black_roof_tile: Black Roof Tile
+    block_name:ultramarine:black_roof_tile_stair: Black Roof Tile Stair
+    block_name:ultramarine:black_roof_tile_edge: Black Roof Tile Edge
+    block_name:ultramarine:black_roof_ridge_upper: Black Roof Ridge Upper
+    block_name:ultramarine:black_roof_ridge_lower: Black Roof Ridge Lower
+    block_name:ultramarine:black_roof_ridge_connection: Black Roof Ridge Connection
+    block_name:ultramarine:black_main_roof_ridge_connection: Black Main Roof Ridge Connection
+    block_name:ultramarine:black_main_roof_ridge_panel: Black Main Roof Ridge Panel
+    block_name:ultramarine:black_main_roof_ridge_plate: Black Main Roof Ridge Plate
+    block_name:ultramarine:yellow_roof_ridge_upper: Yellow Roof Ridge Upper
+    block_name:ultramarine:yellow_roof_ridge_lower: Yellow Roof Ridge Lower
+    block_name:ultramarine:yellow_roof_ridge_connection: Yellow Roof Ridge Connection
+    block_name:ultramarine:yellow_main_roof_ridge_connection: Yellow Main Roof Ridge Connection
+    block_name:ultramarine:yellow_main_roof_ridge_panel: Yellow Main Roof Ridge Panel
+    block_name:ultramarine:yellow_main_roof_ridge_plate: Yellow Main Roof Ridge Plate
+    block_name:ultramarine:wooden_crate: Wooden Crate
+# Decorative Blocks
+    block_name:ultramarine:oak_bracket: Oak Bracket
+    block_name:ultramarine:spruce_bracket: Spruce Bracket
+    block_name:ultramarine:birch_bracket: Birch Bracket
+    block_name:ultramarine:jungle_bracket: Jungle Bracket
+    block_name:ultramarine:acacia_bracket: Acacia Bracket
+    block_name:ultramarine:dark_oak_bracket: Dark Oak Bracket
+    block_name:ultramarine:crimson_bracket: Crimson Bracket
+    block_name:ultramarine:warped_bracket: Warped Bracket
+    block_name:ultramarine:mangrove_bracket: Mangrove Bracket
+    block_name:ultramarine:cherry_bracket: Cherry Bracket
+    block_name:ultramarine:varnished_rosewood_bracket: Varnished Rosewood Bracket
+    block_name:ultramarine:red_carved_wood: Red Carved Wood
+    block_name:ultramarine:blue_carved_wood: Blue Carved Wood
+    block_name:ultramarine:blue_carved_wooden_bracket: Blue Carved Wooden Bracket
+    block_name:ultramarine:cyan_carved_wood: Cyan Carved Wood
+    block_name:ultramarine:cyan_carved_wooden_bracket: Cyan Carved Wooden Bracket
+    block_name:ultramarine:green_carved_wood: Green Carved Wood
+    block_name:ultramarine:green_carved_wooden_bracket: Green Carved Wooden Bracket
+    block_name:ultramarine:orange_and_blue_carved_wood: Orange And Blue Carved Wood
+    block_name:ultramarine:orange_and_green_carved_wood: Orange And Green Carved Wood
+    block_name:ultramarine:green_and_blue_carved_wood: Green And Blue Carved Wood
+    block_name:ultramarine:dark_green_and_dark_blue_carved_wood: Dark Green And Dark Blue Carved Wood
+    block_name:ultramarine:dark_blue_and_dark_green_carved_wood: Dark Blue And Dark Green Carved Wood
+    block_name:ultramarine:black_white_green_carved_wood: Black White Green Carved Wood
+    block_name:ultramarine:black_white_blue_carved_wood: Black White Blue Carved Wood
+    block_name:ultramarine:red_and_green_carved_wood: Red And Green Carved Wood
+    block_name:ultramarine:blue_and_red_carved_wood: Blue And Red Carved Wood
+    block_name:ultramarine:blue_white_red_carved_wood: Blue White Red Carved Wood
+    block_name:ultramarine:green_white_red_carved_wood: Green White Red Carved Wood
+    block_name:ultramarine:blue_and_yellow_carved_wood_variant_1: Blue and Yellow Carved Wood  
+    block_name:ultramarine:blue_and_yellow_carved_wood_variant_2: Blue and Yellow Carved Wood  
+    block_name:ultramarine:blue_and_yellow_carved_wood_variant_3: Blue and Yellow Carved Wood
+    block_name:ultramarine:yellow_and_green_carved_wood: Yellow And Green Carved Wood
+    block_name:ultramarine:yellow_green_blue_carved_wood: Yellow Green Blue Carved Wood
+    block_name:ultramarine:carved_dark_oak_beam: Carved Dark Oak Beam
+    block_name:ultramarine:carved_dark_oak_beam_edge: Carved Dark Oak Beam Edge
+    block_name:ultramarine:gilded_dark_oak: Gilded Dark Oak
+    block_name:ultramarine:chiseled_gilded_dark_oak: Chiseld Gilded Dark Oak
+    block_name:ultramarine:gilded_dark_oak_bracket: Gilded Dark Oak Bracket
+    block_name:ultramarine:red_carved_carpet_north: Red Carved Carpet
+    block_name:ultramarine:red_carved_carpet_south: Red Carved Carpet
+    block_name:ultramarine:red_carved_carpet_west: Red Carved Carpet
+    block_name:ultramarine:red_carved_carpet_east: Red Carved Carpet
+    block_name:ultramarine:red_carved_carpet_inner_northeast: Red Carved Carpet
+    block_name:ultramarine:red_carved_carpet_inner_northwest: Red Carved Carpet
+    block_name:ultramarine:red_carved_carpet_inner_southeast: Red Carved Carpet
+    block_name:ultramarine:red_carved_carpet_inner_southwest: Red Carved Carpet
+    block_name:ultramarine:blue_carved_carpet_north: Blue Carved Carpet
+    block_name:ultramarine:blue_carved_carpet_south: Blue Carved Carpet
+    block_name:ultramarine:blue_carved_carpet_west: Blue Carved Carpet
+    block_name:ultramarine:blue_carved_carpet_east: Blue Carved Carpet
+    block_name:ultramarine:blue_carved_carpet_inner_northeast: Blue Carved Carpet
+    block_name:ultramarine:blue_carved_carpet_inner_northwest: Blue Carved Carpet
+    block_name:ultramarine:blue_carved_carpet_inner_southeast: Blue Carved Carpet
+    block_name:ultramarine:blue_carved_carpet_inner_southwest: Blue Carved Carpet
+    block_name:ultramarine:carved_red_pillar: Carved Red Pillar
+    block_name:ultramarine:carved_red_pillar_base: Carved Red Pillar Base
+    block_name:ultramarine:carved_red_pillar_head: Carved Red Pillar Head
+    block_name:ultramarine:spruce_pillar_base: Spruce Pillar Base
+    block_name:ultramarine:stripped_dark_oak_pillar_base: Stripped Dark Oak Pillar Base
+    block_name:ultramarine:gilded_dark_oak_pillar_head_variant_1: Gilded Dark Oak Pillar Head (Double Triangle)
+    block_name:ultramarine:gilded_dark_oak_pillar_head_variant_2: Gilded Dark Oak Pillar Head (Full)
+    block_name:ultramarine:gilded_dark_oak_pillar_head_variant_3: Gilded Dark Oak Pillar Head (Single Triangle)
+    block_name:ultramarine:gilded_dark_oak_pillar_head_variant_4: Gilded Dark Oak Pillar Head (Rectangles)
+    block_name:ultramarine:gilded_dark_oak_pillar_head_variant_5: Gilded Dark Oak Pillar Head (Border)
+    block_name:ultramarine:cyan_and_white_pillar_base: Cyan And White Pillar Base
+    block_name:ultramarine:cyan_and_white_decorated_pillar: Cyan And White Decorated Pillar
+    block_name:ultramarine:cyan_and_white_pillar_head: Cyan and white Pillar Head
+    block_name:ultramarine:stone_pillar_base: Stone Pillar Base
+    block_name:ultramarine:green_fangxin: Green FangXin
+    block_name:ultramarine:green_fangxin_edge: Green FangXin Edge
+    block_name:ultramarine:blue_fangxin: Blue FangXin
+    block_name:ultramarine:blue_fangxin_edge: Blue FangXin Edge
+    block_name:ultramarine:cyan_and_blue_fangxin: Cyan And Blue FangXin
+    block_name:ultramarine:cyan_and_blue_fangxin_edge: Cyan And Blue FangXin Edge
+    block_name:ultramarine:cyan_and_blue_fangxin_edge_variant: Cyan And Blue FangXin Edge variant
+    block_name:ultramarine:cyan_blue_white_fangxin: Cyan Blue White FangXin
+    block_name:ultramarine:cyan_blue_white_fangxin_edge: Cyan Blue White FangXin Edge
+    block_name:ultramarine:blue_and_green_fangxin_edge: Blue And Green FangXin Edge
+    block_name:ultramarine:yellow_and_green_fangxin_edge: Yellow And Green FangXin Edge
+    block_name:ultramarine:dark_blue_fangxin: Dark Blue FangXin
+    block_name:ultramarine:dark_blue_fangxin_edge: Dark Blue FangXin Edge
+    block_name:ultramarine:blue_and_white_fangxin: Blue And White FangXin
+    block_name:ultramarine:green_and_dark_blue_fangxin: Green And Dark Blue FangXin
+    block_name:ultramarine:white_and_cyan_fangxin: White And Cyan FangXin
+    block_name:ultramarine:white_and_cyan_fangxin_edge: White And Cyan FangXin Edge
+    block_name:ultramarine:white_and_blue_fangxin: White And Blue FangXin
+    block_name:ultramarine:white_and_blue_fangxin_edge: White And Blue FangXin Edge
+    block_name:ultramarine:red_cyan_blue_fangxin: Red Cyan Blue FangXin
+    block_name:ultramarine:cyan_and_yellow_fangxin_edge: Cyan And Yellow FangXin Edge
+    block_name:ultramarine:ming_blue_jinzhuomo_shinianyu_xuanzi_fangxin_edge: Ming Blue Jinzhuomo Shinianyu Xuanzi Fangxin Edge
+    block_name:ultramarine:ming_blue_gilded_jinzhuomo_shinianyu_xuanzi_fangxin: Ming Blue Gilded Jinzhuomo Shinianyu Xuanzi Fangxin
+    block_name:ultramarine:ming_blue_gilded_jinzhuomo_shinianyu_xuanzi_fangxin_edge: Ming Blue Gilded Jinzhuomo Shinianyu Xuanzi Fangxin Edge
+    block_name:ultramarine:ming_green_gilded_jinzhuomo_shinianyu_xuanzi_fangxin: Ming Green Gilded Jinzhuomo Shinianyu Xuanzi Fangxin
+    block_name:ultramarine:ming_green_gilded_jinzhuomo_shinianyu_xuanzi_fangxin_edge: Ming Green Gilded Jinzhuomo Shinianyu Xuanzi Fangxin Edge
+    block_name:ultramarine:qing_blue_plain_jinzhuomo_shinianyu_fangxin: Qing Blue Plain Jinzhuomo Shinianyu Fangxin
+    block_name:ultramarine:yuan_nianyuzhuang_fangxin: Yuan Nianyuzhuan FangXin
+    block_name:ultramarine:yuan_nianyuzhuang_fangxin_edge: Yuan Nianyuzhuan FangXin Edge
+    block_name:ultramarine:yuan_patterned_nianyuzhuang_fangxin: Yuan Patterned Nianyuzhuan FangXin
+    block_name:ultramarine:yuan_patterned_nianyuzhuang_fangxin_edge: Yuan Patterned Nianyuzhuan FangXin Edge
+    block_name:ultramarine:yuan_green_nianyuzhuang_fangxin: Yuan Green Nianyuzhuan FangXin
+    block_name:ultramarine:yuan_green_nianyuzhuang_fangxin_edge: Yuan Green Nianyuzhuan FangXin Edge
+    block_name:ultramarine:yuan_patterned_wuchaizhuang_fangxin: Yuan Patterned Wuchaizhuang FangXin
+    block_name:ultramarine:yuan_patterned_wuchaizhuang_fangxin_edge: Yuan Patterned Wuchaizhuang FangXin Edge
+    block_name:ultramarine:yuan_green_wuchaizhuang_fangxin: Yuan Green Wuchaizhuang FangXin
+    block_name:ultramarine:yuan_green_wuchaizhuang_fangxin_edge: Yuan Green Wuchaizhuang FangXin Edge
+    block_name:ultramarine:blue_zhaotou_edge: Blue Zhaotou Edge
+    block_name:ultramarine:green_and_blue_zhaotou: Green And Blue Zhaotou
+    block_name:ultramarine:blue_and_green_zhaotou: Blue And Green Zhaotou
+    block_name:ultramarine:blue_and_green_double_layered_zhaotou: Blue And Green Double Layered Zhaotou
+    block_name:ultramarine:cyan_and_red_zhaotou: Cyan And Red Zhaotou
+    block_name:ultramarine:cyan_and_blue_zhaotou: Cyan And Red Zhaotou
+    block_name:ultramarine:gray_black_red_zhaotou: Gary Black Red Zhaotou
+    block_name:ultramarine:blue_green_red_zhaotou: Blue Green Red Zhaotou
+    block_name:ultramarine:red_and_blue_zhaotou: Red And Blue Zhaotou
+    block_name:ultramarine:green_and_yellow_zhaotou: Green And Yellow Zhaotou
+    block_name:ultramarine:red_green_blue_zhaotou: Red Green Blue Zhaotou
+    block_name:ultramarine:white_blue_green_zhaotou: White Blue Green Zhaotou
+    block_name:ultramarine:ming_yanzhuomo_shinianyu_outer_zhaotou: Ming Yanzhuomo Shinianyu Outer Zhaotou
+    block_name:ultramarine:ming_yanzhuomo_shinianyu_outer_zhaotou_edge: Ming Yanzhuomo Shinianyu Outer Zhaotou Edge
+    block_name:ultramarine:yuan_nianyuzhuang_zhaotou: Yuan Nianyuzhuan Zhaotou
+    block_name:ultramarine:yuan_nianyuzhuang_zhaotou_connection: Yuan Nianyuzhuan Zhaotou Connection
+    block_name:ultramarine:green_blue_black_gutou: Green Blue Black Gutou
+    block_name:ultramarine:blue_green_yellow_gutou: Blue Green Yellow Gutou
+    block_name:ultramarine:green_and_yellow_gutou: Green And Yellow Gutou
+    block_name:ultramarine:ming_yanzhuomo_shinianyu_outer_gutou_edge: Ming Yanzhuomo Shinianyu Outer Gutou Edge
+    block_name:ultramarine:yuan_nianyuzhuang_gutou: Yuan Nianyuzhuan Gutou
+    block_name:ultramarine:oak_rafter: Oak Rafter
+    block_name:ultramarine:oak_rafter_end: Oak Rafter End
+    block_name:ultramarine:spruce_rafter: Spruce Rafter
+    block_name:ultramarine:spruce_rafter_end: Spruce Rafter End
+    block_name:ultramarine:birch_rafter: Birch Rafter
+    block_name:ultramarine:birch_rafter_end: Birch Rafter End
+    block_name:ultramarine:jungle_rafter: Jungle Rafter
+    block_name:ultramarine:jungle_rafter_end: Jungle Rafter End
+    block_name:ultramarine:acacia_rafter: Acacia Rafter
+    block_name:ultramarine:acacia_rafter_end: Acacia Rafter End
+    block_name:ultramarine:warped_rafter: Warped Rafter
+    block_name:ultramarine:warped_rafter_end: Warped Rafter End
+    block_name:ultramarine:mangrove_rafter: Mangrove Rafter
+    block_name:ultramarine:mangrove_rafter_end: Mangrove Rafter End
+    block_name:ultramarine:cherry_rafter: Cherry Rafter
+    block_name:ultramarine:cherry_rafter_end: Cherry Rafter End
+    block_name:ultramarine:gilded_dark_oak_rafter: Gilded Dark Oak Rafter
+    block_name:ultramarine:gilded_dark_oak_rafter_end: Gilded Dark Oak End
+    block_name:ultramarine:dark_oak_rafter: Dark Oak Rafter
+    block_name:ultramarine:dark_oak_rafter_end: Dark Oak Rafter End
+    block_name:ultramarine:blue_tiger_eye_rafter: Blue Tiger Eye Rafter
+    block_name:ultramarine:blue_tiger_eye_rafter_end: Blue Tiger Eye Rafter End
+    block_name:ultramarine:blue_carved_tiger_eye_rafter: Blue Carved Tiger Eye Rafter
+    block_name:ultramarine:blue_carved_tiger_eye_rafter_end: Blue Carved Tiger Eye Rafter End
+    block_name:ultramarine:green_tiger_eye_rafter: Green Tiger Eye Rafter
+    block_name:ultramarine:green_tiger_eye_rafter_end: Green Tiger Eye Rafter End
+    block_name:ultramarine:green_wanzi_rafter: Green Wanzi Rafter
+    block_name:ultramarine:green_wanzi_rafter_end: Green Wanzi Rafter End
+    block_name:ultramarine:green_carved_wanzi_rafter: Green Carved Wanzi Rafter
+    block_name:ultramarine:green_carved_wanzi_rafter_end: Green Carved Wanzi Rafter End
+    block_name:ultramarine:gilded_dark_oak_beam_head: Gilded Dark Oak Beam Head
+    block_name:ultramarine:qing_green_beam_head: Qing Green Beam Head
+    block_name:ultramarine:red_and_cyan_carved_architrave: Red And Cyan Carved Architrave
+    block_name:ultramarine:red_and_blue_carved_architrave: Red And Blue Carved Architrave
+    block_name:ultramarine:long_gilded_dark_oak_queti: Long Gilded Dark Oak Queti
+    block_name:ultramarine:horizontal_gilded_dark_oak_queti: Horizontal Gilded Dark Oak Queti
+    block_name:ultramarine:central_gilded_dark_oak_queti: Central Gilded Dark Oak Queti
+    block_name:ultramarine:vertical_gilded_dark_oak_queti: Vertiacl Gilded Dark Oak Queti
+    block_name:ultramarine:thick_carved_queti: Thick Carved Queti
+    block_name:ultramarine:short_thick_glazed_queti: Short Thick Glazed Queti
+    block_name:ultramarine:carved_stone_panel: Carved Stone Panel
+    block_name:ultramarine:carved_stone_panel_edge: Carved Stone Panel Edge
+    block_name:ultramarine:carved_stone_panel_center: Carved Stone Panel center
+    block_name:ultramarine:carved_stone_queti_part: Carved Stone Queti Part
+    block_name:ultramarine:carved_stone_beam: Carved Stone Beam
+    block_name:ultramarine:carved_stone_queti: Carved Stone Queti
+    block_name:ultramarine:blue_and_green_chuihua: Blue and Green Chuihua
+    block_name:ultramarine:cyan_and_yellow_chuihua: Cyan And Yellow Chuihua
+    block_name:ultramarine:gilded_dark_oak_chuihua: Gilded Dark Oak Chuihua
+    block_name:ultramarine:golden_glazed_roof_charm: Golden Glazed Roof Charm
+    block_name:ultramarine:green_glazed_roof_charm: Green Glazed Roof Charm
+    block_name:ultramarine:dark_prismarine_chiwei: Dark Prismarine Chiwei
+    block_name:ultramarine:qing_golden_dragon_ceiling: Qing Golden Dragon ceiling
+    block_name:ultramarine:white_marble_railing_slant: White Marble Railing Slant
+    block_name:ultramarine:red_wooden_railing: Red Wooden Railing
+    block_name:ultramarine:red_wooden_railing_edge: Red Wooden Railing Edge
+    block_name:ultramarine:wooden_railing: Wooden Railing
+    block_name:ultramarine:wooden_railing_variant: Wooden Railing Variant
+    block_name:ultramarine:small_wooden_guardian_lion: Small Wooden Guardian Lion
+    block_name:ultramarine:small_stone_guardian_lion: Small Stone Guardian Lion
+    block_name:ultramarine:small_jade_guardian_lion: Small Jade Guardian Lion
+    block_name:ultramarine:small_yellow_glazed_guardian_lion: Small Yellow Glazed Guardian Lion
+    block_name:ultramarine:small_green_glazed_guardian_lion: Small Green Glazed Guardian Lion
+    block_name:ultramarine:xumi_stone_monolith: Xumi Stone Monolith
+    block_name:ultramarine:bookshelf: Bookshelf
+    block_name:ultramarine:bookshelf_variant: Bookshelf variant
+    block_name:ultramarine:stone_flower_window: Stone Flower Window
+    block_name:ultramarine:jade_block: Jade Block
+    block_name:ultramarine:bronze_block: Bronze Block
+# Material
+    block_name:ultramarine:jade_ore: Jade Ore
+    block_name:ultramarine:deepslate_jade_ore: Deepslate Jade Ore
+    block_name:ultramarine:magnesite_ore: Magnesite Ore
+    block_name:ultramarine:deepslate_magnesite_ore: Deepslate Magnesite Ore
+    block_name:ultramarine:hematite_ore: Hematite Ore
+    block_name:ultramarine:deepslate_hematite_ore: Deepslate Hematite Ore
+    block_name:ultramarine:nether_cobalt_ore: Nether Cobalt Ore
+# Furniture
+    block_name:ultramarine:oak_cabinet: Oak Cabinet
+    block_name:ultramarine:warped_cabinet: Warped Cabinet
+    block_name:ultramarine:ebony_cabinet: Ebony Cabinet
+    block_name:ultramarine:large_tea_table: Large Tea Table
+    block_name:ultramarine:high_table_with_white_top: High Table With White Top
+    block_name:ultramarine:censer_table: Censer Table
+    block_name:ultramarine:porcelain_inlaid_table: Porcelain Inlaid Table
+    block_name:ultramarine:small_table: Small Table
+    block_name:ultramarine:small_ebony_table: Small Ebony Table
+    block_name:ultramarine:large_table: Large Table
+    block_name:ultramarine:long_table: Long Table
+    block_name:ultramarine:ebony_chair: Ebony Chair
+    block_name:ultramarine:chair_with_yellow_cushion: Chair with Yellow Cushion
+    block_name:ultramarine:painted_chair: Painted Chair
+    block_name:ultramarine:wooden_stool: Wooden Stool
+    block_name:ultramarine:porcelain_inlaid_grand_chair: Porcelain Inlaid Grand Chair
+    block_name:ultramarine:yellow_cushion: Yellow Cushion
+    block_name:ultramarine:oak_bed: Oak Bed
+    block_name:ultramarine:ebony_bed: Ebony Bed
+    block_name:ultramarine:painted_screen: Painted Screen
+    block_name:ultramarine:large_landscape_painting_screen: Large Landscape Painting Screen
+    block_name:ultramarine:carved_wooden_door: Carved Wooden Door
+    block_name:ultramarine:song_wooden_door: Song Wooden Door
+    block_name:ultramarine:song_wooden_window: Song Wooden Window
+    block_name:ultramarine:royal_rosewood_window: Royal Rosewood Window
+    block_name:ultramarine:tall_royal_rosewood_window: Tall Royal Rosewood Window
+    block_name:ultramarine:glazed_tile_grid_window: Glazed Tile Grid Window
+# Sundry
+    block_name:ultramarine:small_lotus_leaf: Small Louts Leaf
+    block_name:ultramarine:small_dark_green_lotus_leaf: Small Dark Green Louts Leaf
+    block_name:ultramarine:medium_lotus_leaf: Medium Louts Leaf
+    block_name:ultramarine:large_lotus_leaf: Large Louts Leaf
+    block_name:ultramarine:tilted_lotus_leaf: Tilted Louts Leaf
+    block_name:ultramarine:small_lotus_leaf_cluster: Small Louts Leaf Cluster
+    block_name:ultramarine:medium_lotus_leaf_cluster: Medium Louts Leaf Cluster
+    block_name:ultramarine:lotus_bud: Louts Bud
+    block_name:ultramarine:medium_lotus: Medium Louts
+    block_name:ultramarine:small_greeting_pine_bonsai: Small Greeting Pine Bonsai
+    block_name:ultramarine:medium_greeting_pine_bonsai: Medium Greeting Pine Bonsai
+    block_name:ultramarine:large_greeting_pine_bonsai: Large Greeting Pine Bonsai
+    block_name:ultramarine:small_white_porcelain_vase_bonsai: Small White Porcelain Vase Bonsai
+    block_name:ultramarine:medium_white_porcelain_vase_bonsai: Medium white Porcelain Vase Bonsai
+    block_name:ultramarine:large_white_porcelain_vase_bonsai: Large White Porcelain Vase Bonsai
+    block_name:ultramarine:small_green_porcelain_vase_bonsai: Small Green Porcelain Vase Bonsai
+    block_name:ultramarine:green_porcelain_vase_bonsai: Green Porcelain Vase Bonsai
+    block_name:ultramarine:red_coral_bonsai: Red Coral Bonsai
+    block_name:ultramarine:red_plum_bonsai: Red Plum Bonsai
+    block_name:ultramarine:bamboo_bonsai: Bamboo Bonsai
+    block_name:ultramarine:tall_blue_vase_bonsai: Tall Blue Vase Bonsai
+    block_name:ultramarine:tall_blue_and_white_porcelain_bonsai: Tall Blue And White Porcelain Bonsai
+    block_name:ultramarine:medium_bonsai: Medium Bonsai
+    block_name:ultramarine:large_bonsai: Large Bonsai
+    block_name:ultramarine:bronze_ding: Bronze Ding
+    block_name:ultramarine:lotus_leaves_bowl_empty: Louts Leaves Bowl
+    block_name:ultramarine:lotus_leaves_bowl_water: Louts Leaves Bowl
+# Light
+    block_name:ultramarine:octagonal_palace_lantern: Octagonal Palace Lantern
+    block_name:ultramarine:square_palace_lantern: Square Palace Lantern
+    block_name:ultramarine:small_red_lantern: Small Red Lantern
+    block_name:ultramarine:white_sky_lantern: White Sky Lantern
+    block_name:ultramarine:red_sky_lantern: Red Sky Lantern
+    block_name:ultramarine:yellow_sky_lantern: Yellow Sky Lantern
+    block_name:ultramarine:standing_lamp: Standing Lamp
+    block_name:ultramarine:small_standing_lamp: Small Standing Lamp
+    block_name:ultramarine:stone_lamp: Stone Lamp
+    block_name:ultramarine:red_lantern_streetlight_0: Red Lantern Streetlight
+    block_name:ultramarine:red_lantern_streetlight_1: Red Lantern Streetlight
+    block_name:ultramarine:red_lantern_streetlight_2: Red Lantern Streetlight
+    block_name:ultramarine:red_lantern_streetlight: Red Lantern Streetlight
+# Decoration
+    block_name:ultramarine:back_cushion: Back Cushion
+    block_name:ultramarine:blue_and_white_porcelain_vase: Blue And White Porcelain Vase
+    block_name:ultramarine:large_blue_and_white_porcelain_vase: Large Blue And White Porcelain Vase
+    block_name:ultramarine:short_blue_and_white_porcelain_pot: Short Blue And White Porcelain Pot
+    block_name:ultramarine:tall_blue_and_white_porcelain_pot: Tall Blue And White Porcelain Pot
+    block_name:ultramarine:blue_and_white_porcelain_bowl: Blue And White Porcelain Bowl
+    block_name:ultramarine:blue_and_white_porcelain_flowerpot: Blue And White Porcelain Flowerpot
+    block_name:ultramarine:sundial: Sundial
+    block_name:ultramarine:wind_chime: Wind Chime
+  zh_cn:
+# 建筑方块
+    block_name:ultramarine:black_brick: 黑砖
+    block_name:ultramarine:cyan_brick: 青砖
+    block_name:ultramarine:brownish_red_stone_brick: 棕红石砖
+    block_name:ultramarine:green_weathered_brick: 绿风化砖
+    block_name:ultramarine:variegated_rock: 杂色石
+    block_name:ultramarine:white_and_pink_mixed_brick: 白粉杂色块
+    block_name:ultramarine:pale_yellow_stone: 淡黄石
+    block_name:ultramarine:weathered_stone: 风化石
+    block_name:ultramarine:polished_weathered_stone: 磨制风化石
+    block_name:ultramarine:green_weathered_stone: 绿风化砖
+    block_name:ultramarine:light_cyan_floor_tile: 淡青色地砖
+    block_name:ultramarine:cyan_floor_tile: 青色地砖
+    block_name:ultramarine:dark_cyan_floor_tile: 深色青地砖
+    block_name:ultramarine:layered_cyan_floor_tile: 青色地砖（横一字）
+    block_name:ultramarine:vertical_cyan_floor_tile: 青色地砖（竖一字）
+    block_name:ultramarine:mixed_cyan_floor_tile: 青色地砖（丁字）
+    block_name:ultramarine:chiseled_cyan_floor_tile: 青色地砖（回字）
+    block_name:ultramarine:cut_cyan_floor_tile: 青色地砖（十字）
+    block_name:ultramarine:weathered_red_stone_tile: 风化红石砖
+    block_name:ultramarine:red_floor_tile: 红地砖
+    block_name:ultramarine:blue_and_black_tile: 蓝黑砖
+    block_name:ultramarine:green_glazed_tile: 绿琉璃砖
+    block_name:ultramarine:black_floor_tile: 黑地砖
+    block_name:ultramarine:black_floor_tile_little_mossy: 黑地砖（少量青苔）
+    block_name:ultramarine:black_floor_tile_moderate_mossy: 黑地砖（中量青苔）
+    block_name:ultramarine:black_floor_tile_big_mossy: 黑地砖（大量青苔）
+    block_name:ultramarine:rosewood_plank: 红木板
+    block_name:ultramarine:varnished_rosewood: 漆红木
+    block_name:ultramarine:bamboo_mat: 竹席
+    block_name:ultramarine:gray_roof_tile: 灰色瓦当
+    block_name:ultramarine:gray_roof_tile_stair: 灰色瓦当楼梯
+    block_name:ultramarine:gray_roof_tile_edge: 灰色瓦当边缘
+    block_name:ultramarine:yellow_roof_tile: 黄色瓦当
+    block_name:ultramarine:yellow_roof_tile_stair: 黄色瓦当楼梯
+    block_name:ultramarine:yellow_roof_tile_edge: 黄色瓦当边缘
+    block_name:ultramarine:green_roof_tile: 绿色瓦当
+    block_name:ultramarine:green_roof_tile_stair: 绿色瓦当楼梯
+    block_name:ultramarine:green_roof_tile_edge: 绿色瓦当边缘
+    block_name:ultramarine:blue_roof_tile: 蓝色瓦当
+    block_name:ultramarine:blue_roof_tile_stair: 蓝色瓦当楼梯
+    block_name:ultramarine:blue_roof_tile_edge: 蓝色瓦当边缘
+    block_name:ultramarine:cyan_roof_tile: 青色瓦当
+    block_name:ultramarine:cyan_roof_tile_stair: 青色瓦当楼梯
+    block_name:ultramarine:cyan_roof_tile_edge: 青色瓦当边缘
+    block_name:ultramarine:black_roof_tile: 黑色瓦当
+    block_name:ultramarine:black_roof_tile_stair: 黑色瓦当楼梯
+    block_name:ultramarine:black_roof_tile_edge: 黑色瓦当边缘
+    block_name:ultramarine:black_roof_ridge_upper: 黑脊上皮
+    block_name:ultramarine:black_roof_ridge_lower: 黑脊下皮
+    block_name:ultramarine:black_roof_ridge_connection: 黑脊链接
+    block_name:ultramarine:black_main_roof_ridge_connection: 黑脊正链接
+    block_name:ultramarine:black_main_roof_ridge_panel: 黑脊正脊厚板
+    block_name:ultramarine:black_main_roof_ridge_plate: 黑脊正脊薄板
+    block_name:ultramarine:yellow_roof_ridge_upper: 黄脊上皮
+    block_name:ultramarine:yellow_roof_ridge_lower: 黄脊下皮
+    block_name:ultramarine:yellow_roof_ridge_connection: 黄脊链接
+    block_name:ultramarine:yellow_main_roof_ridge_connection: 黄脊正链接
+    block_name:ultramarine:yellow_main_roof_ridge_panel: 黄脊正脊厚板
+    block_name:ultramarine:yellow_main_roof_ridge_plate: 黄脊正脊薄板
+    block_name:ultramarine:wooden_crate: 板条箱
+# 装饰方块
+    block_name:ultramarine:oak_bracket: 橡木木拱
+    block_name:ultramarine:spruce_bracket: 云杉木拱
+    block_name:ultramarine:birch_bracket: 白桦木拱
+    block_name:ultramarine:jungle_bracket: 丛林木拱
+    block_name:ultramarine:acacia_bracket: 金合欢木拱
+    block_name:ultramarine:dark_oak_bracket: 深色橡木拱
+    block_name:ultramarine:crimson_bracket: 绯红木拱
+    block_name:ultramarine:warped_bracket: 诡异木拱
+    block_name:ultramarine:mangrove_bracket: 红树木拱
+    block_name:ultramarine:cherry_bracket: 樱花木拱
+    block_name:ultramarine:varnished_rosewood_bracket: 漆红木拱
+    block_name:ultramarine:red_carved_wood: 红雕花木
+    block_name:ultramarine:blue_carved_wood: 蓝雕花木
+    block_name:ultramarine:blue_carved_wooden_bracket: 蓝雕花木拱
+    block_name:ultramarine:cyan_carved_wood: 青雕花木
+    block_name:ultramarine:cyan_carved_wooden_bracket: 青雕花木拱
+    block_name:ultramarine:green_carved_wood: 绿雕花木
+    block_name:ultramarine:green_carved_wooden_bracket: 绿雕花木拱
+    block_name:ultramarine:orange_and_blue_carved_wood: 橙蓝雕花木
+    block_name:ultramarine:orange_and_green_carved_wood: 橙绿雕花木
+    block_name:ultramarine:green_and_blue_carved_wood: 绿蓝雕花木
+    block_name:ultramarine:dark_green_and_dark_blue_carved_wood: 深绿深蓝雕花木
+    block_name:ultramarine:dark_blue_and_dark_green_carved_wood: 深蓝深绿雕花木
+    block_name:ultramarine:black_white_green_carved_wood: 黑白绿雕花木
+    block_name:ultramarine:black_white_blue_carved_wood: 黑白蓝雕花木
+    block_name:ultramarine:red_and_green_carved_wood: 红绿雕花木
+    block_name:ultramarine:blue_and_red_carved_wood: 蓝红雕花木
+    block_name:ultramarine:blue_white_red_carved_wood: 蓝白红雕花木
+    block_name:ultramarine:green_white_red_carved_wood: 绿白红雕花木
+    block_name:ultramarine:blue_and_yellow_carved_wood_variant_1: 蓝黄雕花木  
+    block_name:ultramarine:blue_and_yellow_carved_wood_variant_2: 蓝黄雕花木  
+    block_name:ultramarine:blue_and_yellow_carved_wood_variant_3: 蓝黄雕花木  
+    block_name:ultramarine:yellow_and_green_carved_wood: 黄绿雕花木
+    block_name:ultramarine:yellow_green_blue_carved_wood: 黄绿蓝雕花木
+    block_name:ultramarine:carved_dark_oak_beam: 雕花深色橡木横梁
+    block_name:ultramarine:carved_dark_oak_beam_edge: 雕花深色橡木横梁边缘
+    block_name:ultramarine:gilded_dark_oak: 黑金深色橡木整砖边框
+    block_name:ultramarine:chiseled_gilded_dark_oak: 黑金深色橡木整砖中心
+    block_name:ultramarine:gilded_dark_oak_bracket: 黑金深色橡木供
+    block_name:ultramarine:red_carved_carpet_north: 红雕花地毯
+    block_name:ultramarine:red_carved_carpet_south: 红雕花地毯
+    block_name:ultramarine:red_carved_carpet_west: 红雕花地毯
+    block_name:ultramarine:red_carved_carpet_east: 红雕花地毯
+    block_name:ultramarine:red_carved_carpet_inner_northeast: 红雕花地毯
+    block_name:ultramarine:red_carved_carpet_inner_northwest: 红雕花地毯
+    block_name:ultramarine:red_carved_carpet_inner_southeast: 红雕花地毯
+    block_name:ultramarine:red_carved_carpet_inner_southwest: 红雕花地毯
+    block_name:ultramarine:blue_carved_carpet_north: 蓝雕花地毯
+    block_name:ultramarine:blue_carved_carpet_south: 蓝雕花地毯
+    block_name:ultramarine:blue_carved_carpet_west: 蓝雕花地毯
+    block_name:ultramarine:blue_carved_carpet_east: 蓝雕花地毯
+    block_name:ultramarine:blue_carved_carpet_inner_northeast: 蓝雕花地毯
+    block_name:ultramarine:blue_carved_carpet_inner_northwest: 蓝雕花地毯
+    block_name:ultramarine:blue_carved_carpet_inner_southeast: 蓝雕花地毯
+    block_name:ultramarine:blue_carved_carpet_inner_southwest: 蓝雕花地毯
+    block_name:ultramarine:carved_red_pillar: 雕花红柱子
+    block_name:ultramarine:carved_red_pillar_base: 雕花红柱础
+    block_name:ultramarine:carved_red_pillar_head: 雕花找头红柱子
+    block_name:ultramarine:spruce_pillar_base: 云杉柱础
+    block_name:ultramarine:stripped_dark_oak_pillar_base: 去皮深色橡木柱础
+    block_name:ultramarine:gilded_dark_oak_pillar_head_variant_1: 黑金深色橡木桩头（双三角形）
+    block_name:ultramarine:gilded_dark_oak_pillar_head_variant_2: 黑金深色橡木桩头（铺满）
+    block_name:ultramarine:gilded_dark_oak_pillar_head_variant_3: 黑金深色橡木桩头（单三角形）
+    block_name:ultramarine:gilded_dark_oak_pillar_head_variant_4: 黑金深色橡木桩头（长方形）
+    block_name:ultramarine:gilded_dark_oak_pillar_head_variant_5: 黑金深色橡木桩头（边框）
+    block_name:ultramarine:cyan_and_white_pillar_base: 青白柱础
+    block_name:ultramarine:cyan_and_white_decorated_pillar: 青白束带
+    block_name:ultramarine:cyan_and_white_pillar_head: 青白柱头
+    block_name:ultramarine:stone_pillar_base: 石花纹柱础
+    block_name:ultramarine:green_fangxin: 绿色枋心中心
+    block_name:ultramarine:green_fangxin_edge: 绿色枋心外侧
+    block_name:ultramarine:blue_fangxin: 蓝色枋心中心
+    block_name:ultramarine:blue_fangxin_edge: 蓝色枋心外侧
+    block_name:ultramarine:cyan_and_blue_fangxin: 青蓝枋心中心
+    block_name:ultramarine:cyan_and_blue_fangxin_edge: 青蓝枋心外侧
+    block_name:ultramarine:cyan_and_blue_fangxin_edge_variant: 青蓝枋心外侧变种
+    block_name:ultramarine:cyan_blue_white_fangxin: 青蓝白枋心中心
+    block_name:ultramarine:cyan_blue_white_fangxin_edge: 青蓝白枋心外侧
+    block_name:ultramarine:blue_and_green_fangxin_edge: 蓝绿枋心外侧
+    block_name:ultramarine:yellow_and_green_fangxin_edge: 黄绿枋心外侧
+    block_name:ultramarine:dark_blue_fangxin: 深蓝枋心中心
+    block_name:ultramarine:dark_blue_fangxin_edge: 深蓝枋心外侧
+    block_name:ultramarine:blue_and_white_fangxin: 蓝白枋心中心
+    block_name:ultramarine:green_and_dark_blue_fangxin: 绿深蓝枋心中心
+    block_name:ultramarine:white_and_cyan_fangxin: 白青枋心中心
+    block_name:ultramarine:white_and_cyan_fangxin_edge: 白青枋心外侧
+    block_name:ultramarine:white_and_blue_fangxin: 白蓝枋心中心
+    block_name:ultramarine:white_and_blue_fangxin_edge: 白蓝枋心外侧
+    block_name:ultramarine:red_cyan_blue_fangxin: 红青蓝枋心中心
+    block_name:ultramarine:cyan_and_yellow_fangxin_edge: 青黄枋心外侧
+    block_name:ultramarine:ming_blue_jinzhuomo_shinianyu_xuanzi_fangxin_edge: 明代金琢墨石碾玉旋子蓝底枋心外侧
+    block_name:ultramarine:ming_blue_gilded_jinzhuomo_shinianyu_xuanzi_fangxin: 明代金琢墨石碾玉旋子蓝底金纹枋心中心
+    block_name:ultramarine:ming_blue_gilded_jinzhuomo_shinianyu_xuanzi_fangxin_edge: 明代金琢墨石碾玉旋子蓝底金纹枋心外侧
+    block_name:ultramarine:ming_green_gilded_jinzhuomo_shinianyu_xuanzi_fangxin: 明代金琢墨石碾玉旋子绿底金纹枋心中心
+    block_name:ultramarine:ming_green_gilded_jinzhuomo_shinianyu_xuanzi_fangxin_edge: 明代金琢墨石碾玉旋子绿底金纹枋心外侧
+    block_name:ultramarine:qing_blue_plain_jinzhuomo_shinianyu_fangxin: 清代金琢墨石碾玉选子蓝底无花纹枋心中心
+    block_name:ultramarine:yuan_nianyuzhuang_fangxin: 元代碾玉装枋心中心
+    block_name:ultramarine:yuan_nianyuzhuang_fangxin_edge: 元代碾玉枋心外侧
+    block_name:ultramarine:yuan_patterned_nianyuzhuang_fangxin: 元代碾玉装枋心带花纹枋心中心
+    block_name:ultramarine:yuan_patterned_nianyuzhuang_fangxin_edge: 元代碾玉装枋心带花纹枋心外侧
+    block_name:ultramarine:yuan_green_nianyuzhuang_fangxin: 元代碾玉装枋心绿底枋心中心
+    block_name:ultramarine:yuan_green_nianyuzhuang_fangxin_edge: 元代碾玉装枋心绿底枋心外侧
+    block_name:ultramarine:yuan_patterned_wuchaizhuang_fangxin: 元代五彩装枋心带花纹枋心中心
+    block_name:ultramarine:yuan_patterned_wuchaizhuang_fangxin_edge: 元代五彩装枋心带花纹枋心外侧
+    block_name:ultramarine:yuan_green_wuchaizhuang_fangxin: 元代五彩装枋心绿底枋心中心
+    block_name:ultramarine:yuan_green_wuchaizhuang_fangxin_edge: 元代五彩装枋心绿底枋心外侧
+    block_name:ultramarine:blue_zhaotou_edge: 蓝找头边缘
+    block_name:ultramarine:green_and_blue_zhaotou: 绿蓝找头
+    block_name:ultramarine:blue_and_green_zhaotou: 蓝绿找头
+    block_name:ultramarine:blue_and_green_double_layered_zhaotou: 蓝绿双层找头
+    block_name:ultramarine:cyan_and_red_zhaotou: 青红找头
+    block_name:ultramarine:cyan_and_blue_zhaotou: 青蓝找头
+    block_name:ultramarine:gray_black_red_zhaotou: 灰黑红找头
+    block_name:ultramarine:blue_green_red_zhaotou: 蓝绿红找头
+    block_name:ultramarine:red_and_blue_zhaotou: 红蓝找头
+    block_name:ultramarine:green_and_yellow_zhaotou: 绿黄找头
+    block_name:ultramarine:red_green_blue_zhaotou: 红绿蓝找头
+    block_name:ultramarine:white_blue_green_zhaotou: 白蓝绿找头
+    block_name:ultramarine:ming_yanzhuomo_shinianyu_outer_zhaotou: 明代烟琢墨石碾玉找头外侧里
+    block_name:ultramarine:ming_yanzhuomo_shinianyu_outer_zhaotou_edge: 明代烟琢墨石碾玉找头外侧外
+    block_name:ultramarine:yuan_nianyuzhuang_zhaotou: 元代碾玉装找头
+    block_name:ultramarine:yuan_nianyuzhuang_zhaotou_connection: 元代碾玉装找头链接
+    block_name:ultramarine:green_blue_black_gutou: 绿蓝黑箍头
+    block_name:ultramarine:blue_green_yellow_gutou: 蓝绿黄箍头
+    block_name:ultramarine:green_and_yellow_gutou: 绿黄箍头
+    block_name:ultramarine:ming_yanzhuomo_shinianyu_outer_gutou_edge: 明代烟琢墨石碾玉箍头外侧外
+    block_name:ultramarine:yuan_nianyuzhuang_gutou: 元代碾玉装箍头
+    block_name:ultramarine:oak_rafter: 橡木椽身
+    block_name:ultramarine:oak_rafter_end: 橡木椽头
+    block_name:ultramarine:spruce_rafter: 云杉木椽身
+    block_name:ultramarine:spruce_rafter_end: 云杉木椽头
+    block_name:ultramarine:birch_rafter: 白桦木椽身
+    block_name:ultramarine:birch_rafter_end: 白桦木椽头
+    block_name:ultramarine:jungle_rafter: 丛林木椽身
+    block_name:ultramarine:jungle_rafter_end: 丛林木椽头
+    block_name:ultramarine:acacia_rafter: 金合欢木椽身
+    block_name:ultramarine:acacia_rafter_end: 金合欢木椽头
+    block_name:ultramarine:warped_rafter: 诡异木椽身
+    block_name:ultramarine:warped_rafter_end: 诡异木椽头
+    block_name:ultramarine:mangrove_rafter: 红树木椽身
+    block_name:ultramarine:mangrove_rafter_end: 红树木椽头
+    block_name:ultramarine:crimson_rafter: 绯红木椽身
+    block_name:ultramarine:crimson_rafter_end: 绯红木椽头
+    block_name:ultramarine:cherry_rafter: 樱花木椽身
+    block_name:ultramarine:cherry_rafter_end: 樱花木椽头
+    block_name:ultramarine:gilded_dark_oak_rafter: 黑金深色橡木椽身
+    block_name:ultramarine:gilded_dark_oak_rafter_end: 黑金深色橡木椽头
+    block_name:ultramarine:dark_oak_rafter: 深色橡木椽身
+    block_name:ultramarine:dark_oak_rafter_end: 深色橡木椽头
+    block_name:ultramarine:blue_tiger_eye_rafter: 蓝虎眼椽身
+    block_name:ultramarine:blue_tiger_eye_rafter_end: 蓝虎眼椽头
+    block_name:ultramarine:blue_carved_tiger_eye_rafter: 蓝雕花虎眼椽身
+    block_name:ultramarine:blue_carved_tiger_eye_rafter_end: 蓝雕花虎眼椽头
+    block_name:ultramarine:green_tiger_eye_rafter: 绿虎眼椽身
+    block_name:ultramarine:green_tiger_eye_rafter_end: 绿虎眼椽头
+    block_name:ultramarine:green_wanzi_rafter: 绿万字椽身
+    block_name:ultramarine:green_wanzi_rafter_end: 绿万字椽头
+    block_name:ultramarine:green_carved_wanzi_rafter: 雕花绿万字椽身
+    block_name:ultramarine:green_carved_wanzi_rafter_end: 雕花绿万字椽头
+    block_name:ultramarine:gilded_dark_oak_beam_head: 黑金深色橡木梁头
+    block_name:ultramarine:qing_green_beam_head: 清代绿梁头
+    block_name:ultramarine:red_and_cyan_carved_architrave: 红青雕花额枋
+    block_name:ultramarine:red_and_blue_carved_architrave: 红蓝雕花额枋
+    block_name:ultramarine:long_gilded_dark_oak_queti: 黑金长省替中心
+    block_name:ultramarine:horizontal_gilded_dark_oak_queti: 黑金省替横向
+    block_name:ultramarine:central_gilded_dark_oak_queti: 黑金省替中心
+    block_name:ultramarine:vertical_gilded_dark_oak_queti: 黑金省替竖向
+    block_name:ultramarine:thick_carved_queti: 清代雕花厚省替
+    block_name:ultramarine:short_thick_glazed_queti: 短粗琉璃省替
+    block_name:ultramarine:carved_stone_panel: 石雕板
+    block_name:ultramarine:carved_stone_panel_edge: 石雕板边缘
+    block_name:ultramarine:carved_stone_panel_center: 石雕板中心
+    block_name:ultramarine:carved_stone_queti_part: 石雕省替部分
+    block_name:ultramarine:carved_stone_beam: 石雕横梁
+    block_name:ultramarine:carved_stone_queti: 石雕雀替
+    block_name:ultramarine:blue_and_green_chuihua: 蓝绿垂花
+    block_name:ultramarine:cyan_and_yellow_chuihua: 青黄垂花
+    block_name:ultramarine:gilded_dark_oak_chuihua: 黑金深色橡木垂花
+    block_name:ultramarine:golden_glazed_roof_charm: 金琉璃正吻
+    block_name:ultramarine:green_glazed_roof_charm: 青琉璃吻兽
+    block_name:ultramarine:dark_prismarine_chiwei: 暗海晶石鸱尾
+    block_name:ultramarine:qing_golden_dragon_ceiling: 金龙清代天花
+    block_name:ultramarine:white_marble_railing_slant: 斜向汉白玉栏杆
+    block_name:ultramarine:red_wooden_railing: 大红栏杆中心
+    block_name:ultramarine:red_wooden_railing_edge: 大红栏杆
+    block_name:ultramarine:wooden_railing: 木栏杆
+    block_name:ultramarine:wooden_railing_variant: 木栏杆变种
+    block_name:ultramarine:small_wooden_guardian_lion: 小木狮子
+    block_name:ultramarine:small_stone_guardian_lion: 小石狮子
+    block_name:ultramarine:small_jade_guardian_lion: 小玉狮子
+    block_name:ultramarine:small_yellow_glazed_guardian_lion: 小黄琉璃狮子
+    block_name:ultramarine:small_green_glazed_guardian_lion: 小绿琉璃狮子
+    block_name:ultramarine:xumi_stone_monolith: 须弥石座
+    block_name:ultramarine:bookshelf: 中式书架
+    block_name:ultramarine:bookshelf_variant: 中式书架（半满）
+    block_name:ultramarine:stone_flower_window: 石头窗花
+    block_name:ultramarine:jade_block: 玉块
+    block_name:ultramarine:bronze_block: 青铜块
+# 材料
+    block_name:ultramarine:jade_ore: 玉矿石
+    block_name:ultramarine:deepslate_jade_ore: 深层玉矿石
+    block_name:ultramarine:magnesite_ore: 菱美矿石
+    block_name:ultramarine:deepslate_magnesite_ore: 深层菱美矿石
+    block_name:ultramarine:hematite_ore: 赤铁矿石
+    block_name:ultramarine:deepslate_hematite_ore: 深层赤铁矿石
+    block_name:ultramarine:nether_cobalt_ore: 下界钴矿石
+# 家具
+    block_name:ultramarine:oak_cabinet: 橡木橱柜
+    block_name:ultramarine:warped_cabinet: 诡异木橱柜
+    block_name:ultramarine:ebony_cabinet: 乌木橱柜
+    block_name:ultramarine:large_tea_table: 大茶几
+    block_name:ultramarine:high_table_with_white_top: 白底高几
+    block_name:ultramarine:censer_table: 香几
+    block_name:ultramarine:porcelain_inlaid_table: 镶瓷桌子
+    block_name:ultramarine:small_table: 小型桌子
+    block_name:ultramarine:small_ebony_table: 乌木小桌子
+    block_name:ultramarine:large_table: 大号桌子
+    block_name:ultramarine:long_table: 长桌子
+    block_name:ultramarine:ebony_chair: 乌木椅子
+    block_name:ultramarine:chair_with_yellow_cushion: 黄坐垫椅子
+    block_name:ultramarine:painted_chair: 黄山水画椅子
+    block_name:ultramarine:wooden_stool: 凳子
+    block_name:ultramarine:porcelain_inlaid_grand_chair: 镶瓷太师椅
+    block_name:ultramarine:yellow_cushion: 黄坐垫
+    block_name:ultramarine:oak_bed: 橡木床
+    block_name:ultramarine:ebony_bed: 乌木床
+    block_name:ultramarine:painted_screen: 彩画屏风
+    block_name:ultramarine:large_landscape_painting_screen: 大山水屏风
+    block_name:ultramarine:carved_wooden_door: 雕花木门
+    block_name:ultramarine:song_wooden_door: 宋代木门
+    block_name:ultramarine:song_wooden_window: 宋代木窗
+    block_name:ultramarine:royal_rosewood_window: 红皇家窗户
+    block_name:ultramarine:tall_royal_rosewood_window: 高红皇家窗户
+    block_name:ultramarine:glazed_tile_grid_window: 琉璃砖网格窗户
+# 杂项
+    block_name:ultramarine:small_lotus_leaf: 小荷叶
+    block_name:ultramarine:small_dark_green_lotus_leaf: 深绿小荷叶
+    block_name:ultramarine:medium_lotus_leaf: 中型荷叶
+    block_name:ultramarine:large_lotus_leaf: 大荷叶
+    block_name:ultramarine:tilted_lotus_leaf: 倾斜大荷叶
+    block_name:ultramarine:small_lotus_leaf_cluster: 小型荷叶群
+    block_name:ultramarine:medium_lotus_leaf_cluster: 中型荷叶群
+    block_name:ultramarine:lotus_bud: 荷花苞
+    block_name:ultramarine:medium_lotus: 中型荷花
+    block_name:ultramarine:small_greeting_pine_bonsai: 小型迎客松盆景
+    block_name:ultramarine:medium_greeting_pine_bonsai: 中型迎客松盆景
+    block_name:ultramarine:large_greeting_pine_bonsai: 大型迎客松盆景
+    block_name:ultramarine:small_white_porcelain_vase_bonsai: 小型白瓷瓶盆栽
+    block_name:ultramarine:medium_white_porcelain_vase_bonsai: 中型白瓷瓶盆栽
+    block_name:ultramarine:large_white_porcelain_vase_bonsai: 大型白瓷瓶盆栽
+    block_name:ultramarine:small_green_porcelain_vase_bonsai: 小型绿瓷瓶盆栽
+    block_name:ultramarine:green_porcelain_vase_bonsai: 绿瓷瓶盆栽
+    block_name:ultramarine:red_coral_bonsai: 红珊瑚盆栽
+    block_name:ultramarine:red_plum_bonsai: 红梅盆景
+    block_name:ultramarine:bamboo_bonsai: 竹子盆景
+    block_name:ultramarine:tall_blue_vase_bonsai: 蓝色高瓶盆栽
+    block_name:ultramarine:tall_blue_and_white_porcelain_bonsai: 高青花瓷盆栽
+    block_name:ultramarine:medium_bonsai: 中型盆栽
+    block_name:ultramarine:large_bonsai: 大型盆栽
+    block_name:ultramarine:bronze_ding: 青铜鼎
+    block_name:ultramarine:lotus_leaves_bowl_empty: 荷花盆
+    block_name:ultramarine:lotus_leaves_bowl_water: 荷花盆
+# 灯
+    block_name:ultramarine:octagonal_palace_lantern: 八角宫灯
+    block_name:ultramarine:square_palace_lantern: 四角宫灯
+    block_name:ultramarine:small_red_lantern: 小红灯笼
+    block_name:ultramarine:white_sky_lantern: 白孔明灯
+    block_name:ultramarine:red_sky_lantern: 红孔明灯
+    block_name:ultramarine:yellow_sky_lantern: 黄孔明灯
+    block_name:ultramarine:standing_lamp: 立灯
+    block_name:ultramarine:small_standing_lamp: 小立灯
+    block_name:ultramarine:stone_lamp: 石灯
+    block_name:ultramarine:red_lantern_streetlight_0: 红灯笼路灯
+    block_name:ultramarine:red_lantern_streetlight_1: 红灯笼路灯
+    block_name:ultramarine:red_lantern_streetlight_2: 红灯笼路灯
+    block_name:ultramarine:red_lantern_streetlight: 红灯笼路灯
+# 装饰
+    block_name:ultramarine:back_cushion: 靠枕
+    block_name:ultramarine:blue_and_white_porcelain_vase: 青花瓷瓶
+    block_name:ultramarine:large_blue_and_white_porcelain_vase: 青花瓷大瓶
+    block_name:ultramarine:short_blue_and_white_porcelain_pot: 青花瓷矮罐
+    block_name:ultramarine:tall_blue_and_white_porcelain_pot: 青花瓷高罐
+    block_name:ultramarine:blue_and_white_porcelain_bowl: 青花瓷碗
+    block_name:ultramarine:blue_and_white_porcelain_flowerpot: 青花瓷花盆
+    block_name:ultramarine:sundial: 日冕
+    block_name:ultramarine:wind_chime: 风铃

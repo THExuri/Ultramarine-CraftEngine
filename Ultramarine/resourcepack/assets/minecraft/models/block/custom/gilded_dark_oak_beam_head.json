@@ -1,0 +1,7 @@
+{
+  "parent": "block/custom/beam_head",
+  "textures": {
+    "2": "block/custom/gilded_dark_oak_beam_head",
+    "particle": "block/custom/gilded_dark_oak"
+  }
+}

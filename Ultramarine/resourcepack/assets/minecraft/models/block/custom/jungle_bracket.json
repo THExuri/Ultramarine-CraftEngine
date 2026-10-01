@@ -1,0 +1,6 @@
+{
+  "parent": "block/custom/wooden_bracket",
+  "textures": {
+    "1": "minecraft:block/stripped_jungle_log"
+  }
+}

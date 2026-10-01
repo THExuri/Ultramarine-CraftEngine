@@ -1,0 +1,6 @@
+{
+  "parent": "block/custom/roof_tile_shifted",
+  "textures": {
+    "1": "block/custom/black_roof_tile"
+  }
+}

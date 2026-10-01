@@ -1,0 +1,2334 @@
+items:
+# 橡木橱柜
+  ultramarine:oak_cabinet:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.oak_cabinet>
+    model: minecraft:item/custom/oak_cabinet
+    behavior:
+      type: furniture_item
+      rules:
+        ground:
+          rotation: four
+          alignment: center
+      furniture:       
+        settings:
+          item: ultramarine:oak_cabinet
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        behavior:
+          type: simple_storage_furniture
+          title: 橡木橱柜
+          rows: 3 
+          sounds:
+            open: minecraft:block.chest.open
+            close: minecraft:block.chest.close
+        variants:
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:oak_cabinet
+                position: 0,0.5,0
+            hitboxes:
+              - position: 0,0,0
+                type: shulker
+                peek: 0
+                scale: 1
+                blocks-building: true
+                interactive: true
+                interaction-entity: true
+                invisible: true 
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:oak_cabinet
+# 诡异木橱柜
+  ultramarine:warped_cabinet:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.warped_cabinet>
+    model: minecraft:item/custom/warped_cabinet
+    behavior:
+      type: furniture_item
+      rules:
+        ground:
+          rotation: four
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:warped_cabinet
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        behavior:
+          type: simple_storage_furniture
+          title: 诡异木橱柜
+          rows: 3 
+          sounds:
+            open: minecraft:block.chest.open
+            close: minecraft:block.chest.close
+        variants:
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:warped_cabinet
+                position: 0.5,0.5,0
+            hitboxes:
+              - position: 0,0,0
+                type: shulker
+                direction: east
+                peek: 100
+                blocks-building: true
+                interactive: true
+                interaction-entity: true
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:warped_cabinet
+# 乌木橱柜
+  ultramarine:ebony_cabinet:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.ebony_cabinet>
+    model: minecraft:item/custom/ebony_cabinet
+    behavior:
+      type: furniture_item
+      rules:
+        ground:
+          rotation: four
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:ebony_cabinet
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        behavior:
+          type: simple_storage_furniture
+          title: 乌木橱柜
+          rows: 6
+          sounds:
+            open: minecraft:block.chest.open
+            close: minecraft:block.chest.close
+        variants:
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:ebony_cabinet
+                position: 0.5,0.5,0
+            hitboxes:
+              - position: 1,0,0
+                type: shulker
+                peek: 100
+                scale: 1
+                blocks-building: true
+                interactive: true
+                interaction-entity: true
+              - position: 0,0,0
+                type: shulker
+                peek: 100
+                scale: 1
+                blocks-building: true
+                interactive: true
+                interaction-entity: true
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:ebony_cabinet
+# 大茶几
+  ultramarine:large_tea_table:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.large_tea_table>
+    model: minecraft:item/custom/large_tea_table
+    behavior:
+      type: furniture_item
+      rules:
+        ground:
+          rotation: four
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:large_tea_table
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:large_tea_table
+                position: 0,0.5,0
+            hitboxes:
+              - position: -0.5,0,0
+                type: shulker
+                direction: east
+                peek: 100
+                blocks-building: true
+                interactive: true
+                interaction-entity: true
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:large_tea_table
+# 白底高几
+  ultramarine:high_table_with_white_top:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.high_table_with_white_top>
+    model: minecraft:item/custom/high_table_with_white_top
+    behavior:
+      type: furniture_item
+      rules:
+        ground:
+          rotation: four
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:high_table_with_white_top
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:high_table_with_white_top
+                position: 0,0.5,0
+            hitboxes:
+              - position: 0,0,0
+                type: shulker
+                peek: 100
+                scale: 1
+                blocks-building: true
+                interactive: true
+                interaction-entity: true
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:high_table_with_white_top
+# 香几
+  ultramarine:censer_table:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.censer_table>
+    model: minecraft:item/custom/censer_table
+    behavior:
+      type: furniture_item
+      rules:
+        ground:
+          rotation: eight
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:censer_table
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:censer_table
+                position: 0,0.5,0
+            hitboxes:
+              - position: 0,0,0
+                type: shulker
+                peek: 100
+                scale: 1
+                blocks-building: true
+                interactive: true
+                interaction-entity: true
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:censer_table
+# 镶瓷桌子
+  ultramarine:porcelain_inlaid_table:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.porcelain_inlaid_table>
+    model: minecraft:item/custom/porcelain_inlaid_table
+    behavior:
+      type: furniture_item
+      rules:
+        ground:
+          rotation: eight
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:porcelain_inlaid_table
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:porcelain_inlaid_table
+                position: 0,0.5,0
+            hitboxes:
+              - position: 0,0,0
+                type: shulker
+                peek: 0
+                scale: 1
+                blocks-building: true
+                interactive: true
+                interaction-entity: true
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:porcelain_inlaid_table
+# 小型桌子
+  ultramarine:small_table:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.small_table>
+    model: minecraft:item/custom/small_table
+    behavior:
+      type: furniture_item
+      rules:
+        ground:
+          rotation: four
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:small_table
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:small_table
+                position: 0,0.5,0
+            hitboxes:
+              - position: 0,0,0
+                type: shulker
+                peek: 0
+                scale: 1
+                blocks-building: true
+                interactive: true
+                interaction-entity: true
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:small_table
+# 乌木小桌子
+  ultramarine:small_ebony_table:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.small_ebony_table>
+    model: minecraft:item/custom/small_ebony_table
+    behavior:
+      type: furniture_item
+      rules:
+        ground:
+          rotation: four
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:small_ebony_table
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:small_ebony_table
+                position: 0,0.5,0
+            hitboxes:
+              - position: 0,0,0
+                type: shulker
+                peek: 0
+                scale: 1
+                blocks-building: true
+                interactive: true
+                interaction-entity: true
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:small_ebony_table
+# 大号桌子
+  ultramarine:large_table:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.large_table>
+    model: minecraft:item/custom/large_table
+    behavior:
+      type: furniture_item
+      rules:
+        ground:
+          rotation: four
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:large_table
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:large_table
+                position: 0,0.5,0
+            hitboxes:
+              - position: 0,0,0
+                type: interaction
+                width: 3
+                height: 1
+                blocks-building: true
+                interactive: true
+                interaction-entity: true
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:large_table
+# 长桌子
+  ultramarine:long_table:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.long_table>
+    model: minecraft:item/custom/long_table
+    behavior:
+      type: furniture_item
+      rules:
+        ground:
+          rotation: four
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:long_table
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:long_table
+                position: 0,0.5,0
+            hitboxes:
+              - position: 0,0,0
+                type: shulker
+                peek: 0
+                scale: 1
+                blocks-building: true
+                interactive: true
+                interaction-entity: true
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:long_table
+# 乌木椅子
+  ultramarine:ebony_chair:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.ebony_chair>
+    model: minecraft:item/custom/ebony_chair
+    behavior:
+      type: furniture_item
+      rules:
+        ground:
+          rotation: any
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:ebony_chair
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:ebony_chair
+                position: 0,0.5,0
+            hitboxes:
+              - position: 0,0,0
+                type: shulker
+                peek: 0
+                scale: 1
+                blocks-building: true
+                interactive: true
+                interaction-entity: true
+                seats:
+                  - 0,0,0
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:ebony_chair
+# 黄坐垫椅子
+  ultramarine:chair_with_yellow_cushion:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.chair_with_yellow_cushion>
+    model: minecraft:item/custom/chair_with_yellow_cushion
+    behavior:
+      type: furniture_item
+      rules:
+        ground:
+          rotation: four
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:chair_with_yellow_cushion
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:chair_with_yellow_cushion
+                position: 0,0.5,0
+            hitboxes:
+              - position: 0,0,0
+                type: shulker
+                peek: 0
+                scale: 1
+                blocks-building: true
+                interactive: true
+                interaction-entity: true
+                seats:
+                  - 0,0,0
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:chair_with_yellow_cushion
+# 黄山水画椅子
+  ultramarine:painted_chair:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.painted_chair>
+    model: minecraft:item/custom/painted_chair
+    behavior:
+      type: furniture_item
+      rules:
+        ground:
+          rotation: four
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:painted_chair
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:painted_chair
+                position: 0,0.5,0
+            hitboxes:
+              - position: 0,0,0
+                type: shulker
+                peek: 0
+                scale: 1
+                blocks-building: true
+                interactive: true
+                interaction-entity: true
+                seats:
+                  - 0,0,0 
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:painted_chair
+# 凳子
+  ultramarine:wooden_stool:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.wooden_stool>
+    model: minecraft:item/custom/wooden_stool
+    behavior:
+      type: furniture_item
+      rules:
+        ground:
+          rotation: four
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:wooden_stool
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:wooden_stool
+                position: 0,0.5,0
+            hitboxes:
+              - position: 0,0,0
+                type: shulker
+                peek: 0
+                scale: 1
+                blocks-building: true
+                interactive: true
+                interaction-entity: true
+                seats:
+                  - 0,0,0 
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:wooden_stool
+# 镶瓷太师椅
+  ultramarine:porcelain_inlaid_grand_chair:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.porcelain_inlaid_grand_chair>
+    model: minecraft:item/custom/porcelain_inlaid_grand_chair
+    behavior:
+      type: furniture_item
+      rules:
+        ground:
+          rotation: four
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:porcelain_inlaid_grand_chair
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:porcelain_inlaid_grand_chair
+                position: 0,0.5,0
+            hitboxes:
+              - position: 0,0,0
+                type: shulker
+                peek: 0
+                scale: 1
+                blocks-building: true
+                interactive: true
+                interaction-entity: true
+                seats:
+                  - 0,0,0 
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:porcelain_inlaid_grand_chair
+# 黄坐垫
+  ultramarine:yellow_cushion:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.yellow_cushion>
+    model: minecraft:item/custom/yellow_cushion
+    behavior:
+      type: furniture_item
+      rules:
+        ground:
+          rotation: four
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:yellow_cushion
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:yellow_cushion
+                position: 0,0.5,0
+            hitboxes:
+              - position: 0,0,0
+                type: shulker
+                peek: 0
+                scale: 0.5
+                blocks-building: true
+                interactive: true
+                interaction-entity: true
+                seats:
+                  - 0,-0.5,0 
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:yellow_cushion
+# 橡木床
+  ultramarine:oak_bed:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.oak_bed>
+    model: minecraft:item/custom/oak_bed
+    behavior:
+      type: furniture_item
+      rules:
+        ground:
+          rotation: four
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:oak_bed
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:oak_bed
+                position: 0.5,0.55,0
+            hitboxes:
+              - position: 0,0,0
+                type: shulker
+                direction: east
+                peek: 100
+                blocks-building: true
+                interactive: true
+                interaction-entity: true
+                seats:
+                  - 0.5,-0,0 
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:oak_bed
+# 乌木床
+  ultramarine:ebony_bed:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.ebony_bed>
+    model: minecraft:item/custom/ebony_bed
+    behavior:
+      type: furniture_item
+      rules:
+        ground:
+          rotation: four
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:ebony_bed
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:ebony_bed
+                position: 0.5,0.55,0
+            hitboxes:
+              - position: -0.5,0,0
+                type: shulker
+                direction: east
+                peek: 100
+                blocks-building: true
+                interactive: true
+                interaction-entity: true
+                seats:
+                  - 0.5,0.5,0 
+              - position: 1.5,0,0
+                type: shulker
+                peek: 0
+                blocks-building: true
+                interactive: true
+                interaction-entity: true
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:ebony_bed
+# 彩画屏风
+  ultramarine:painted_screen:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.painted_screen>
+    model: minecraft:item/custom/painted_screen
+    behavior:
+      type: furniture_item
+      rules:
+        ground:
+          rotation: four
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:painted_screen
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:painted_screen
+                position: 0,1.5,0
+            hitboxes:
+              - position: 0,0.5,0
+                type: shulker
+                peek: 100
+                blocks-building: true
+                interactive: true
+                interaction-entity: true
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:painted_screen
+# 大山水屏风
+  ultramarine:large_landscape_painting_screen:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.large_landscape_painting_screen>
+    model: minecraft:item/custom/large_landscape_painting_screen
+    behavior:
+      type: furniture_item
+      rules:
+        ground:
+          rotation: four
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:large_landscape_painting_screen
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:large_landscape_painting_screen
+                position: 0,1.5,0
+            hitboxes:
+              - position: -0.5,0.5,0
+                type: shulker
+                peek: 100
+                blocks-building: true
+                interactive: true
+                interaction-entity: true
+              - position: 0.5,0.5,0
+                type: shulker
+                peek: 100
+                blocks-building: true
+                interactive: true
+                interaction-entity: true
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:large_landscape_painting_screen
+# 雕花木门
+  ultramarine:carved_wooden_door:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.carved_wooden_door>
+    model: minecraft:item/custom/carved_wooden_door
+    behavior:
+      type: furniture_item
+      rules:
+        ground:
+          rotation: four
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:carved_wooden_door
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:carved_wooden_door
+                position: 0,1.5,0
+            hitboxes:
+              - position: 0,0,0
+                type: interaction
+                scale: 1,3
+                blocks-building: true
+                interactive: true
+                interaction-entity: true
+        events: 
+          - on: right_click
+            functions:
+              - type: if_else  
+                rules:  
+                  - conditions:  
+                      - type: expression  
+                        expression: "<arg:player.is_sneaking>"  
+                    functions:  
+                      - type: replace_furniture  
+                        furniture-id: "ultramarine:carved_wooden_door_open_right" 
+                        variant: ground
+                        drop-loot: false
+                        play-sound: false
+                  - conditions: []  
+                    functions:  
+                      - type: replace_furniture  
+                        furniture-id: "ultramarine:carved_wooden_door_open_left"
+                        variant: ground
+                        drop-loot: false
+                        play-sound: false
+              - type: play_sound
+                sound: minecraft:block.wooden_door.open
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:carved_wooden_door
+  ultramarine:carved_wooden_door_open_left:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.carved_wooden_door>
+    model: minecraft:item/custom/carved_wooden_door_open_left
+    behavior:
+      type: furniture_item
+      rules:
+        ground:
+          rotation: four
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:carved_wooden_door_open_left
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:carved_wooden_door_open_left
+                position: 0,1.5,0
+            hitboxes:
+              - position: 0,0,0
+                type: interaction
+                scale: 1,3
+                blocks-building: true
+                interactive: true
+                interaction-entity: true
+        events: 
+          - on: right_click
+            functions:
+              - type: if_else  
+                rules:  
+                  - conditions:  
+                      - type: expression  
+                        expression: "<arg:player.is_sneaking>"  
+                    functions:  
+                      - type: replace_furniture  
+                        furniture-id: "ultramarine:carved_wooden_door_open_right" 
+                        variant: ground
+                        drop-loot: false
+                        play-sound: false
+                  - conditions: []  
+                    functions:  
+                      - type: replace_furniture  
+                        furniture-id: "ultramarine:carved_wooden_door"
+                        variant: ground
+                        drop-loot: false
+                        play-sound: false
+                      - type: play_sound
+                        sound: minecraft:block.wooden_door.close
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:carved_wooden_door
+  ultramarine:carved_wooden_door_open_right:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.carved_wooden_door>
+    model: minecraft:item/custom/carved_wooden_door_open_right
+    behavior:
+      type: furniture_item
+      rules:
+        ground:
+          rotation: four
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:carved_wooden_door_open_right
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:carved_wooden_door_open_right
+                position: 0,1.5,0
+            hitboxes:
+              - position: 0,0,0
+                type: interaction
+                scale: 1,3
+                blocks-building: true
+                interactive: true
+                interaction-entity: true
+        events: 
+          - on: right_click
+            functions:
+              - type: if_else  
+                rules:  
+                  - conditions:  
+                      - type: expression  
+                        expression: "<arg:player.is_sneaking>"  
+                    functions:  
+                      - type: replace_furniture  
+                        furniture-id: "ultramarine:carved_wooden_door_open_left" 
+                        variant: ground
+                        drop-loot: false
+                        play-sound: false
+                  - conditions: []  
+                    functions:  
+                      - type: replace_furniture  
+                        furniture-id: "ultramarine:carved_wooden_door"
+                        variant: ground
+                        drop-loot: false
+                        play-sound: false
+                      - type: play_sound
+                        sound: minecraft:block.wooden_door.close
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:carved_wooden_door
+# 宋代木门
+  ultramarine:song_wooden_door:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.song_wooden_door>
+    model: minecraft:item/custom/song_wooden_door
+    behavior:
+      type: furniture_item
+      rules:
+        ground:
+          rotation: four
+          alignment: center
+        wall:
+          rotation: any
+          alignment: any
+      furniture:
+        settings:
+          item: ultramarine:song_wooden_door
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:song_wooden_door
+                position: 0,1.5,0
+            hitboxes:
+              - position: 0,0,0
+                type: interaction
+                scale: 1,3
+                blocks-building: true
+                interactive: true
+                interaction-entity: true
+          wall:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:song_wooden_door
+                translation: 0.6,0.5,0
+                position: 0.5,0,0.3
+            hitboxes:
+              - position: -0.1,-0.5,-0.2
+                type: interaction
+                blocks-building: false
+                width: 1
+                height: 2
+                interactive: true
+        events: 
+          - on: right_click
+            functions:
+              - type: if_else  
+                rules:  
+                  - conditions:  
+                      - type: expression  
+                        expression: "<arg:player.is_sneaking>"  
+                    functions:  
+                      - type: replace_furniture  
+                        furniture-id: "ultramarine:song_wooden_door_open_right" 
+                        variant: ground
+                        drop-loot: false
+                        play-sound: false
+                  - conditions: []  
+                    functions:  
+                      - type: replace_furniture  
+                        furniture-id: "ultramarine:song_wooden_door_open_left"
+                        variant: ground
+                        drop-loot: false
+                        play-sound: false
+              - type: play_sound
+                sound: minecraft:block.wooden_door.open
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:song_wooden_door
+  ultramarine:song_wooden_door_open_left:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.song_wooden_door>
+    model: minecraft:item/custom/song_wooden_door_open_left
+    behavior:
+      type: furniture_item
+      rules:
+        ground:
+          rotation: four
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:song_wooden_door_open_left
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:song_wooden_door_open_left
+                position: 0,1.5,0
+            hitboxes:
+              - position: 0,0,0
+                type: interaction
+                scale: 1,3
+                blocks-building: true
+                interactive: true
+                interaction-entity: true
+        events: 
+          - on: right_click
+            functions:
+              - type: if_else  
+                rules:  
+                  - conditions:  
+                      - type: expression  
+                        expression: "<arg:player.is_sneaking>"  
+                    functions:  
+                      - type: replace_furniture  
+                        furniture-id: "ultramarine:song_wooden_door_open_right" 
+                        variant: ground
+                        drop-loot: false
+                        play-sound: false
+                  - conditions: []  
+                    functions:  
+                      - type: replace_furniture  
+                        furniture-id: "ultramarine:song_wooden_door"
+                        variant: ground
+                        drop-loot: false
+                        play-sound: false
+                      - type: play_sound
+                        sound: minecraft:block.wooden_door.close
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:song_wooden_door
+  ultramarine:song_wooden_door_open_right:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.song_wooden_door>
+    model: minecraft:item/custom/song_wooden_door_open_right
+    behavior:
+      type: furniture_item
+      rules:
+        ground:
+          rotation: four
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:song_wooden_door_open_right
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:song_wooden_door_open_right
+                position: 0,1.5,0
+            hitboxes:
+              - position: 0,0,0
+                type: interaction
+                scale: 1,3
+                blocks-building: true
+                interactive: true
+                interaction-entity: true
+        events: 
+          - on: right_click
+            functions:
+              - type: if_else  
+                rules:  
+                  - conditions:  
+                      - type: expression  
+                        expression: "<arg:player.is_sneaking>"  
+                    functions:  
+                      - type: replace_furniture  
+                        furniture-id: "ultramarine:song_wooden_door_open_left" 
+                        variant: ground
+                        drop-loot: false
+                        play-sound: false
+                  - conditions: []  
+                    functions:  
+                      - type: replace_furniture  
+                        furniture-id: "ultramarine:song_wooden_door"
+                        variant: ground
+                        drop-loot: false
+                        play-sound: false
+                      - type: play_sound
+                        sound: minecraft:block.wooden_door.close
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:song_wooden_door
+# 宋代木窗
+  ultramarine:song_wooden_window:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.song_wooden_window>
+    model: minecraft:item/custom/song_wooden_window
+    behavior:
+      type: furniture_item
+      rules:
+        wall:
+          rotation: any
+          alignment: center
+        ground:
+          rotation: four
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:song_wooden_window
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          wall:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:song_wooden_window
+                position: 0,0,0.5
+                rotation: 90
+            hitboxes:
+              - position: 0,-0.5,0.5
+                type: shulker
+                blocks-building: false
+                scale: 1
+                peek: 100
+                interactive: true
+                can-use-item-on: false 
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:song_wooden_window
+                position: 0,0.5,0
+            hitboxes:
+              - position: 0,0.,0
+                type: shulker
+                blocks-building: false
+                scale: 1
+                peek: 100
+                interactive: true
+                can-use-item-on: false
+        events: 
+          - on: right_click
+            functions:
+              - type: if_else  
+                rules:  
+                  - conditions:
+                      - type: all_of
+                        terms:
+                          - type: expression  
+                            expression: "<arg:player.is_sneaking>"  
+                          - type: match_furniture_variant
+                            variants:
+                              - wall
+                    functions:  
+                      - type: replace_furniture  
+                        furniture-id: "ultramarine:song_wooden_window_open_right" 
+                        variant: wall
+                        drop-loot: false
+                        play-sound: false
+                  - conditions: []  
+                    functions:
+                      - type: if_else
+                        rules:
+                          - conditions:
+                              - type: match_furniture_variant
+                                variants:
+                                  - wall
+                            functions:  
+                              - type: replace_furniture  
+                                furniture-id: "ultramarine:song_wooden_window_open_left"
+                                variant: wall
+                                drop-loot: false
+                                play-sound: false
+                          - conditions: []
+                            functions:  
+                              - type: replace_furniture  
+                                furniture-id: "ultramarine:song_wooden_window_open_left"
+                                variant: ground
+                                drop-loot: false
+                                play-sound: false
+              - type: play_sound
+                sound: minecraft:block.wooden_door.open
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:song_wooden_window
+  ultramarine:song_wooden_window_open_left:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.song_wooden_window>
+    model: minecraft:item/custom/song_wooden_window_open_left
+    behavior:
+      type: furniture_item
+      rules:
+        wall:
+          rotation: any
+          alignment: center
+        ground:
+          rotation: four
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:song_wooden_window_open_left
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          wall:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:song_wooden_window_open_left
+                position: 0,0,0.5
+                rotation: 90
+            hitboxes:
+              - position: 0,-0.5,0.5
+                type: interaction
+                blocks-building: false
+                scale: 1,2
+                interactive: true
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:song_wooden_window_open_left
+                position: 0,0.5,0
+            hitboxes:
+              - position: 0,0.,0
+                type: interaction
+                blocks-building: false
+                scale: 1,2
+                interactive: true
+        events: 
+          - on: right_click
+            functions:
+              - type: if_else  
+                rules:  
+                  - conditions:  
+                      - type: expression  
+                        expression: "<arg:player.is_sneaking>"  
+                    functions:
+                      - type: if_else
+                        rules:
+                          - conditions:
+                              - type: match_furniture_variant
+                                variants:
+                                  - wall 
+                            functions: 
+                              - type: replace_furniture  
+                                furniture-id: "ultramarine:song_wooden_window_open_right" 
+                                variant: wall
+                                drop-loot: false
+                                play-sound: false
+                          - conditions: []
+                            functions:
+                              - type: replace_furniture  
+                                furniture-id: "ultramarine:song_wooden_window_open_right" 
+                                variant: ground
+                                drop-loot: false
+                                play-sound: false         
+                  - conditions: []  
+                    functions:
+                      - type: if_else
+                        rules:
+                          - conditions:
+                              - type: match_furniture_variant
+                                variants:
+                                  - wall
+                            functions:  
+                              - type: replace_furniture  
+                                furniture-id: "ultramarine:song_wooden_window"
+                                variant: wall
+                                drop-loot: false
+                                play-sound: false
+                              - type: play_sound
+                                sound: minecraft:block.wooden_door.close  
+                          - conditions: []
+                            functions:  
+                              - type: replace_furniture  
+                                furniture-id: "ultramarine:song_wooden_window"
+                                variant: ground
+                                drop-loot: false
+                                play-sound: false
+                              - type: play_sound
+                                sound: minecraft:block.wooden_door.close  
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:song_wooden_window
+  ultramarine:song_wooden_window_open_right:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.song_wooden_window>
+    model: minecraft:item/custom/song_wooden_window_open_right
+    behavior:
+      type: furniture_item
+      rules:
+        wall:
+          rotation: four
+          alignment: center
+        ground:
+          rotation: four
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:song_wooden_window_open_right
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          wall:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:song_wooden_window_open_right
+                position: 0.7,0,0.2
+                rotation: 90
+            hitboxes:
+              - position: 0,-0.5,0.5
+                type: interaction
+                blocks-building: false
+                scale: 1,2
+                interactive: true
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:song_wooden_window_open_right
+                position: 0,0.5,0
+            hitboxes:
+              - position: 0,0.,0
+                type: interaction
+                blocks-building: false
+                scale: 1,2
+                interactive: true
+        events: 
+          - on: right_click
+            functions:
+              - type: if_else  
+                rules:  
+                  - conditions:  
+                      - type: expression  
+                        expression: "<arg:player.is_sneaking>"  
+                    functions:
+                      - type: if_else
+                        rules:
+                          - conditions:
+                              - type: match_furniture_variant
+                                variants:
+                                  - wall 
+                            functions: 
+                              - type: replace_furniture  
+                                furniture-id: "ultramarine:song_wooden_window_open_left" 
+                                variant: wall
+                                drop-loot: false
+                                play-sound: false
+                          - conditions: []
+                            functions:
+                              - type: replace_furniture  
+                                furniture-id: "ultramarine:song_wooden_window_open_left" 
+                                variant: ground
+                                drop-loot: false
+                                play-sound: false         
+                  - conditions: []  
+                    functions:
+                      - type: if_else
+                        rules:
+                          - conditions:
+                              - type: match_furniture_variant
+                                variants:
+                                  - wall
+                            functions:  
+                              - type: replace_furniture  
+                                furniture-id: "ultramarine:song_wooden_window"
+                                variant: wall
+                                drop-loot: false
+                                play-sound: false
+                              - type: play_sound
+                                sound: minecraft:block.wooden_door.close  
+                          - conditions: []
+                            functions:  
+                              - type: replace_furniture  
+                                furniture-id: "ultramarine:song_wooden_window"
+                                variant: ground
+                                drop-loot: false
+                                play-sound: false
+                              - type: play_sound
+                                sound: minecraft:block.wooden_door.close  
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:song_wooden_window
+# 红皇家窗户
+  ultramarine:royal_rosewood_window:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.royal_rosewood_window>
+    model: minecraft:item/custom/royal_rosewood_window
+    behavior:
+      type: furniture_item
+      rules:
+        wall:
+          rotation: any
+          alignment: center
+        ground:
+          rotation: four
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:royal_rosewood_window
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          wall:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:royal_rosewood_window
+                position: 0,0,0.5
+                rotation: 90
+            hitboxes:
+              - position: 0,-0.5,0.5
+                type: shulker
+                blocks-building: false
+                scale: 1
+                peek: 0
+                interactive: true
+                can-use-item-on: false
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:royal_rosewood_window
+                position: 0,0.5,0
+            hitboxes:
+              - position: 0,0.,0
+                type: shulker
+                blocks-building: false
+                scale: 1
+                peek: 0
+                interactive: true
+                can-use-item-on: false
+        events: 
+          - on: right_click
+            functions:
+              - type: if_else  
+                rules:  
+                  - conditions:
+                      - type: all_of
+                        terms:
+                          - type: expression  
+                            expression: "<arg:player.is_sneaking>"  
+                          - type: match_furniture_variant
+                            variants:
+                              - wall
+                    functions:  
+                      - type: replace_furniture  
+                        furniture-id: "ultramarine:royal_rosewood_window_open_right" 
+                        variant: wall
+                        drop-loot: false
+                        play-sound: false
+                  - conditions: []  
+                    functions:
+                      - type: if_else
+                        rules:
+                          - conditions:
+                              - type: match_furniture_variant
+                                variants:
+                                  - wall
+                            functions:  
+                              - type: replace_furniture  
+                                furniture-id: "ultramarine:royal_rosewood_window_open_left"
+                                variant: wall
+                                drop-loot: false
+                                play-sound: false
+                          - conditions: []
+                            functions:  
+                              - type: replace_furniture  
+                                furniture-id: "ultramarine:royal_rosewood_window_open_left"
+                                variant: ground
+                                drop-loot: false
+                                play-sound: false
+              - type: play_sound
+                sound: minecraft:block.wooden_door.open
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:royal_rosewood_window
+  ultramarine:royal_rosewood_window_open_left:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.royal_rosewood_window>
+    model: minecraft:item/custom/royal_rosewood_window_open_left
+    behavior:
+      type: furniture_item
+      rules:
+        wall:
+          rotation: any
+          alignment: center
+        ground:
+          rotation: four
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:royal_rosewood_window_open_left
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          wall:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:royal_rosewood_window_open_left
+                position: 0,0,0.5
+                rotation: 90
+            hitboxes:
+              - position: 0,-0.5,0.5
+                type: interaction
+                blocks-building: false
+                scale: 1,1
+                interactive: true
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:royal_rosewood_window_open_left
+                position: 0,0.5,0
+            hitboxes:
+              - position: 0,0.,0
+                type: interaction
+                blocks-building: false
+                scale: 1,1
+                interactive: true
+        events: 
+          - on: right_click
+            functions:
+              - type: if_else  
+                rules:  
+                  - conditions:  
+                      - type: expression  
+                        expression: "<arg:player.is_sneaking>"  
+                    functions:
+                      - type: if_else
+                        rules:
+                          - conditions:
+                              - type: match_furniture_variant
+                                variants:
+                                  - wall 
+                            functions: 
+                              - type: replace_furniture  
+                                furniture-id: "ultramarine:royal_rosewood_window_open_right" 
+                                variant: wall
+                                drop-loot: false
+                                play-sound: false
+                          - conditions: []
+                            functions:
+                              - type: replace_furniture  
+                                furniture-id: "ultramarine:royal_rosewood_window_open_right" 
+                                variant: ground
+                                drop-loot: false
+                                play-sound: false         
+                  - conditions: []  
+                    functions:
+                      - type: if_else
+                        rules:
+                          - conditions:
+                              - type: match_furniture_variant
+                                variants:
+                                  - wall
+                            functions:  
+                              - type: replace_furniture  
+                                furniture-id: "ultramarine:royal_rosewood_window"
+                                variant: wall
+                                drop-loot: false
+                                play-sound: false
+                              - type: play_sound
+                                sound: minecraft:block.wooden_door.close  
+                          - conditions: []
+                            functions:  
+                              - type: replace_furniture  
+                                furniture-id: "ultramarine:royal_rosewood_window"
+                                variant: ground
+                                drop-loot: false
+                                play-sound: false
+                              - type: play_sound
+                                sound: minecraft:block.wooden_door.close  
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:royal_rosewood_window
+  ultramarine:royal_rosewood_window_open_right:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.royal_rosewood_window>
+    model: minecraft:item/custom/royal_rosewood_window_open_right
+    behavior:
+      type: furniture_item
+      rules:
+        wall:
+          rotation: four
+          alignment: center
+        ground:
+          rotation: four
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:royal_rosewood_window_open_right
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          wall:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:royal_rosewood_window_open_right
+                position: 0.7,0,0.2
+                rotation: 90
+            hitboxes:
+              - position: 0,-0.5,0.5
+                type: interaction
+                blocks-building: false
+                scale: 1,1
+                interactive: true
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:royal_rosewood_window_open_right
+                position: 0,0.5,0
+            hitboxes:
+              - position: 0,0.,0
+                type: interaction
+                blocks-building: false
+                scale: 1,1
+                interactive: true
+        events: 
+          - on: right_click
+            functions:
+              - type: if_else  
+                rules:  
+                  - conditions:  
+                      - type: expression  
+                        expression: "<arg:player.is_sneaking>"  
+                    functions:
+                      - type: if_else
+                        rules:
+                          - conditions:
+                              - type: match_furniture_variant
+                                variants:
+                                  - wall 
+                            functions: 
+                              - type: replace_furniture  
+                                furniture-id: "ultramarine:royal_rosewood_window_open_left" 
+                                variant: wall
+                                drop-loot: false
+                                play-sound: false
+                          - conditions: []
+                            functions:
+                              - type: replace_furniture  
+                                furniture-id: "ultramarine:royal_rosewood_window_open_left" 
+                                variant: ground
+                                drop-loot: false
+                                play-sound: false         
+                  - conditions: []  
+                    functions:
+                      - type: if_else
+                        rules:
+                          - conditions:
+                              - type: match_furniture_variant
+                                variants:
+                                  - wall
+                            functions:  
+                              - type: replace_furniture  
+                                furniture-id: "ultramarine:royal_rosewood_window"
+                                variant: wall
+                                drop-loot: false
+                                play-sound: false
+                              - type: play_sound
+                                sound: minecraft:block.wooden_door.close  
+                          - conditions: []
+                            functions:  
+                              - type: replace_furniture  
+                                furniture-id: "ultramarine:royal_rosewood_window"
+                                variant: ground
+                                drop-loot: false
+                                play-sound: false
+                              - type: play_sound
+                                sound: minecraft:block.wooden_door.close  
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:royal_rosewood_window
+# 高红皇家窗户
+  ultramarine:tall_royal_rosewood_window:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.tall_royal_rosewood_window>
+    model: minecraft:item/custom/tall_royal_rosewood_window
+    behavior:
+      type: furniture_item
+      rules:
+        wall:
+          rotation: any
+          alignment: center
+        ground:
+          rotation: four
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:tall_royal_rosewood_window
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          wall:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:tall_royal_rosewood_window
+                position: 0,0,0.5
+                rotation: 90
+            hitboxes:
+              - position: 0,-0.5,0.5
+                type: shulker
+                blocks-building: false
+                scale: 1
+                peek: 100
+                interactive: true
+                can-use-item-on: false
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:tall_royal_rosewood_window
+                position: 0,0.5,0
+            hitboxes:
+              - position: 0,0.,0
+                type: shulker
+                blocks-building: false
+                scale: 1
+                peek: 100
+                interactive: true
+                can-use-item-on: false
+        events: 
+          - on: right_click
+            functions:
+              - type: if_else  
+                rules:  
+                  - conditions:
+                      - type: all_of
+                        terms:
+                          - type: expression  
+                            expression: "<arg:player.is_sneaking>"  
+                          - type: match_furniture_variant
+                            variants:
+                              - wall
+                    functions:  
+                      - type: replace_furniture  
+                        furniture-id: "ultramarine:tall_royal_rosewood_window_open_right" 
+                        variant: wall
+                        drop-loot: false
+                        play-sound: false
+                  - conditions: []  
+                    functions:
+                      - type: if_else
+                        rules:
+                          - conditions:
+                              - type: match_furniture_variant
+                                variants:
+                                  - wall
+                            functions:  
+                              - type: replace_furniture  
+                                furniture-id: "ultramarine:tall_royal_rosewood_window_open_left"
+                                variant: wall
+                                drop-loot: false
+                                play-sound: false
+                          - conditions: []
+                            functions:  
+                              - type: replace_furniture  
+                                furniture-id: "ultramarine:tall_royal_rosewood_window_open_left"
+                                variant: ground
+                                drop-loot: false
+                                play-sound: false
+              - type: play_sound
+                sound: minecraft:block.wooden_door.open
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:tall_royal_rosewood_window
+  ultramarine:tall_royal_rosewood_window_open_left:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.tall_royal_rosewood_window>
+    model: minecraft:item/custom/tall_royal_rosewood_window_open_left
+    behavior:
+      type: furniture_item
+      rules:
+        wall:
+          rotation: any
+          alignment: center
+        ground:
+          rotation: four
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:tall_royal_rosewood_window_open_left
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          wall:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:tall_royal_rosewood_window_open_left
+                position: 0,0,0.5
+                rotation: 90
+            hitboxes:
+              - position: 0,-0.5,0.5
+                type: interaction
+                blocks-building: false
+                scale: 1,2
+                interactive: true
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:tall_royal_rosewood_window_open_left
+                position: 0,0.5,0
+            hitboxes:
+              - position: 0,0.,0
+                type: interaction
+                blocks-building: false
+                scale: 1,2
+                interactive: true
+        events: 
+          - on: right_click
+            functions:
+              - type: if_else  
+                rules:  
+                  - conditions:  
+                      - type: expression  
+                        expression: "<arg:player.is_sneaking>"  
+                    functions:
+                      - type: if_else
+                        rules:
+                          - conditions:
+                              - type: match_furniture_variant
+                                variants:
+                                  - wall 
+                            functions: 
+                              - type: replace_furniture  
+                                furniture-id: "ultramarine:tall_royal_rosewood_window_open_right" 
+                                variant: wall
+                                drop-loot: false
+                                play-sound: false
+                          - conditions: []
+                            functions:
+                              - type: replace_furniture  
+                                furniture-id: "ultramarine:tall_royal_rosewood_window_open_right" 
+                                variant: ground
+                                drop-loot: false
+                                play-sound: false         
+                  - conditions: []  
+                    functions:
+                      - type: if_else
+                        rules:
+                          - conditions:
+                              - type: match_furniture_variant
+                                variants:
+                                  - wall
+                            functions:  
+                              - type: replace_furniture  
+                                furniture-id: "ultramarine:tall_royal_rosewood_window"
+                                variant: wall
+                                drop-loot: false
+                                play-sound: false
+                              - type: play_sound
+                                sound: minecraft:block.wooden_door.close  
+                          - conditions: []
+                            functions:  
+                              - type: replace_furniture  
+                                furniture-id: "ultramarine:tall_royal_rosewood_window"
+                                variant: ground
+                                drop-loot: false
+                                play-sound: false
+                              - type: play_sound
+                                sound: minecraft:block.wooden_door.close  
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:tall_royal_rosewood_window
+  ultramarine:tall_royal_rosewood_window_open_right:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.tall_royal_rosewood_window>
+    model: minecraft:item/custom/tall_royal_rosewood_window_open_right
+    behavior:
+      type: furniture_item
+      rules:
+        wall:
+          rotation: four
+          alignment: center
+        ground:
+          rotation: four
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:tall_royal_rosewood_window_open_right
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          wall:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:tall_royal_rosewood_window_open_right
+                position: 0.7,0,0.2
+                rotation: 90
+            hitboxes:
+              - position: 0,-0.5,0.5
+                type: interaction
+                blocks-building: false
+                scale: 1,2
+                interactive: true
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:tall_royal_rosewood_window_open_right
+                position: 0,0.5,0
+            hitboxes:
+              - position: 0,0.,0
+                type: interaction
+                blocks-building: false
+                scale: 1,2
+                interactive: true
+        events: 
+          - on: right_click
+            functions:
+              - type: if_else  
+                rules:  
+                  - conditions:  
+                      - type: expression  
+                        expression: "<arg:player.is_sneaking>"  
+                    functions:
+                      - type: if_else
+                        rules:
+                          - conditions:
+                              - type: match_furniture_variant
+                                variants:
+                                  - wall 
+                            functions: 
+                              - type: replace_furniture  
+                                furniture-id: "ultramarine:tall_royal_rosewood_window_open_left" 
+                                variant: wall
+                                drop-loot: false
+                                play-sound: false
+                          - conditions: []
+                            functions:
+                              - type: replace_furniture  
+                                furniture-id: "ultramarine:tall_royal_rosewood_window_open_left" 
+                                variant: ground
+                                drop-loot: false
+                                play-sound: false         
+                  - conditions: []  
+                    functions:
+                      - type: if_else
+                        rules:
+                          - conditions:
+                              - type: match_furniture_variant
+                                variants:
+                                  - wall
+                            functions:  
+                              - type: replace_furniture  
+                                furniture-id: "ultramarine:tall_royal_rosewood_window"
+                                variant: wall
+                                drop-loot: false
+                                play-sound: false
+                              - type: play_sound
+                                sound: minecraft:block.wooden_door.close  
+                          - conditions: []
+                            functions:  
+                              - type: replace_furniture  
+                                furniture-id: "ultramarine:tall_royal_rosewood_window"
+                                variant: ground
+                                drop-loot: false
+                                play-sound: false
+                              - type: play_sound
+                                sound: minecraft:block.wooden_door.close  
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:tall_royal_rosewood_window
+# 琉璃砖网格窗户
+  ultramarine:glazed_tile_grid_window:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.glazed_tile_grid_window>
+    model: minecraft:item/custom/glazed_tile_grid_window
+    behavior:
+      type: furniture_item
+      rules:
+        wall:
+          rotation: any
+          alignment: center
+        ground:
+          rotation: four
+          alignment: center
+      furniture:
+        settings:
+          item: ultramarine:glazed_tile_grid_window
+          hit-times: 1
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+        variants:
+          wall:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:glazed_tile_grid_window
+                position: 0,1,1.5
+                rotation: 90
+            hitboxes:
+              - position: 0,-0.5,0.5
+                type: interaction
+                blocks-building: false
+                scale: 1,3
+                interactive: true
+                can-use-item-on: false
+              - position: 0,-0.5,1.5
+                type: interaction
+                blocks-building: false
+                scale: 1,3
+                interactive: true
+                can-use-item-on: false
+              - position: 0,-0.5,2.5
+                type: interaction
+                blocks-building: false
+                scale: 1,3
+                interactive: true
+                can-use-item-on: false
+          ground:
+            loot-spawn-offset: 0,0.25,0
+            elements:
+              - type: item_display
+                item: ultramarine:glazed_tile_grid_window
+                position: 0,1.5,0
+            hitboxes:
+              - position: 1,0,0
+                type: interaction
+                blocks-building: false
+                scale: 1,3
+                interactive: true
+                can-use-item-on: false
+              - position: 0,0,0
+                type: interaction
+                blocks-building: false
+                scale: 1,3
+                interactive: true
+                can-use-item-on: false
+              - position: -1,0,0
+                type: interaction
+                blocks-building: false
+                scale: 1,3
+                interactive: true
+                can-use-item-on: false
+        loot:
+          template: default:loot_table/furniture
+          arguments:
+            item: ultramarine:glazed_tile_grid_window

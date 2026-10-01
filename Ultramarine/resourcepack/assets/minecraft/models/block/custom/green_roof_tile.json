@@ -1,0 +1,6 @@
+{
+  "parent": "block/custom/roof_tile",
+  "textures": {
+    "1": "block/custom/green_roof_tile"
+  }
+}

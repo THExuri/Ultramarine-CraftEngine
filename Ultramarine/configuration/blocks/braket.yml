@@ -1,0 +1,886 @@
+items:
+# 橡木木拱
+  ultramarine:oak_bracket:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.oak_bracket>
+    model: minecraft:block/custom/oak_bracket
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self      
+        settings:
+          hardness: 2.5
+          resistance: 2.5
+          push-reaction: block
+          map-color: 13
+          tags: ["minecraft:mineable/axe"]
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+          destroy_stages:
+            template: internal:destroy_stages
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: south
+          appearances:
+            east:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:oak_bracket
+                rotation: 270
+            north:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:oak_bracket
+                rotation: 180
+            south:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:oak_bracket
+            west:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:oak_bracket
+                rotation: 90
+          variants:  
+            facing=east:  
+              appearance: east  
+            facing=north:  
+              appearance: north  
+            facing=south:  
+              appearance: south  
+            facing=west:  
+              appearance: west 
+# 云杉木拱
+  ultramarine:spruce_bracket:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.spruce_bracket>
+    model: minecraft:block/custom/spruce_bracket
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self      
+        settings:
+          hardness: 2.5
+          resistance: 2.5
+          push-reaction: block
+          map-color: 43
+          tags: ["minecraft:mineable/axe"]
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+          destroy_stages:
+            template: internal:destroy_stages
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: south
+          appearances:
+            east:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:spruce_bracket
+                rotation: 270
+            north:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:spruce_bracket
+                rotation: 180
+            south:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:spruce_bracket
+            west:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:spruce_bracket
+                rotation: 90
+          variants:  
+            facing=east:  
+              appearance: east  
+            facing=north:  
+              appearance: north  
+            facing=south:  
+              appearance: south  
+            facing=west:  
+              appearance: west 
+# 白桦木拱
+  ultramarine:birch_bracket:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.birch_bracket>
+    model: minecraft:block/custom/birch_bracket
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self      
+        settings:
+          hardness: 2.5
+          resistance: 2.5
+          push-reaction: block
+          map-color: 8 
+          tags: ["minecraft:mineable/axe"]
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+          destroy_stages:
+            template: internal:destroy_stages
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: south
+          appearances:
+            east:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:birch_bracket
+                rotation: 270
+            north:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:birch_bracket
+                rotation: 180
+            south:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:birch_bracket
+            west:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:birch_bracket
+                rotation: 90
+          variants:  
+            facing=east:  
+              appearance: east  
+            facing=north:  
+              appearance: north  
+            facing=south:  
+              appearance: south  
+            facing=west:  
+              appearance: west 
+# 丛林木拱
+  ultramarine:jungle_bracket:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.jungle_bracket>
+    model: minecraft:block/custom/jungle_bracket
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self      
+        settings:
+          hardness: 2.5
+          resistance: 2.5
+          push-reaction: block
+          map-color: 13  
+          tags: ["minecraft:mineable/axe"]
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+          destroy_stages:
+            template: internal:destroy_stages
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: south
+          appearances:
+            east:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:jungle_bracket
+                rotation: 270
+            north:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:jungle_bracket
+                rotation: 180
+            south:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:jungle_bracket
+            west:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:jungle_bracket
+                rotation: 90
+          variants:  
+            facing=east:  
+              appearance: east  
+            facing=north:  
+              appearance: north  
+            facing=south:  
+              appearance: south  
+            facing=west:  
+              appearance: west 
+# 金合欢木拱
+  ultramarine:acacia_bracket:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.acacia_bracket>
+    model: minecraft:block/custom/acacia_bracket
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self      
+        settings:
+          hardness: 2.5
+          resistance: 2.5
+          push-reaction: block
+          map-color: 15 
+          tags: ["minecraft:mineable/axe"]
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+          destroy_stages:
+            template: internal:destroy_stages
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: south
+          appearances:
+            east:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:acacia_bracket
+                rotation: 270
+            north:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:acacia_bracket
+                rotation: 180
+            south:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:acacia_bracket
+            west:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:acacia_bracket
+                rotation: 90
+          variants:  
+            facing=east:  
+              appearance: east  
+            facing=north:  
+              appearance: north  
+            facing=south:  
+              appearance: south  
+            facing=west:  
+              appearance: west 
+# 深色橡木拱
+  ultramarine:dark_oak_bracket:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.dark_oak_bracket>
+    model: minecraft:block/custom/dark_oak_bracket
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self      
+        settings:
+          hardness: 2.5
+          resistance: 2.5
+          push-reaction: block
+          map-color: 34 
+          tags: ["minecraft:mineable/axe"]
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+          destroy_stages:
+            template: internal:destroy_stages
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: south
+          appearances:
+            east:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:dark_oak_bracket
+                rotation: 270
+            north:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:dark_oak_bracket
+                rotation: 180
+            south:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:dark_oak_bracket
+            west:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:dark_oak_bracket
+                rotation: 90
+          variants:  
+            facing=east:  
+              appearance: east  
+            facing=north:  
+              appearance: north  
+            facing=south:  
+              appearance: south  
+            facing=west:  
+              appearance: west 
+# 绯红木拱
+  ultramarine:crimson_bracket:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.crimson_bracket>
+    model: minecraft:block/custom/crimson_bracket
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self      
+        settings:
+          hardness: 2.5
+          resistance: 2.5
+          push-reaction: block
+          map-color: 35  
+          tags: ["minecraft:mineable/axe"]
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+          destroy_stages:
+            template: internal:destroy_stages
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: south
+          appearances:
+            east:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:crimson_bracket
+                rotation: 270
+            north:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:crimson_bracket
+                rotation: 180
+            south:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:crimson_bracket
+            west:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:crimson_bracket
+                rotation: 90
+          variants:  
+            facing=east:  
+              appearance: east  
+            facing=north:  
+              appearance: north  
+            facing=south:  
+              appearance: south  
+            facing=west:  
+              appearance: west
+# 诡异木拱
+  ultramarine:warped_bracket:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.warped_bracket>
+    model: minecraft:block/custom/warped_bracket
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self      
+        settings:
+          hardness: 2.5
+          resistance: 2.5
+          push-reaction: block
+          map-color: 55 
+          tags: ["minecraft:mineable/axe"]
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+          destroy_stages:
+            template: internal:destroy_stages
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: south
+          appearances:
+            east:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:warped_bracket
+                rotation: 270
+            north:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:warped_bracket
+                rotation: 180
+            south:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:warped_bracket
+            west:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:warped_bracket
+                rotation: 90
+          variants:  
+            facing=east:  
+              appearance: east  
+            facing=north:  
+              appearance: north  
+            facing=south:  
+              appearance: south  
+            facing=west:  
+              appearance: west
+# 红树木拱
+  ultramarine:mangrove_bracket:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.mangrove_bracket>
+    model: minecraft:block/custom/mangrove_bracket
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self      
+        settings:
+          hardness: 2.5
+          resistance: 2.5
+          push-reaction: block
+          map-color: 53 
+          tags: ["minecraft:mineable/axe"]
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+          destroy_stages:
+            template: internal:destroy_stages
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: south
+          appearances:
+            east:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:mangrove_bracket
+                rotation: 270
+            north:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:mangrove_bracket
+                rotation: 180
+            south:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:mangrove_bracket
+            west:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:mangrove_bracket
+                rotation: 90
+          variants:  
+            facing=east:  
+              appearance: east  
+            facing=north:  
+              appearance: north  
+            facing=south:  
+              appearance: south  
+            facing=west:  
+              appearance: west
+# 樱花木拱
+  ultramarine:cherry_bracket:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.cherry_bracket>
+    model: minecraft:block/custom/cherry_bracket
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self      
+        settings:
+          hardness: 2.5
+          resistance: 2.5
+          push-reaction: block
+          map-color: 20 
+          tags: ["minecraft:mineable/axe"]
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+          destroy_stages:
+            template: internal:destroy_stages
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: south
+          appearances:
+            east:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:cherry_bracket
+                rotation: 270
+            north:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:cherry_bracket
+                rotation: 180
+            south:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:cherry_bracket
+            west:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:cherry_bracket
+                rotation: 90
+          variants:  
+            facing=east:  
+              appearance: east  
+            facing=north:  
+              appearance: north  
+            facing=south:  
+              appearance: south  
+            facing=west:  
+              appearance: west
+# 漆红木拱
+  ultramarine:varnished_rosewood_bracket:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.varnished_rosewood_bracket>
+    model: minecraft:block/custom/varnished_rosewood_bracket
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self      
+        settings:
+          hardness: 2.5
+          resistance: 2.5
+          push-reaction: block
+          map-color: 4
+          tags: ["minecraft:mineable/axe"]
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+          destroy_stages:
+            template: internal:destroy_stages
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: south
+          appearances:
+            east:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:varnished_rosewood_bracket
+                rotation: 270
+            north:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:varnished_rosewood_bracket
+                rotation: 180
+            south:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:varnished_rosewood_bracket
+            west:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:varnished_rosewood_bracket
+                rotation: 90
+          variants:  
+            facing=east:  
+              appearance: east  
+            facing=north:  
+              appearance: north  
+            facing=south:  
+              appearance: south  
+            facing=west:  
+              appearance: west 
+# 蓝雕花木拱
+  ultramarine:blue_carved_wooden_bracket:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.blue_carved_wooden_bracket>
+    model: minecraft:block/custom/blue_carved_wooden_bracket
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self      
+        settings:
+          hardness: 2.5
+          resistance: 2.5
+          push-reaction: block
+          map-color: 31
+          tags: ["minecraft:mineable/axe"]
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+          destroy_stages:
+            template: internal:destroy_stages
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: south
+          appearances:
+            east:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:blue_carved_wooden_bracket
+                rotation: 270
+            north:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:blue_carved_wooden_bracket
+                rotation: 180
+            south:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:blue_carved_wooden_bracket
+            west:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:blue_carved_wooden_bracket
+                rotation: 90
+          variants:  
+            facing=east:  
+              appearance: east  
+            facing=north:  
+              appearance: north  
+            facing=south:  
+              appearance: south  
+            facing=west:  
+              appearance: west 
+# 青雕花木拱
+  ultramarine:cyan_carved_wooden_bracket:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.cyan_carved_wooden_bracket>
+    model: minecraft:block/custom/cyan_carved_wooden_bracket
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self      
+        settings:
+          hardness: 2.5
+          resistance: 2.5
+          push-reaction: block
+          map-color: 23
+          tags: ["minecraft:mineable/axe"]
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+          destroy_stages:
+            template: internal:destroy_stages
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: south
+          appearances:
+            east:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:cyan_carved_wooden_bracket
+                rotation: 270
+            north:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:cyan_carved_wooden_bracket
+                rotation: 180
+            south:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:cyan_carved_wooden_bracket
+            west:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:cyan_carved_wooden_bracket
+                rotation: 90
+          variants:  
+            facing=east:  
+              appearance: east  
+            facing=north:  
+              appearance: north  
+            facing=south:  
+              appearance: south  
+            facing=west:  
+              appearance: west
+# 绿雕花木拱
+  ultramarine:green_carved_wooden_bracket:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.green_carved_wooden_bracket>
+    model: minecraft:block/custom/green_carved_wooden_bracket
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self      
+        settings:
+          hardness: 2.5
+          resistance: 2.5
+          push-reaction: block
+          map-color: 12
+          tags: ["minecraft:mineable/axe"]
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+          destroy_stages:
+            template: internal:destroy_stages
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: south
+          appearances:
+            east:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:green_carved_wooden_bracket
+                rotation: 270
+            north:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:green_carved_wooden_bracket
+                rotation: 180
+            south:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:green_carved_wooden_bracket
+            west:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:green_carved_wooden_bracket
+                rotation: 90
+          variants:  
+            facing=east:  
+              appearance: east  
+            facing=north:  
+              appearance: north  
+            facing=south:  
+              appearance: south  
+            facing=west:  
+              appearance: west
+# 黑金深色橡木拱
+  ultramarine:gilded_dark_oak_bracket:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.gilded_dark_oak_bracket>
+    model: minecraft:block/custom/gilded_dark_oak_bracket
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self      
+        settings:
+          hardness: 2.5
+          resistance: 2.5
+          push-reaction: block
+          map-color: 34  
+          tags: ["minecraft:mineable/axe"]
+          sounds:
+            break: minecraft:block.wood.break
+            step: minecraft:block.wood.step
+            place: minecraft:block.wood.place
+            hit: minecraft:block.wood.hit
+            fall: minecraft:block.wood.fall
+          destroy_stages:
+            template: internal:destroy_stages
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: south
+          appearances:
+            east:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:gilded_dark_oak_bracket
+                rotation: 270
+            north:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:gilded_dark_oak_bracket
+                rotation: 180
+            south:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:gilded_dark_oak_bracket
+            west:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:gilded_dark_oak_bracket
+                rotation: 90
+          variants:  
+            facing=east:  
+              appearance: east  
+            facing=north:  
+              appearance: north  
+            facing=south:  
+              appearance: south  
+            facing=west:  
+              appearance: west

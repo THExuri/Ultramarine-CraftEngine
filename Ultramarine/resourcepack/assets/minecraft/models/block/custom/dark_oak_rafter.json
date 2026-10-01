@@ -1,0 +1,7 @@
+{
+  "parent": "block/custom/rafter",
+  "textures": {
+    "1": "block/custom/dark_oak_rafter",
+    "particle": "block/stripped_dark_oak_log"
+  }
+}

@@ -1,0 +1,1957 @@
+items:
+# 灰色瓦当
+  ultramarine:gray_roof_tile:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.gray_roof_tile><image:ultramarine:muchui>
+    model: minecraft:block/custom/gray_roof_tile
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self      
+        settings:
+          hardness: 2.5
+          resistance: 2.5
+          push-reaction: block
+          map-color: 9 
+          correct_tools: ["#minecraft:pickaxes"]
+          required_break_power: 1
+          tags: ["minecraft:mineable/pickaxe"]
+          sounds:
+            break: minecraft:block.deepslate_tiles.break
+            step: minecraft:block.deepslate_tiles.step
+            place: minecraft:block.deepslate_tiles.place
+            hit: minecraft:block.deepslate_tiles.hit
+            fall: minecraft:block.deepslate_tiles.fall
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: south
+            shifted:  
+              type: boolean  
+              default: false
+          appearances:
+            east:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:gray_roof_tile
+                rotation: -90
+            north:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:gray_roof_tile
+                rotation: 180
+            south:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:gray_roof_tile
+            west:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:gray_roof_tile
+                rotation: 90
+            east_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:gray_roof_tile_shifted
+                rotation: -90
+                translation: 0,0.01,0
+            north_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:gray_roof_tile_shifted
+                rotation: 180
+                translation: 0,0.01,0
+            south_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:gray_roof_tile_shifted
+                translation: 0,0.01,0
+            west_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:gray_roof_tile_shifted
+                rotation: 90
+                translation: 0,0.01,0
+          variants:  
+            facing=east,shifted=false:  
+              appearance: east  
+            facing=north,shifted=false:  
+              appearance: north  
+            facing=south,shifted=false:  
+              appearance: south  
+            facing=west,shifted=false:  
+              appearance: west
+            facing=east,shifted=true:  
+              appearance: east_shifted  
+            facing=north,shifted=true:  
+              appearance: north_shifted  
+            facing=south,shifted=true:  
+              appearance: south_shifted  
+            facing=west,shifted=true:  
+              appearance: west_shifted 
+        events: 
+          - on: right_click 
+            functions: 
+              - type: cycle_block_property   
+                property: shifted
+                conditions:
+                  - type: match_item
+                    id: "ultramarine:wooden_mallet"
+              - type: damage_item
+                damage: 1
+  ultramarine:gray_roof_tile_shifted:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.gray_roof_tile><image:ultramarine:muchui>
+    model: minecraft:block/custom/gray_roof_tile_shifted
+# 灰色瓦当楼梯
+  ultramarine:gray_roof_tile_stair:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.gray_roof_tile_stair><image:ultramarine:muchui>
+    model: minecraft:block/custom/gray_roof_tile_stair
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self      
+        settings:
+          hardness: 2.5
+          resistance: 2.5
+          push-reaction: block
+          map-color: 9
+          correct_tools: ["#minecraft:pickaxes"]
+          required_break_power: 1
+          tags: ["minecraft:mineable/pickaxe"]
+          sounds:
+            break: minecraft:block.deepslate_tiles.break
+            step: minecraft:block.deepslate_tiles.step
+            place: minecraft:block.deepslate_tiles.place
+            hit: minecraft:block.deepslate_tiles.hit
+            fall: minecraft:block.deepslate_tiles.fall
+          destroy_stages:
+            template: internal:destroy_stages
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: south
+            shifted:  
+              type: boolean  
+              default: false
+          appearances:
+            east:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:gray_roof_tile_stair
+                rotation: -90
+            north:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:gray_roof_tile_stair
+                rotation: 180
+            south:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:gray_roof_tile_stair
+            west:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:gray_roof_tile_stair
+                rotation: 90
+            east_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:gray_roof_tile_stair_shifted
+                rotation: -90
+                translation: 0,0.01,0
+            north_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:gray_roof_tile_stair_shifted
+                rotation: 180
+                translation: 0,0.01,0
+            south_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:gray_roof_tile_stair_shifted
+                translation: 0,0.01,0
+            west_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:gray_roof_tile_stair_shifted
+                rotation: 90
+                translation: 0,0.01,0
+          variants:  
+            facing=east,shifted=false:  
+              appearance: east  
+            facing=north,shifted=false:  
+              appearance: north  
+            facing=south,shifted=false:  
+              appearance: south  
+            facing=west,shifted=false:  
+              appearance: west
+            facing=east,shifted=true:  
+              appearance: east_shifted  
+            facing=north,shifted=true:  
+              appearance: north_shifted  
+            facing=south,shifted=true:  
+              appearance: south_shifted  
+            facing=west,shifted=true:  
+              appearance: west_shifted
+        events: 
+          - on: right_click 
+            functions: 
+              - type: cycle_block_property   
+                property: shifted
+                conditions:
+                  - type: match_item
+                    id: "ultramarine:wooden_mallet"
+              - type: damage_item
+                damage: 1
+  ultramarine:gray_roof_tile_stair_shifted:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.gray_roof_tile_stair><image:ultramarine:muchui>
+    model: minecraft:block/custom/gray_roof_tile_stair_shifted
+# 灰色瓦当边缘
+  ultramarine:gray_roof_tile_edge:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.gray_roof_tile_edge><image:ultramarine:muchui>
+    model: minecraft:block/custom/gray_roof_tile_edge
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self      
+        settings:
+          hardness: 2.5
+          resistance: 2.5
+          push-reaction: block
+          map-color: 9
+          correct_tools: ["#minecraft:pickaxes"]
+          required_break_power: 1
+          tags: ["minecraft:mineable/pickaxe"]
+          sounds:
+            break: minecraft:block.deepslate_tiles.break
+            step: minecraft:block.deepslate_tiles.step
+            place: minecraft:block.deepslate_tiles.place
+            hit: minecraft:block.deepslate_tiles.hit
+            fall: minecraft:block.deepslate_tiles.fall
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: south
+            shifted:  
+              type: boolean  
+              default: false
+          appearances:
+            east:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:gray_roof_tile_edge
+                rotation: -90
+            north:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:gray_roof_tile_edge
+                rotation: 180
+            south:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:gray_roof_tile_edge
+            west:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:gray_roof_tile_edge
+                rotation: 90
+            east_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:gray_roof_tile_edge_shifted
+                rotation: -90
+                translation: 0,0.01,0
+            north_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:gray_roof_tile_edge_shifted
+                rotation: 180
+                translation: 0,0.01,0
+            south_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:gray_roof_tile_edge_shifted
+                translation: 0,0.01,0
+            west_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:gray_roof_tile_edge_shifted
+                rotation: 90
+                translation: 0,0.01,0
+          variants:  
+            facing=east,shifted=false:  
+              appearance: east  
+            facing=north,shifted=false:  
+              appearance: north  
+            facing=south,shifted=false:  
+              appearance: south  
+            facing=west,shifted=false:  
+              appearance: west
+            facing=east,shifted=true:  
+              appearance: east_shifted  
+            facing=north,shifted=true:  
+              appearance: north_shifted  
+            facing=south,shifted=true:  
+              appearance: south_shifted  
+            facing=west,shifted=true:  
+              appearance: west_shifted
+        events: 
+          - on: right_click 
+            functions: 
+              - type: cycle_block_property   
+                property: shifted
+                conditions:
+                  - type: match_item
+                    id: "ultramarine:wooden_mallet"
+              - type: damage_item
+                damage: 1
+  ultramarine:gray_roof_tile_edge_shifted:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.gray_roof_tile_edge><image:ultramarine:muchui>
+    model: minecraft:block/custom/gray_roof_tile_edge_shifted
+# 黄色瓦当
+  ultramarine:yellow_roof_tile:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.yellow_roof_tile><image:ultramarine:muchui>
+    model: minecraft:block/custom/yellow_roof_tile
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self      
+        settings:
+          hardness: 2.5
+          resistance: 2.5
+          push-reaction: block
+          map-color: 18
+          correct_tools: ["#minecraft:pickaxes"]
+          required_break_power: 1
+          tags: ["minecraft:mineable/pickaxe"]
+          sounds:
+            break: minecraft:block.deepslate_tiles.break
+            step: minecraft:block.deepslate_tiles.step
+            place: minecraft:block.deepslate_tiles.place
+            hit: minecraft:block.deepslate_tiles.hit
+            fall: minecraft:block.deepslate_tiles.fall
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: south
+            shifted:  
+              type: boolean  
+              default: false
+          appearances:
+            east:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:yellow_roof_tile
+                rotation: -90
+            north:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:yellow_roof_tile
+                rotation: 180
+            south:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:yellow_roof_tile
+            west:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:yellow_roof_tile
+                rotation: 90
+            east_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:yellow_roof_tile_shifted
+                rotation: -90
+                translation: 0,0.01,0
+            north_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:yellow_roof_tile_shifted
+                rotation: 180
+                translation: 0,0.01,0
+            south_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:yellow_roof_tile_shifted
+                translation: 0,0.01,0
+            west_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:yellow_roof_tile_shifted
+                rotation: 90
+                translation: 0,0.01,0
+          variants:  
+            facing=east,shifted=false:  
+              appearance: east  
+            facing=north,shifted=false:  
+              appearance: north  
+            facing=south,shifted=false:  
+              appearance: south  
+            facing=west,shifted=false:  
+              appearance: west
+            facing=east,shifted=true:  
+              appearance: east_shifted  
+            facing=north,shifted=true:  
+              appearance: north_shifted  
+            facing=south,shifted=true:  
+              appearance: south_shifted  
+            facing=west,shifted=true:  
+              appearance: west_shifted 
+        events: 
+          - on: right_click 
+            functions: 
+              - type: cycle_block_property   
+                property: shifted
+                conditions:
+                  - type: match_item
+                    id: "ultramarine:wooden_mallet"
+              - type: damage_item
+                damage: 1
+  ultramarine:yellow_roof_tile_shifted:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.yellow_roof_tile><image:ultramarine:muchui>
+    model: minecraft:block/custom/yellow_roof_tile_shifted
+# 黄色瓦当楼梯
+  ultramarine:yellow_roof_tile_stair:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.yellow_roof_tile_stair><image:ultramarine:muchui>
+    model: minecraft:block/custom/yellow_roof_tile_stair
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self      
+        settings:
+          hardness: 2.5
+          resistance: 2.5
+          push-reaction: block
+          map-color: 18
+          correct_tools: ["#minecraft:pickaxes"]
+          required_break_power: 1
+          tags: ["minecraft:mineable/pickaxe"]
+          sounds:
+            break: minecraft:block.deepslate_tiles.break
+            step: minecraft:block.deepslate_tiles.step
+            place: minecraft:block.deepslate_tiles.place
+            hit: minecraft:block.deepslate_tiles.hit
+            fall: minecraft:block.deepslate_tiles.fall
+          destroy_stages:
+            template: internal:destroy_stages
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: south
+            shifted:  
+              type: boolean  
+              default: false
+          appearances:
+            east:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:yellow_roof_tile_stair
+                rotation: -90
+            north:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:yellow_roof_tile_stair
+                rotation: 180
+            south:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:yellow_roof_tile_stair
+            west:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:yellow_roof_tile_stair
+                rotation: 90
+            east_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:yellow_roof_tile_stair_shifted
+                rotation: -90
+                translation: 0,0.01,0
+            north_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:yellow_roof_tile_stair_shifted
+                rotation: 180
+                translation: 0,0.01,0
+            south_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:yellow_roof_tile_stair_shifted
+                translation: 0,0.01,0
+            west_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:yellow_roof_tile_stair_shifted
+                rotation: 90
+                translation: 0,0.01,0
+          variants:  
+            facing=east,shifted=false:  
+              appearance: east  
+            facing=north,shifted=false:  
+              appearance: north  
+            facing=south,shifted=false:  
+              appearance: south  
+            facing=west,shifted=false:  
+              appearance: west
+            facing=east,shifted=true:  
+              appearance: east_shifted  
+            facing=north,shifted=true:  
+              appearance: north_shifted  
+            facing=south,shifted=true:  
+              appearance: south_shifted  
+            facing=west,shifted=true:  
+              appearance: west_shifted 
+        events: 
+          - on: right_click 
+            functions: 
+              - type: cycle_block_property   
+                property: shifted
+                conditions:
+                  - type: match_item
+                    id: "ultramarine:wooden_mallet"
+              - type: damage_item
+                damage: 1
+  ultramarine:yellow_roof_tile_stair_shifted:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.yellow_roof_tile_stair><image:ultramarine:muchui>
+    model: minecraft:block/custom/yellow_roof_tile_stair_shifted
+# 黄色瓦当边缘
+  ultramarine:yellow_roof_tile_edge:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.yellow_roof_tile_edge><image:ultramarine:muchui>
+    model: minecraft:block/custom/yellow_roof_tile_edge
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self      
+        settings:
+          hardness: 2.5
+          resistance: 2.5
+          push-reaction: block
+          map-color: 18
+          correct_tools: ["#minecraft:pickaxes"]
+          required_break_power: 1
+          tags: ["minecraft:mineable/pickaxe"]
+          sounds:
+            break: minecraft:block.deepslate_tiles.break
+            step: minecraft:block.deepslate_tiles.step
+            place: minecraft:block.deepslate_tiles.place
+            hit: minecraft:block.deepslate_tiles.hit
+            fall: minecraft:block.deepslate_tiles.fall
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: south
+            shifted:  
+              type: boolean  
+              default: false
+          appearances:
+            east:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:yellow_roof_tile_edge
+                rotation: -90
+            north:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:yellow_roof_tile_edge
+                rotation: 180
+            south:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:yellow_roof_tile_edge
+            west:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:yellow_roof_tile_edge
+                rotation: 90
+            east_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:yellow_roof_tile_edge_shifted
+                rotation: -90
+                translation: 0,0.01,0
+            north_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:yellow_roof_tile_edge_shifted
+                rotation: 180
+                translation: 0,0.01,0
+            south_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:yellow_roof_tile_edge_shifted
+                translation: 0,0.01,0
+            west_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:yellow_roof_tile_edge_shifted
+                rotation: 90
+                translation: 0,0.01,0
+          variants:  
+            facing=east,shifted=false:  
+              appearance: east  
+            facing=north,shifted=false:  
+              appearance: north  
+            facing=south,shifted=false:  
+              appearance: south  
+            facing=west,shifted=false:  
+              appearance: west
+            facing=east,shifted=true:  
+              appearance: east_shifted  
+            facing=north,shifted=true:  
+              appearance: north_shifted  
+            facing=south,shifted=true:  
+              appearance: south_shifted  
+            facing=west,shifted=true:  
+              appearance: west_shifted 
+        events: 
+          - on: right_click 
+            functions: 
+              - type: cycle_block_property   
+                property: shifted
+                conditions:
+                  - type: match_item
+                    id: "ultramarine:wooden_mallet"
+              - type: damage_item
+                damage: 1
+  ultramarine:yellow_roof_tile_edge_shifted:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.yellow_roof_tile_edge><image:ultramarine:muchui>
+    model: minecraft:block/custom/yellow_roof_tile_edge_shifted
+# 绿色瓦当
+  ultramarine:green_roof_tile:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.green_roof_tile><image:ultramarine:muchui>
+    model: minecraft:block/custom/green_roof_tile
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self      
+        settings:
+          hardness: 2.5
+          resistance: 2.5
+          push-reaction: block
+          map-color: 7
+          correct_tools: ["#minecraft:pickaxes"]
+          required_break_power: 1
+          tags: ["minecraft:mineable/pickaxe"]
+          sounds:
+            break: minecraft:block.deepslate_tiles.break
+            step: minecraft:block.deepslate_tiles.step
+            place: minecraft:block.deepslate_tiles.place
+            hit: minecraft:block.deepslate_tiles.hit
+            fall: minecraft:block.deepslate_tiles.fall
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: south
+            shifted:  
+              type: boolean  
+              default: false
+          appearances:
+            east:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:green_roof_tile
+                rotation: -90
+            north:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:green_roof_tile
+                rotation: 180
+            south:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:green_roof_tile
+            west:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:green_roof_tile
+                rotation: 90
+            east_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:green_roof_tile_shifted
+                rotation: -90
+                translation: 0,0.01,0
+            north_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:green_roof_tile_shifted
+                rotation: 180
+                translation: 0,0.01,0
+            south_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:green_roof_tile_shifted
+                translation: 0,0.01,0
+            west_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:green_roof_tile_shifted
+                rotation: 90
+                translation: 0,0.01,0
+          variants:  
+            facing=east,shifted=false:  
+              appearance: east  
+            facing=north,shifted=false:  
+              appearance: north  
+            facing=south,shifted=false:  
+              appearance: south  
+            facing=west,shifted=false:  
+              appearance: west
+            facing=east,shifted=true:  
+              appearance: east_shifted  
+            facing=north,shifted=true:  
+              appearance: north_shifted  
+            facing=south,shifted=true:  
+              appearance: south_shifted  
+            facing=west,shifted=true:  
+              appearance: west_shifted 
+        events: 
+          - on: right_click 
+            functions: 
+              - type: cycle_block_property   
+                property: shifted
+                conditions:
+                  - type: match_item
+                    id: "ultramarine:wooden_mallet"
+              - type: damage_item
+                damage: 1
+  ultramarine:green_roof_tile_shifted:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.green_roof_tile><image:ultramarine:muchui>
+    model: minecraft:block/custom/green_roof_tile_shifted
+# 绿色瓦当楼梯
+  ultramarine:green_roof_tile_stair:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.green_roof_tile_stair><image:ultramarine:muchui>
+    model: minecraft:block/custom/green_roof_tile_stair
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self      
+        settings:
+          hardness: 2.5
+          resistance: 2.5
+          push-reaction: block
+          map-color: 7
+          correct_tools: ["#minecraft:pickaxes"]
+          required_break_power: 1
+          tags: ["minecraft:mineable/pickaxe"]
+          sounds:
+            break: minecraft:block.deepslate_tiles.break
+            step: minecraft:block.deepslate_tiles.step
+            place: minecraft:block.deepslate_tiles.place
+            hit: minecraft:block.deepslate_tiles.hit
+            fall: minecraft:block.deepslate_tiles.fall
+          destroy_stages:
+            template: internal:destroy_stages
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: south
+            shifted:  
+              type: boolean  
+              default: false
+          appearances:
+            east:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:green_roof_tile_stair
+                rotation: -90
+            north:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:green_roof_tile_stair
+                rotation: 180
+            south:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:green_roof_tile_stair
+            west:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:green_roof_tile_stair
+                rotation: 90
+            east_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:green_roof_tile_stair_shifted
+                rotation: -90
+                translation: 0,0.01,0
+            north_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:green_roof_tile_stair_shifted
+                rotation: 180
+                translation: 0,0.01,0
+            south_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:green_roof_tile_stair_shifted
+                translation: 0,0.01,0
+            west_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:green_roof_tile_stair_shifted
+                rotation: 90
+                translation: 0,0.01,0
+          variants:  
+            facing=east,shifted=false:  
+              appearance: east  
+            facing=north,shifted=false:  
+              appearance: north  
+            facing=south,shifted=false:  
+              appearance: south  
+            facing=west,shifted=false:  
+              appearance: west
+            facing=east,shifted=true:  
+              appearance: east_shifted  
+            facing=north,shifted=true:  
+              appearance: north_shifted  
+            facing=south,shifted=true:  
+              appearance: south_shifted  
+            facing=west,shifted=true:  
+              appearance: west_shifted 
+        events: 
+          - on: right_click 
+            functions: 
+              - type: cycle_block_property   
+                property: shifted
+                conditions:
+                  - type: match_item
+                    id: "ultramarine:wooden_mallet"
+              - type: damage_item
+                damage: 1
+  ultramarine:green_roof_tile_stair_shifted:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.green_roof_tile_stair><image:ultramarine:muchui>
+    model: minecraft:block/custom/green_roof_tile_stair_shifted
+# 绿色瓦当边缘
+  ultramarine:green_roof_tile_edge:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.green_roof_tile_edge><image:ultramarine:muchui>
+    model: minecraft:block/custom/green_roof_tile_edge
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self      
+        settings:
+          hardness: 2.5
+          resistance: 2.5
+          push-reaction: block
+          map-color: 7
+          correct_tools: ["#minecraft:pickaxes"]
+          required_break_power: 1
+          tags: ["minecraft:mineable/pickaxe"]
+          sounds:
+            break: minecraft:block.deepslate_tiles.break
+            step: minecraft:block.deepslate_tiles.step
+            place: minecraft:block.deepslate_tiles.place
+            hit: minecraft:block.deepslate_tiles.hit
+            fall: minecraft:block.deepslate_tiles.fall
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: south
+            shifted:  
+              type: boolean  
+              default: false
+          appearances:
+            east:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:green_roof_tile_edge
+                rotation: -90
+            north:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:green_roof_tile_edge
+                rotation: 180
+            south:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:green_roof_tile_edge
+            west:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:green_roof_tile_edge
+                rotation: 90
+            east_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:green_roof_tile_edge_shifted
+                rotation: -90
+                translation: 0,0.01,0
+            north_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:green_roof_tile_edge_shifted
+                rotation: 180
+                translation: 0,0.01,0
+            south_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:green_roof_tile_edge_shifted
+                translation: 0,0.01,0
+            west_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:green_roof_tile_edge_shifted
+                rotation: 90
+                translation: 0,0.01,0
+          variants:  
+            facing=east,shifted=false:  
+              appearance: east  
+            facing=north,shifted=false:  
+              appearance: north  
+            facing=south,shifted=false:  
+              appearance: south  
+            facing=west,shifted=false:  
+              appearance: west
+            facing=east,shifted=true:  
+              appearance: east_shifted  
+            facing=north,shifted=true:  
+              appearance: north_shifted  
+            facing=south,shifted=true:  
+              appearance: south_shifted  
+            facing=west,shifted=true:  
+              appearance: west_shifted
+        events: 
+          - on: right_click 
+            functions: 
+              - type: cycle_block_property   
+                property: shifted
+                conditions:
+                  - type: match_item
+                    id: "ultramarine:wooden_mallet"
+              - type: damage_item
+                damage: 1  
+  ultramarine:green_roof_tile_edge_shifted:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.green_roof_tile_edge><image:ultramarine:muchui>
+    model: minecraft:block/custom/green_roof_tile_edge_shifted
+# 蓝色瓦当
+  ultramarine:blue_roof_tile:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.blue_roof_tile><image:ultramarine:muchui>
+    model: minecraft:block/custom/blue_roof_tile
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self      
+        settings:
+          hardness: 2.5
+          resistance: 2.5
+          push-reaction: block
+          map-color: 7
+          correct_tools: ["#minecraft:pickaxes"]
+          required_break_power: 1
+          tags: ["minecraft:mineable/pickaxe"]
+          sounds:
+            break: minecraft:block.deepslate_tiles.break
+            step: minecraft:block.deepslate_tiles.step
+            place: minecraft:block.deepslate_tiles.place
+            hit: minecraft:block.deepslate_tiles.hit
+            fall: minecraft:block.deepslate_tiles.fall
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: south
+            shifted:  
+              type: boolean  
+              default: false
+          appearances:
+            east:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:blue_roof_tile
+                rotation: -90
+            north:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:blue_roof_tile
+                rotation: 180
+            south:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:blue_roof_tile
+            west:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:blue_roof_tile
+                rotation: 90
+            east_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:blue_roof_tile_shifted
+                rotation: -90
+                translation: 0,0.01,0
+            north_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:blue_roof_tile_shifted
+                rotation: 180
+                translation: 0,0.01,0
+            south_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:blue_roof_tile_shifted
+                translation: 0,0.01,0
+            west_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:blue_roof_tile_shifted
+                rotation: 90
+                translation: 0,0.01,0
+          variants:  
+            facing=east,shifted=false:  
+              appearance: east  
+            facing=north,shifted=false:  
+              appearance: north  
+            facing=south,shifted=false:  
+              appearance: south  
+            facing=west,shifted=false:  
+              appearance: west
+            facing=east,shifted=true:  
+              appearance: east_shifted  
+            facing=north,shifted=true:  
+              appearance: north_shifted  
+            facing=south,shifted=true:  
+              appearance: south_shifted  
+            facing=west,shifted=true:  
+              appearance: west_shifted  
+        events: 
+          - on: right_click 
+            functions: 
+              - type: cycle_block_property   
+                property: shifted
+                conditions:
+                  - type: match_item
+                    id: "ultramarine:wooden_mallet"
+              - type: damage_item
+                damage: 1 
+  ultramarine:blue_roof_tile_shifted:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.blue_roof_tile><image:ultramarine:muchui>
+    model: minecraft:block/custom/blue_roof_tile_shifted
+# 蓝色瓦当楼梯
+  ultramarine:blue_roof_tile_stair:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.blue_roof_tile_stair><image:ultramarine:muchui>
+    model: minecraft:block/custom/blue_roof_tile_stair
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self      
+        settings:
+          hardness: 2.5
+          resistance: 2.5
+          push-reaction: block
+          map-color: 7
+          correct_tools: ["#minecraft:pickaxes"]
+          required_break_power: 1
+          tags: ["minecraft:mineable/pickaxe"]
+          sounds:
+            break: minecraft:block.deepslate_tiles.break
+            step: minecraft:block.deepslate_tiles.step
+            place: minecraft:block.deepslate_tiles.place
+            hit: minecraft:block.deepslate_tiles.hit
+            fall: minecraft:block.deepslate_tiles.fall
+          destroy_stages:
+            template: internal:destroy_stages
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: south
+            shifted:  
+              type: boolean  
+              default: false
+          appearances:
+            east:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:blue_roof_tile_stair
+                rotation: -90
+            north:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:blue_roof_tile_stair
+                rotation: 180
+            south:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:blue_roof_tile_stair
+            west:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:blue_roof_tile_stair
+                rotation: 90
+            east_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:blue_roof_tile_stair_shifted
+                rotation: -90
+                translation: 0,0.01,0
+            north_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:blue_roof_tile_stair_shifted
+                rotation: 180
+                translation: 0,0.01,0
+            south_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:blue_roof_tile_stair_shifted
+                translation: 0,0.01,0
+            west_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:blue_roof_tile_stair_shifted
+                rotation: 90
+                translation: 0,0.01,0
+          variants:  
+            facing=east,shifted=false:  
+              appearance: east  
+            facing=north,shifted=false:  
+              appearance: north  
+            facing=south,shifted=false:  
+              appearance: south  
+            facing=west,shifted=false:  
+              appearance: west
+            facing=east,shifted=true:  
+              appearance: east_shifted  
+            facing=north,shifted=true:  
+              appearance: north_shifted  
+            facing=south,shifted=true:  
+              appearance: south_shifted  
+            facing=west,shifted=true:  
+              appearance: west_shifted  
+        events: 
+          - on: right_click 
+            functions: 
+              - type: cycle_block_property   
+                property: shifted
+                conditions:
+                  - type: match_item
+                    id: "ultramarine:wooden_mallet"
+              - type: damage_item
+                damage: 1  
+  ultramarine:blue_roof_tile_stair_shifted:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.blue_roof_tile_stair><image:ultramarine:muchui>
+    model: minecraft:block/custom/blue_roof_tile_stair_shifted
+# 蓝色瓦当边缘
+  ultramarine:blue_roof_tile_edge:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.blue_roof_tile_edge><image:ultramarine:muchui>
+    model: minecraft:block/custom/blue_roof_tile_edge
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self      
+        settings:
+          hardness: 2.5
+          resistance: 2.5
+          push-reaction: block
+          map-color: 7
+          correct_tools: ["#minecraft:pickaxes"]
+          required_break_power: 1
+          tags: ["minecraft:mineable/pickaxe"]
+          sounds:
+            break: minecraft:block.deepslate_tiles.break
+            step: minecraft:block.deepslate_tiles.step
+            place: minecraft:block.deepslate_tiles.place
+            hit: minecraft:block.deepslate_tiles.hit
+            fall: minecraft:block.deepslate_tiles.fall
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: south
+            shifted:  
+              type: boolean  
+              default: false
+          appearances:
+            east:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:blue_roof_tile_edge
+                rotation: -90
+            north:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:blue_roof_tile_edge
+                rotation: 180
+            south:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:blue_roof_tile_edge
+            west:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:blue_roof_tile_edge
+                rotation: 90
+            east_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:blue_roof_tile_edge_shifted
+                rotation: -90
+                translation: 0,0.01,0
+            north_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:blue_roof_tile_edge_shifted
+                rotation: 180
+                translation: 0,0.01,0
+            south_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:blue_roof_tile_edge_shifted
+                translation: 0,0.01,0
+            west_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:blue_roof_tile_edge_shifted
+                rotation: 90
+                translation: 0,0.01,0
+          variants:  
+            facing=east,shifted=false:  
+              appearance: east  
+            facing=north,shifted=false:  
+              appearance: north  
+            facing=south,shifted=false:  
+              appearance: south  
+            facing=west,shifted=false:  
+              appearance: west
+            facing=east,shifted=true:  
+              appearance: east_shifted  
+            facing=north,shifted=true:  
+              appearance: north_shifted  
+            facing=south,shifted=true:  
+              appearance: south_shifted  
+            facing=west,shifted=true:  
+              appearance: west_shifted 
+        events: 
+          - on: right_click 
+            functions: 
+              - type: cycle_block_property   
+                property: shifted
+                conditions:
+                  - type: match_item
+                    id: "ultramarine:wooden_mallet"
+              - type: damage_item
+                damage: 1  
+  ultramarine:blue_roof_tile_edge_shifted:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.blue_roof_tile_edge><image:ultramarine:muchui>
+    model: minecraft:block/custom/blue_roof_tile_edge_shifted
+# 青色瓦当
+  ultramarine:cyan_roof_tile:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.cyan_roof_tile><image:ultramarine:muchui>
+    model: minecraft:block/custom/cyan_roof_tile
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self      
+        settings:
+          hardness: 2.5
+          resistance: 2.5
+          push-reaction: block
+          map-color: 31
+          correct_tools: ["#minecraft:pickaxes"]
+          required_break_power: 1
+          tags: ["minecraft:mineable/pickaxe"]
+          sounds:
+            break: minecraft:block.deepslate_tiles.break
+            step: minecraft:block.deepslate_tiles.step
+            place: minecraft:block.deepslate_tiles.place
+            hit: minecraft:block.deepslate_tiles.hit
+            fall: minecraft:block.deepslate_tiles.fall
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: south
+            shifted:  
+              type: boolean  
+              default: false
+          appearances:
+            east:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:cyan_roof_tile
+                rotation: -90
+            north:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:cyan_roof_tile
+                rotation: 180
+            south:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:cyan_roof_tile
+            west:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:cyan_roof_tile
+                rotation: 90
+            east_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:cyan_roof_tile_shifted
+                rotation: -90
+                translation: 0,0.01,0
+            north_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:cyan_roof_tile_shifted
+                rotation: 180
+                translation: 0,0.01,0
+            south_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:cyan_roof_tile_shifted
+                translation: 0,0.01,0
+            west_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:cyan_roof_tile_shifted
+                rotation: 90
+                translation: 0,0.01,0
+          variants:  
+            facing=east,shifted=false:  
+              appearance: east  
+            facing=north,shifted=false:  
+              appearance: north  
+            facing=south,shifted=false:  
+              appearance: south  
+            facing=west,shifted=false:  
+              appearance: west
+            facing=east,shifted=true:  
+              appearance: east_shifted  
+            facing=north,shifted=true:  
+              appearance: north_shifted  
+            facing=south,shifted=true:  
+              appearance: south_shifted  
+            facing=west,shifted=true:  
+              appearance: west_shifted  
+        events: 
+          - on: right_click 
+            functions: 
+              - type: cycle_block_property   
+                property: shifted
+                conditions:
+                  - type: match_item
+                    id: "ultramarine:wooden_mallet"
+              - type: damage_item
+                damage: 1 
+  ultramarine:cyan_roof_tile_shifted:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.cyan_roof_tile><image:ultramarine:muchui>
+    model: minecraft:block/custom/cyan_roof_tile_shifted
+# 青色瓦当楼梯
+  ultramarine:cyan_roof_tile_stair:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.cyan_roof_tile_stair><image:ultramarine:muchui>
+    model: minecraft:block/custom/cyan_roof_tile_stair
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self      
+        settings:
+          hardness: 2.5
+          resistance: 2.5
+          push-reaction: block
+          map-color: 31
+          correct_tools: ["#minecraft:pickaxes"]
+          required_break_power: 1
+          tags: ["minecraft:mineable/pickaxe"]
+          sounds:
+            break: minecraft:block.deepslate_tiles.break
+            step: minecraft:block.deepslate_tiles.step
+            place: minecraft:block.deepslate_tiles.place
+            hit: minecraft:block.deepslate_tiles.hit
+            fall: minecraft:block.deepslate_tiles.fall
+          destroy_stages:
+            template: internal:destroy_stages
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: north
+            shifted:  
+              type: boolean  
+              default: false
+          appearances:
+            east:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:cyan_roof_tile_stair
+                rotation: -90
+            north:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:cyan_roof_tile_stair
+                rotation: 180
+            south:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:cyan_roof_tile_stair
+            west:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:cyan_roof_tile_stair
+                rotation: 90
+            east_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:cyan_roof_tile_stair_shifted
+                rotation: -90
+                translation: 0,0.01,0
+            north_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:cyan_roof_tile_stair_shifted
+                rotation: 180
+                translation: 0,0.01,0
+            south_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:cyan_roof_tile_stair_shifted
+                translation: 0,0.01,0
+            west_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:cyan_roof_tile_stair_shifted
+                rotation: 90
+                translation: 0,0.01,0
+          variants:  
+            facing=east,shifted=false:  
+              appearance: east  
+            facing=north,shifted=false:  
+              appearance: north  
+            facing=south,shifted=false:  
+              appearance: south  
+            facing=west,shifted=false:  
+              appearance: west
+            facing=east,shifted=true:  
+              appearance: east_shifted  
+            facing=north,shifted=true:  
+              appearance: north_shifted  
+            facing=south,shifted=true:  
+              appearance: south_shifted  
+            facing=west,shifted=true:  
+              appearance: west_shifted
+        events: 
+          - on: right_click 
+            functions: 
+              - type: cycle_block_property   
+                property: shifted
+                conditions:
+                  - type: match_item
+                    id: "ultramarine:wooden_mallet"
+              - type: damage_item
+                damage: 1  
+  ultramarine:cyan_roof_tile_stair_shifted:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.cyan_roof_tile_stair><image:ultramarine:muchui>
+    model: minecraft:block/custom/cyan_roof_tile_stair_shifted
+# 青色瓦当边缘
+  ultramarine:cyan_roof_tile_edge:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.cyan_roof_tile_edge><image:ultramarine:muchui>
+    model: minecraft:block/custom/cyan_roof_tile_edge
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self      
+        settings:
+          hardness: 2.5
+          resistance: 2.5
+          push-reaction: block
+          map-color: 31
+          correct_tools: ["#minecraft:pickaxes"]
+          required_break_power: 1
+          tags: ["minecraft:mineable/pickaxe"]
+          sounds:
+            break: minecraft:block.deepslate_tiles.break
+            step: minecraft:block.deepslate_tiles.step
+            place: minecraft:block.deepslate_tiles.place
+            hit: minecraft:block.deepslate_tiles.hit
+            fall: minecraft:block.deepslate_tiles.fall
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: south
+            shifted:  
+              type: boolean  
+              default: false
+          appearances:
+            east:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:cyan_roof_tile_edge
+                rotation: -90
+            north:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:cyan_roof_tile_edge
+                rotation: 180
+            south:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:cyan_roof_tile_edge
+            west:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:cyan_roof_tile_edge
+                rotation: 90
+            east_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:cyan_roof_tile_edge_shifted
+                rotation: -90
+                translation: 0,0.01,0
+            north_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:cyan_roof_tile_edge_shifted
+                rotation: 180
+                translation: 0,0.01,0
+            south_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:cyan_roof_tile_edge_shifted
+                translation: 0,0.01,0
+            west_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:cyan_roof_tile_edge_shifted
+                rotation: 90
+                translation: 0,0.01,0
+          variants:  
+            facing=east,shifted=false:  
+              appearance: east  
+            facing=north,shifted=false:  
+              appearance: north  
+            facing=south,shifted=false:  
+              appearance: south  
+            facing=west,shifted=false:  
+              appearance: west
+            facing=east,shifted=true:  
+              appearance: east_shifted  
+            facing=north,shifted=true:  
+              appearance: north_shifted  
+            facing=south,shifted=true:  
+              appearance: south_shifted  
+            facing=west,shifted=true:  
+              appearance: west_shifted
+        events: 
+          - on: right_click 
+            functions: 
+              - type: cycle_block_property   
+                property: shifted
+                conditions:
+                  - type: match_item
+                    id: "ultramarine:wooden_mallet"
+              - type: damage_item
+                damage: 1  
+  ultramarine:cyan_roof_tile_edge_shifted:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.cyan_roof_tile_edge><image:ultramarine:muchui>
+    model: minecraft:block/custom/cyan_roof_tile_edge_shifted
+# 黑色瓦当
+  ultramarine:black_roof_tile:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.black_roof_tile><image:ultramarine:muchui>
+    model: minecraft:block/custom/black_roof_tile
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self      
+        settings:
+          hardness: 2.5
+          resistance: 2.5
+          push-reaction: block
+          map-color: 29
+          correct_tools: ["#minecraft:pickaxes"]
+          required_break_power: 1
+          tags: ["minecraft:mineable/pickaxe"]
+          sounds:
+            break: minecraft:block.deepslate_tiles.break
+            step: minecraft:block.deepslate_tiles.step
+            place: minecraft:block.deepslate_tiles.place
+            hit: minecraft:block.deepslate_tiles.hit
+            fall: minecraft:block.deepslate_tiles.fall
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: north
+            shifted:  
+              type: boolean  
+              default: false
+          appearances:
+            east:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:black_roof_tile
+                rotation: -90
+            north:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:black_roof_tile
+                rotation: 180
+            south:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:black_roof_tile
+            west:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:black_roof_tile
+                rotation: 90
+            east_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:black_roof_tile_shifted
+                rotation: -90
+                translation: 0,0.01,0
+            north_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:black_roof_tile_shifted
+                rotation: 180
+                translation: 0,0.01,0
+            south_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:black_roof_tile_shifted
+                translation: 0,0.01,0
+            west_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:black_roof_tile_shifted
+                rotation: 90
+                translation: 0,0.01,0
+          variants:  
+            facing=east,shifted=false:  
+              appearance: east  
+            facing=north,shifted=false:  
+              appearance: north  
+            facing=south,shifted=false:  
+              appearance: south  
+            facing=west,shifted=false:  
+              appearance: west
+            facing=east,shifted=true:  
+              appearance: east_shifted  
+            facing=north,shifted=true:  
+              appearance: north_shifted  
+            facing=south,shifted=true:  
+              appearance: south_shifted  
+            facing=west,shifted=true:  
+              appearance: west_shifted
+        events: 
+          - on: right_click 
+            functions: 
+              - type: cycle_block_property   
+                property: shifted
+                conditions:
+                  - type: match_item
+                    id: "ultramarine:wooden_mallet"
+              - type: damage_item
+                damage: 1  
+  ultramarine:black_roof_tile_shifted:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.black_roof_tile><image:ultramarine:muchui>
+    model: minecraft:block/custom/black_roof_tile_shifted
+# 黑色瓦当楼梯
+  ultramarine:black_roof_tile_stair:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.black_roof_tile_stair><image:ultramarine:muchui>
+    model: minecraft:block/custom/black_roof_tile_stair
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self      
+        settings:
+          hardness: 2.5
+          resistance: 2.5
+          push-reaction: block
+          map-color: 29
+          correct_tools: ["#minecraft:pickaxes"]
+          required_break_power: 1
+          tags: ["minecraft:mineable/pickaxe"]
+          sounds:
+            break: minecraft:block.deepslate_tiles.break
+            step: minecraft:block.deepslate_tiles.step
+            place: minecraft:block.deepslate_tiles.place
+            hit: minecraft:block.deepslate_tiles.hit
+            fall: minecraft:block.deepslate_tiles.fall
+          destroy_stages:
+            template: internal:destroy_stages
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: south
+            shifted:  
+              type: boolean  
+              default: false
+          appearances:
+            east:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:black_roof_tile_stair
+                rotation: -90
+            north:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:black_roof_tile_stair
+                rotation: 180
+            south:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:black_roof_tile_stair
+            west:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:black_roof_tile_stair
+                rotation: 90
+            east_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:black_roof_tile_stair_shifted
+                rotation: -90
+                translation: 0,0.01,0
+            north_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:black_roof_tile_stair_shifted
+                rotation: 180
+                translation: 0,0.01,0
+            south_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:black_roof_tile_stair_shifted
+                translation: 0,0.01,0
+            west_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:black_roof_tile_stair_shifted
+                rotation: 90
+                translation: 0,0.01,0
+          variants:  
+            facing=east,shifted=false:  
+              appearance: east  
+            facing=north,shifted=false:  
+              appearance: north  
+            facing=south,shifted=false:  
+              appearance: south  
+            facing=west,shifted=false:  
+              appearance: west
+            facing=east,shifted=true:  
+              appearance: east_shifted  
+            facing=north,shifted=true:  
+              appearance: north_shifted  
+            facing=south,shifted=true:  
+              appearance: south_shifted  
+            facing=west,shifted=true:  
+              appearance: west_shifted
+        events: 
+          - on: right_click 
+            functions: 
+              - type: cycle_block_property   
+                property: shifted
+                conditions:
+                  - type: match_item
+                    id: "ultramarine:wooden_mallet"
+              - type: damage_item
+                damage: 1 
+  ultramarine:black_roof_tile_stair_shifted:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.black_roof_tile_stair><image:ultramarine:muchui>
+    model: minecraft:block/custom/black_roof_tile_stair_shifted
+# 黑色瓦当边缘
+  ultramarine:black_roof_tile_edge:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.black_roof_tile_edge><image:ultramarine:muchui>
+    model: minecraft:block/custom/black_roof_tile_edge
+    behavior:
+      type: block_item
+      block:
+        loot:
+          template: default:loot_table/self      
+        settings:
+          hardness: 2.5
+          resistance: 2.5
+          push-reaction: block
+          map-color: 29
+          correct_tools: ["#minecraft:pickaxes"]
+          required_break_power: 1
+          tags: ["minecraft:mineable/pickaxe"]
+          sounds:
+            break: minecraft:block.deepslate_tiles.break
+            step: minecraft:block.deepslate_tiles.step
+            place: minecraft:block.deepslate_tiles.place
+            hit: minecraft:block.deepslate_tiles.hit
+            fall: minecraft:block.deepslate_tiles.fall
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: south
+            shifted:  
+              type: boolean  
+              default: false
+          appearances:
+            east:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:black_roof_tile_edge
+                rotation: -90
+            north:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:black_roof_tile_edge
+                rotation: 180
+            south:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:black_roof_tile_edge
+            west:  
+              state: barrier
+              entity-renderer:
+                item: ultramarine:black_roof_tile_edge
+                rotation: 90
+            east_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:black_roof_tile_edge_shifted
+                rotation: -90
+                translation: 0,0.01,0
+            north_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:black_roof_tile_edge_shifted
+                rotation: 180
+                translation: 0,0.01,0
+            south_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:black_roof_tile_edge_shifted
+                translation: 0,0.01,0
+            west_shifted:
+              state: barrier
+              entity-renderer:
+                item: ultramarine:black_roof_tile_edge_shifted
+                rotation: 90
+                translation: 0,0.01,0
+          variants:  
+            facing=east,shifted=false:  
+              appearance: east  
+            facing=north,shifted=false:  
+              appearance: north  
+            facing=south,shifted=false:  
+              appearance: south  
+            facing=west,shifted=false:  
+              appearance: west
+            facing=east,shifted=true:  
+              appearance: east_shifted  
+            facing=north,shifted=true:  
+              appearance: north_shifted  
+            facing=south,shifted=true:  
+              appearance: south_shifted  
+            facing=west,shifted=true:  
+              appearance: west_shifted
+        events: 
+          - on: right_click 
+            functions: 
+              - type: cycle_block_property   
+                property: shifted
+                conditions:
+                  - type: match_item
+                    id: "ultramarine:wooden_mallet"
+              - type: damage_item
+                damage: 1  
+  ultramarine:black_roof_tile_edge_shifted:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.black_roof_tile_edge><image:ultramarine:muchui>
+    model: minecraft:block/custom/black_roof_tile_edge_shifted

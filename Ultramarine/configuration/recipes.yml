@@ -1,0 +1,5515 @@
+recipes:
+# 青砖
+  ultramarine:cyan_brick:
+    type: shaped
+    category: building
+    pattern:
+      - "AA "
+      - "AA "
+      - "   "
+    ingredients:
+      A: "ultramarine:cyan_brick_item"
+    result:
+      id: ultramarine:cyan_brick
+      count: 1
+# 黑砖
+  ultramarine:black_brick:
+    type: shaped
+    category: building
+    pattern:
+      - "AA "
+      - "AA "
+      - "   "
+    ingredients:
+      A: "ultramarine:black_brick_item"
+    result:
+      id: ultramarine:black_brick
+      count: 1
+# 棕红石砖
+  ultramarine:brownish_red_stone_brick:
+    type: shaped
+    category: building
+    pattern:
+      - "AA "
+      - "AA "
+      - "   "
+    ingredients:
+      A: "ultramarine:brownish_red_stone_brick_item"
+    result:
+      id: ultramarine:brownish_red_stone_brick
+      count: 1
+# 绿风化砖
+  ultramarine:green_weathered_brick:
+    type: shaped
+    category: building
+    pattern:
+      - "AA "
+      - "AA "
+      - "   "
+    ingredients:
+      A: "ultramarine:green_weathered_stone"
+    result:
+      id: ultramarine:green_weathered_brick
+      count: 4
+# 杂色石
+  ultramarine:variegated_rock:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CD "
+      - "   "
+    ingredients:
+      A: "minecraft:cobblestone"
+      B: "minecraft:granite"
+      C: "minecraft:diorite"
+      D: "minecraft:andesite"
+    result:
+      id: ultramarine:variegated_rock
+      count: 4
+# 白粉杂色块
+  ultramarine:white_and_pink_mixed_brick:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "BA "
+      - "   "
+    ingredients:
+      A: "ultramarine:variegated_rock"
+      B: "ultramarine:pale_yellow_stone"
+    result:
+      id: ultramarine:white_and_pink_mixed_brick
+      count: 4
+# 淡黄石
+  ultramarine:pale_yellow_stone:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "   "
+      - "   "
+    ingredients:
+      A: "minecraft:stone"
+      B: "minecraft:sand"
+    result:
+      id: ultramarine:pale_yellow_stone
+      count: 2
+# 风化石
+  ultramarine:weathered_stone:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "   "
+      - "   "
+    ingredients:
+      A: "minecraft:stone"
+      B: "minecraft:gravel"
+    result:
+      id: ultramarine:weathered_stone
+      count: 2
+# 磨制风化石
+  ultramarine:polished_weathered_stone:
+    type: shaped
+    category: building
+    pattern:
+      - "AA "
+      - "AA "
+      - "   "
+    ingredients:
+      A: "ultramarine:weathered_stone"
+    result:
+      id: ultramarine:polished_weathered_stone
+      count: 4
+# 绿风化石
+  ultramarine:green_weathered_stone:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "   "
+      - "   "
+    ingredients:
+      A: "ultramarine:weathered_stone"
+      B: "minecraft:green_dye"
+    result:
+      id: ultramarine:green_weathered_stone
+      count: 1
+  ultramarine:green_weathered_stone2:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - "ABA"
+      - "AAA"
+    ingredients:
+      A: "ultramarine:weathered_stone"
+      B: "minecraft:green_dye"
+    result:
+      id: ultramarine:green_weathered_stone
+      count: 8
+# 淡青色地砖
+  ultramarine:light_cyan_floor_tile:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "   "
+      - "   "
+    ingredients:
+      A: "ultramarine:cyan_floor_tile"
+      B: "minecraft:white_dye"
+    result:
+      id: ultramarine:light_cyan_floor_tile
+      count: 1
+  ultramarine:light_cyan_floor_tile2:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - "ABA"
+      - "AAA"
+    ingredients:
+      A: "ultramarine:cyan_floor_tile"
+      B: "minecraft:white_dye"
+    result:
+      id: ultramarine:light_cyan_floor_tile
+      count: 8
+# 青地砖
+  ultramarine:cyan_floor_tile:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "   "
+      - "   "
+    ingredients:
+      A: "minecraft:smooth_stone"
+      B: "minecraft:cyan_dye"
+    result:
+      id: ultramarine:cyan_floor_tile
+      count: 1
+  ultramarine:cyan_floor_tile2:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - "ABA"
+      - "AAA"
+    ingredients:
+      A: "minecraft:smooth_stone"
+      B: "minecraft:cyan_dye"
+    result:
+      id: ultramarine:cyan_floor_tile
+      count: 8
+# 深青地砖
+  ultramarine:dark_cyan_floor_tile:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "   "
+      - "   "
+    ingredients:
+      A: "ultramarine:cyan_floor_tile"
+      B: "minecraft:black_dye"
+    result:
+      id: ultramarine:dark_cyan_floor_tile
+      count: 1
+  ultramarine:dark_cyan_floor_tile2:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - "ABA"
+      - "AAA"
+    ingredients:
+      A: "ultramarine:cyan_floor_tile"
+      B: "minecraft:black_dye"
+    result:
+      id: ultramarine:dark_cyan_floor_tile
+      count: 8
+# 青地砖(横一字)
+  ultramarine:layered_cyan_floor_tile:  
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:cyan_floor_tile"
+    result:
+      id: ultramarine:layered_cyan_floor_tile
+      count: 3
+# 青地砖（竖一字）
+  ultramarine:vertical_cyan_floor_tile:  
+    type: shaped
+    category: building
+    pattern:
+      - " A "
+      - " A "
+      - " A "
+    ingredient: 
+      A: "ultramarine:cyan_floor_tile"
+    result:
+      id: ultramarine:vertical_cyan_floor_tile
+      count: 3
+# 青地砖（丁字）
+  ultramarine:mixed_cyan_floor_tile:  
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - " A "
+      - " A "
+    ingredient: 
+      A: "ultramarine:cyan_floor_tile"
+    result:
+      id: ultramarine:mixed_cyan_floor_tile
+      count: 5
+# 青地砖（回字）
+  ultramarine:chiseled_cyan_floor_tile:  
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - "A A"
+      - "AAA"
+    ingredient: 
+      A: "ultramarine:cyan_floor_tile"
+    result:
+      id: ultramarine:chiseled_cyan_floor_tile
+      count: 8
+# 青地砖（十字）
+  ultramarine:cut_cyan_floor_tile:  
+    type: shaped
+    category: building
+    pattern:
+      - " A "
+      - "AAA"
+      - " A "
+    ingredient: 
+      A: "ultramarine:cyan_floor_tile"
+    result:
+      id: ultramarine:cut_cyan_floor_tile
+      count: 5
+# 风化红石砖
+  ultramarine:weathered_red_stone_tile1:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:polished_weathered_stone"
+      B: "minecraft:red_dye"
+    result:
+      id: ultramarine:weathered_red_stone_tile
+      count: 1
+  ultramarine:weathered_red_stone_tile2:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - "ABA"
+      - "AAA"
+    ingredient: 
+      A: "ultramarine:polished_weathered_stone"
+      B: "minecraft:red_dye"
+    result:
+      id: ultramarine:weathered_red_stone_tile
+      count: 8
+# 红地砖
+  ultramarine:red_floor_tile:
+    type: shaped
+    category: building
+    pattern:
+      - "AA "
+      - "AA "
+      - "   "
+    ingredient: 
+      A: "ultramarine:weathered_red_stone_tile"
+    result:
+      id: ultramarine:red_floor_tile
+      count: 4
+# 蓝黑砖
+  ultramarine:blue_and_black_tile1:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:dark_cyan_floor_tile"
+      B: "minecraft:blue_dye"
+    result:
+      id: ultramarine:blue_and_black_tile
+      count: 1
+  ultramarine:blue_and_black_tile2:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - "ABA"
+      - "AAA"
+    ingredient: 
+      A: "ultramarine:dark_cyan_floor_tile"
+      B: "minecraft:blue_dye"
+    result:
+      id: ultramarine:blue_and_black_tile
+      count: 8
+# 绿琉璃砖
+  ultramarine:green_glazed_tile:
+    type: shaped
+    category: building
+    pattern:
+      - " A "
+      - "ABA"
+      - " A "
+    ingredient: 
+      A: "ultramarine:green_roof_tile_item"
+      B: "minecraft:green_glazed_terracotta"
+    result:
+      id: ultramarine:green_glazed_tile
+      count: 2
+# 黑地砖
+  ultramarine:black_floor_tile:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "minecraft:cobbled_deepslate"
+      B: "ultramarine:black_brick"
+    result:
+      id: ultramarine:black_floor_tile
+      count: 2
+# 黑地砖 （少量青苔）
+  ultramarine:black_floor_tile_little_mossy1:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:black_floor_tile"
+      B: "minecraft:moss_block"
+    result:
+      id: ultramarine:black_floor_tile_little_mossy
+      count: 1
+  ultramarine:black_floor_tile_little_mossy2:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - "ABA"
+      - "AAA"
+    ingredient: 
+      A: "ultramarine:black_floor_tile"
+      B: "minecraft:moss_block"
+    result:
+      id: ultramarine:black_floor_tile_little_mossy
+      count: 8
+# 黑地砖 （中量青苔）
+  ultramarine:black_floor_tile_moderate_mossy1:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:black_floor_tile_little_mossy"
+      B: "minecraft:moss_block"
+    result:
+      id: ultramarine:black_floor_tile_moderate_mossy
+      count: 1
+  ultramarine:black_floor_tile_moderate_mossy2:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - "ABA"
+      - "AAA"
+    ingredient: 
+      A: "ultramarine:black_floor_tile_little_mossy"
+      B: "minecraft:moss_block"
+    result:
+      id: ultramarine:black_floor_tile_moderate_mossy
+      count: 8
+# 黑地砖（大量青苔）
+  ultramarine:black_floor_tile_big_mossy1:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:black_floor_tile_moderate_mossy"
+      B: "minecraft:moss_block"
+    result:
+      id: ultramarine:black_floor_tile_big_mossy
+      count: 1
+  ultramarine:black_floor_tile_big_mossy2:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - "ABA"
+      - "AAA"
+    ingredient: 
+      A: "ultramarine:black_floor_tile_moderate_mossy"
+      B: "minecraft:moss_block"
+    result:
+      id: ultramarine:black_floor_tile_big_mossy
+      count: 8
+# 红木板
+  ultramarine:rosewood_plank1:
+    type: smelting
+    experience: 0.1
+    category: blocks
+    time: 200
+    ingredient: "minecraft:mangrove_planks"
+    result:
+      id: ultramarine:rosewood_plank
+      count: 1
+  ultramarine:rosewood_plank2:
+    type: blasting
+    experience: 0.05
+    category: blocks
+    time: 100
+    ingredient: "minecraft:mangrove_planks"
+    result:
+      id: ultramarine:rosewood_plank
+      count: 1
+# 漆红木
+  ultramarine:varnished_rosewood:
+    type: shaped
+    category: building
+    pattern:
+      - "ABA"
+      - "BCB"
+      - "ABA"
+    ingredient: 
+      A: "minecraft:red_dye"
+      B: "ultramarine:polished_mangrove_plank"
+      C: "ultramarine:rosewood_plank"
+    result:
+      id: ultramarine:varnished_rosewood
+      count: 1
+# 竹席
+  ultramarine:bamboo_mat:
+    type: stonecutting
+    ingredient: "minecraft:bamboo_mosaic"
+    result:
+      id: ultramarine:bamboo_mat
+      count: 1
+# 黑脊上皮
+  ultramarine:black_roof_ridge_upper:
+    type: shaped
+    category: building
+    pattern:
+      - "   "
+      - "AAA"
+      - "A A"
+    ingredient: 
+      A: "ultramarine:black_roof_tile_item"
+    result:
+      id: ultramarine:black_roof_ridge_upper
+      count: 1
+# 黑脊下皮
+  ultramarine:black_roof_ridge_lower:
+    type: shaped
+    category: building
+    pattern:
+      - "   "
+      - "A A"
+      - "AAA"
+    ingredient: 
+      A: "ultramarine:black_roof_tile_item"
+    result:
+      id: ultramarine:black_roof_ridge_lower
+      count: 1
+# 黑脊链接
+  ultramarine:black_roof_ridge_connection:
+    type: shaped
+    category: building
+    pattern:
+      - "   "
+      - "AAA"
+      - "AAA"
+    ingredient: 
+      A: "ultramarine:black_roof_tile_item"
+    result:
+      id: ultramarine:black_roof_ridge_connection
+      count: 1
+# 黑脊正链接
+  ultramarine:black_main_roof_ridge_connection:
+    type: shaped
+    category: building
+    pattern:
+      - "   "
+      - "AAA"
+      - "BBB"
+    ingredient: 
+      A: "ultramarine:black_roof_tile_item"
+      B: "ultramarine:black_roof_ridge_connection"
+    result:
+      id: ultramarine:black_main_roof_ridge_connection
+      count: 1
+# 黄脊上皮
+  ultramarine:yellow_roof_ridge_upper:
+    type: shaped
+    category: building
+    pattern:
+      - "   "
+      - "AAA"
+      - "A A"
+    ingredient: 
+      A: "ultramarine:yellow_roof_tile_item"
+    result:
+      id: ultramarine:yellow_roof_ridge_upper
+      count: 1
+# 黄脊下皮
+  ultramarine:yellow_roof_ridge_lower:
+    type: shaped
+    category: building
+    pattern:
+      - "   "
+      - "A A"
+      - "AAA"
+    ingredient: 
+      A: "ultramarine:yellow_roof_tile_item"
+    result:
+      id: ultramarine:yellow_roof_ridge_lower
+      count: 1
+# 黄脊链接
+  ultramarine:yellow_roof_ridge_connection:
+    type: shaped
+    category: building
+    pattern:
+      - "   "
+      - "AAA"
+      - "AAA"
+    ingredient: 
+      A: "ultramarine:yellow_roof_tile_item"
+    result:
+      id: ultramarine:yellow_roof_ridge_connection
+      count: 1
+# 黄脊正链接
+  ultramarine:yellow_main_roof_ridge_connection:
+    type: shaped
+    category: building
+    pattern:
+      - "   "
+      - "AAA"
+      - "BBB"
+    ingredient: 
+      A: "ultramarine:yellow_roof_tile_item"
+      B: "ultramarine:yellow_roof_ridge_connection"
+    result:
+      id: ultramarine:yellow_main_roof_ridge_connection
+      count: 1
+# 红雕花木
+  ultramarine:red_carved_wood:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CC "
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:carved_wood_template"
+      C: "minecraft:red_dye"
+    result:
+      id: ultramarine:red_carved_wood
+      count: 1
+# 蓝雕花木
+  ultramarine:blue_carved_wood:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CC "
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:carved_wood_template"
+      C: "minecraft:blue_dye"
+    result:
+      id: ultramarine:blue_carved_wood
+      count: 1
+# 青雕花木
+  ultramarine:cyan_carved_wood:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CC "
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:carved_wood_template"
+      C: "minecraft:cyan_dye"
+    result:
+      id: ultramarine:cyan_carved_wood
+      count: 1
+# 绿雕花木
+  ultramarine:green_carved_wood:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CC "
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:carved_wood_template"
+      C: "minecraft:green_dye"
+    result:
+      id: ultramarine:green_carved_wood
+      count: 1
+# 橙蓝雕花木
+  ultramarine:orange_and_blue_carved_wood:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CD "
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:carved_wood_template"
+      C: "minecraft:orange_dye"
+      D: "minecraft:light_blue_dye"
+    result:
+      id: ultramarine:orange_and_blue_carved_wood
+      count: 1
+# 橙绿雕花木
+  ultramarine:orange_and_green_carved_wood:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CD "
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:carved_wood_template"
+      C: "minecraft:orange_dye"
+      D: "minecraft:lime_dye"
+    result:
+      id: ultramarine:orange_and_green_carved_wood
+      count: 1
+# 绿蓝雕花木
+  ultramarine:green_and_blue_carved_wood:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CD "
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:carved_wood_template"
+      C: "minecraft:lime_dye"
+      D: "minecraft:light_blue_dye"
+    result:
+      id: ultramarine:green_and_blue_carved_wood
+      count: 1
+# 深绿深蓝雕花木
+  ultramarine:dark_green_and_dark_blue_carved_wood:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:carved_wood_template"
+      C: "minecraft:green_dye"
+      D: "ultramarine:lime_dye_powder"
+      E: "minecraft:blue_dye"
+    result:
+      id: ultramarine:dark_green_and_dark_blue_carved_wood
+      count: 1
+# 深蓝深绿雕花木
+  ultramarine:dark_blue_and_dark_green_carved_wood:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:carved_wood_template"
+      C: "minecraft:blue_dye"
+      D: "ultramarine:light_blue_dye_powder"
+      E: "minecraft:green_dye"
+    result:
+      id: ultramarine:dark_blue_and_dark_green_carved_wood
+      count: 1
+# 黑白绿雕花木
+  ultramarine:black_white_green_carved_wood:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:carved_wood_template"
+      C: "minecraft:black_dye"
+      D: "ultramarine:white_dye_powder"
+      E: "minecraft:green_dye"
+    result:
+      id: ultramarine:black_white_green_carved_wood
+      count: 1
+# 黑白蓝雕花木
+  ultramarine:black_white_blue_carved_wood:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:carved_wood_template"
+      C: "minecraft:black_dye"
+      D: "ultramarine:white_dye_powder"
+      E: "minecraft:blue_dye"
+    result:
+      id: ultramarine:black_white_blue_carved_wood
+      count: 1
+# 红绿雕花木
+  ultramarine:red_and_green_carved_wood:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CD "
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:carved_wood_template"
+      C: "minecraft:red_dye"
+      D: "minecraft:blue_dye"
+    result:
+      id: ultramarine:red_and_green_carved_wood
+      count: 1
+# 蓝红雕花木
+  ultramarine:blue_and_red_carved_wood:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CD "
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:carved_wood_template"
+      C: "minecraft:blue_dye"
+      D: "minecraft:red_dye"
+    result:
+      id: ultramarine:blue_and_red_carved_wood
+      count: 1
+# 蓝白红雕花木
+  ultramarine:blue_white_red_carved_wood:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "F  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:carved_wood_template"
+      C: "ultramarine:blue_dye_powder"
+      D: "ultramarine:white_dye_powder"
+      E: "minecraft:red_dye"
+      F: "ultramarine:green_dye_powder"
+    result:
+      id: ultramarine:blue_white_red_carved_wood
+      count: 1
+# 绿白红雕花木
+  ultramarine:green_white_red_carved_wood:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "F  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:carved_wood_template"
+      C: "ultramarine:blue_dye_powder"
+      D: "ultramarine:white_dye_powder"
+      E: "minecraft:red_dye"
+      F: "ultramarine:blue_dye_powder"
+    result:
+      id: ultramarine:green_white_red_carved_wood
+      count: 1
+# 蓝黄雕花木
+  ultramarine:blue_and_yellow_carved_wood_variant_1:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "F  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:carved_wood_template"
+      C: "minecraft:blue_dye"
+      D: "minecraft:blue_dye"
+      E: "ultramarine:green_dye_powder"
+      F: "minecraft:yellow_dye"
+    result:
+      id: ultramarine:blue_and_yellow_carved_wood_variant_1
+      count: 1
+  ultramarine:blue_and_yellow_carved_wood_variant_2_1:
+    type: shaped
+    category: building
+    pattern:
+      - "A  "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:blue_and_yellow_carved_wood_variant_1"
+    result:
+      id: ultramarine:blue_and_yellow_carved_wood_variant_2
+      count: 1
+  ultramarine:blue_and_yellow_carved_wood_variant_2_2:
+    type: shaped
+    category: building
+    pattern:
+      - "A  "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:blue_and_yellow_carved_wood_variant_3"
+    result:
+      id: ultramarine:blue_and_yellow_carved_wood_variant_2
+      count: 1
+  ultramarine:blue_and_yellow_carved_wood_variant_3_1:
+    type: shaped
+    category: building
+    pattern:
+      - "A  "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:blue_and_yellow_carved_wood_variant_1"
+    result:
+      id: ultramarine:blue_and_yellow_carved_wood_variant_3
+      count: 1
+  ultramarine:blue_and_yellow_carved_wood_variant_3_2:
+    type: shaped
+    category: building
+    pattern:
+      - "A  "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:blue_and_yellow_carved_wood_variant_2"
+    result:
+      id: ultramarine:blue_and_yellow_carved_wood_variant_3
+      count: 1
+# 黄绿雕花木
+  ultramarine:yellow_and_green_carved_wood:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:carved_wood_template"
+      C: "ultramarine:yellow_dye_powder"
+      D: "minecraft:green_dye"
+      E: "minecraft:green_dye"
+    result:
+      id: ultramarine:yellow_and_green_carved_wood
+      count: 1
+# 黄绿蓝雕花木
+  ultramarine:yellow_green_blue_carved_wood:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:carved_wood_template"
+      C: "ultramarine:yellow_dye_powder"
+      D: "minecraft:green_dye"
+      E: "minecraft:blue_dye"
+    result:
+      id: ultramarine:yellow_green_blue_carved_wood
+      count: 1
+# 雕花深色橡木横梁
+  ultramarine:carved_dark_oak_beam:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - "   "
+      - "   "
+    ingredient: 
+      A: "minecraft:stripped_dark_oak_log"
+    result:
+      id: ultramarine:carved_dark_oak_beam
+      count: 3
+# 雕花深色橡木横梁边缘
+  ultramarine:carved_dark_oak_beam_edge:
+    type: shaped
+    category: building
+    pattern:
+      - "A  "
+      - "A  "
+      - "A  "
+    ingredient: 
+      A: "minecraft:stripped_dark_oak_log"
+    result:
+      id: ultramarine:carved_dark_oak_beam_edge
+      count: 3
+# 黑金深色橡木整砖边框
+  ultramarine:gilded_dark_oak:
+    type: shaped
+    category: building
+    pattern:
+      - " B "
+      - "BAB"
+      - " B "
+    ingredient: 
+      A: "minecraft:stripped_dark_oak_wood"
+      B: "ultramarine:gold_parts"
+    result:
+      id: ultramarine:gilded_dark_oak
+      count: 1
+# 黑金深色橡木整砖中心
+  ultramarine:chiseled_gilded_dark_oak:
+    type: shaped
+    category: building
+    pattern:
+      - "A  "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:gilded_dark_oak"
+    result:
+      id: ultramarine:chiseled_gilded_dark_oak
+      count: 1
+# 红雕花地毯
+  ultramarine:red_carved_carpet_inner_southeast:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CD "
+      - "   "
+    ingredient: 
+      A: "minecraft:red_wool"
+      B: "ultramarine:carved_wool_template"
+      C: "minecraft:red_dye"
+      D: "ultramarine:gold_dye_powder"
+    result:
+      id: ultramarine:red_carved_carpet_inner_southeast
+      count: 1
+# 蓝雕花地毯
+  ultramarine:blue_carved_carpet_inner_southeast:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CD "
+      - "   "
+    ingredient: 
+      A: "minecraft:red_wool"
+      B: "ultramarine:carved_wool_template"
+      C: "minecraft:white_dye"
+      D: "ultramarine:light_blue_dye_powder"
+    result:
+      id: ultramarine:blue_carved_carpet_inner_southeast
+      count: 1
+# 雕花红柱子
+  ultramarine:carved_red_pillar:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDD"
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:carved_wood_template"
+      C: "ultramarine:gold_dye_powder"
+      D: "minecraft:red_dye"
+    result:
+      id: ultramarine:carved_red_pillar
+      count: 1
+# 雕花红柱础
+  ultramarine:carved_red_pillar_base:
+    type: shaped
+    category: building
+    pattern:
+      - " A "
+      - " B "
+      - "   "
+    ingredient: 
+      A: "ultramarine:carved_red_pillar"
+      B: "minecraft:smooth_stone_slab"
+    result:
+      id: ultramarine:carved_red_pillar_base
+      count: 1
+# 雕花找头红柱子
+  ultramarine:carved_red_pillar_head:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "F  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:zhaotou_template"
+      C: "ultramarine:gold_dye_powder"
+      D: "minecraft:red_dye"
+      E: "minecraft:white_dye"
+      F: "minecraft:blue_dye"
+    result:
+      id: ultramarine:carved_red_pillar_head
+      count: 1
+# 云杉柱础
+  ultramarine:spruce_pillar_base:
+    type: shaped
+    category: building
+    pattern:
+      - " A "
+      - " B "
+      - "   "
+    ingredient: 
+      A: "minecraft:spruce_log"
+      B: "minecraft:smooth_stone_slab"
+    result:
+      id: ultramarine:spruce_pillar_base
+      count: 1
+# 去皮深色橡木柱础
+  ultramarine:stripped_dark_oak_pillar_base:
+    type: shaped
+    category: building
+    pattern:
+      - " A "
+      - " B "
+      - "   "
+    ingredient: 
+      A: "minecraft:stripped_dark_oak_log"
+      B: "minecraft:smooth_stone_slab"
+    result:
+      id: ultramarine:stripped_dark_oak_pillar_base
+      count: 1
+# 黑金深色橡木桩头 （双三角形）
+  ultramarine:gilded_dark_oak_pillar_head_variant_1:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - "A A"
+      - " A "
+    ingredient: 
+      A: "ultramarine:gilded_dark_oak"
+    result:
+      id: ultramarine:gilded_dark_oak_pillar_head_variant_1
+      count: 6
+# 黑金深色橡木桩头 （铺满）
+  ultramarine:gilded_dark_oak_pillar_head_variant_2:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - "AAA"
+      - "AAA"
+    ingredient: 
+      A: "ultramarine:gilded_dark_oak"
+    result:
+      id: ultramarine:gilded_dark_oak_pillar_head_variant_2
+      count: 9
+# 黑金深色橡木桩头（单三角形）
+  ultramarine:gilded_dark_oak_pillar_head_variant_3:
+    type: shaped
+    category: building
+    pattern:
+      - " A "
+      - "A A"
+      - "AAA"
+    ingredient: 
+      A: "ultramarine:gilded_dark_oak"
+    result:
+      id: ultramarine:gilded_dark_oak_pillar_head_variant_3
+      count: 6
+# 黑金深色橡木桩头（长方形）
+  ultramarine:gilded_dark_oak_pillar_head_variant_4:
+    type: shaped
+    category: building
+    pattern:
+      - "AA "
+      - "AA "
+      - "AA "
+    ingredient: 
+      A: "ultramarine:gilded_dark_oak"
+    result:
+      id: ultramarine:gilded_dark_oak_pillar_head_variant_4
+      count: 6
+# 黑金深色橡木桩头（边框）
+  ultramarine:gilded_dark_oak_pillar_head_variant_5:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - "A A"
+      - "AAA"
+    ingredient: 
+      A: "ultramarine:gilded_dark_oak"
+    result:
+      id: ultramarine:gilded_dark_oak_pillar_head_variant_5
+      count: 8
+# 青白柱础
+  ultramarine:cyan_and_white_pillar_base:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "F  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:zhaotou_template"
+      C: "minecraft:red_dye"
+      D: "minecraft:green_dye"
+      E: "minecraft:white_dye"
+      F: "ultramarine:black_dye_powder"
+    result:
+      id: ultramarine:cyan_and_white_pillar_base
+      count: 1
+# 青白束带
+  ultramarine:cyan_and_white_decorated_pillar:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "F  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:zhaotou_template"
+      C: "minecraft:red_dye"
+      D: "minecraft:green_dye"
+      E: "minecraft:white_dye"
+      F: "minecraft:black_dye"
+    result:
+      id: ultramarine:cyan_and_white_decorated_pillar
+      count: 1
+# 青白柱头
+  ultramarine:cyan_and_white_pillar_head:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "F  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:zhaotou_template"
+      C: "minecraft:red_dye"
+      D: "minecraft:black_dye"
+      E: "minecraft:white_dye"
+      F: "minecraft:green_dye"
+    result:
+      id: ultramarine:cyan_and_white_pillar_head
+      count: 1
+# 石花纹柱础
+  ultramarine:stone_pillar_base:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - "   "
+      - "   "
+    ingredient: 
+      A: "minecraft:chiseled_stone_bricks"
+    result:
+      id: ultramarine:stone_pillar_base
+      count: 3
+# 绿色枋心中心
+  ultramarine:green_fangxin:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CC "
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_template"
+      C: "minecraft:green_dye"
+    result:
+      id: ultramarine:green_fangxin
+      count: 1
+# 绿色枋心外侧
+  ultramarine:green_fangxin_edge:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_edge_template"
+      C: "minecraft:green_dye"
+      D: "ultramarine:white_dye_powder"
+      E: "ultramarine:blue_dye_powder"
+    result:
+      id: ultramarine:green_fangxin_edge
+      count: 1
+# 蓝色枋心中心
+  ultramarine:blue_fangxin:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_template"
+      C: "minecraft:blue_dye"
+      D: "minecraft:green_dye"
+      E: "ultramarine:gold_dye_powder"
+    result:
+      id: ultramarine:blue_fangxin
+      count: 1
+# 蓝色枋心外侧
+  ultramarine:blue_fangxin_edge:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "C  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_edge_template"
+      C: "ultramarine:gold_dye_powder"
+      D: "minecraft:blue_dye"
+      E: "minecraft:green_dye"
+    result:
+      id: ultramarine:blue_fangxin_edge
+      count: 1
+# 青蓝枋心中心
+  ultramarine:cyan_and_blue_fangxin:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "F  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_template"
+      C: "minecraft:cyan_dye"
+      D: "minecraft:blue_dye"
+      E: "ultramarine:green_dye_powder"
+      F: "ultramarine:gold_dye_powder"
+    result:
+      id: ultramarine:cyan_and_blue_fangxin
+      count: 1
+# 青蓝枋心外侧
+  ultramarine:cyan_and_blue_fangxin_edge:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "F  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_edge_template"
+      C: "minecraft:green_dye"
+      D: "minecraft:cyan_dye"
+      E: "minecraft:blue_dye"
+      F: "ultramarine:gold_dye_powder"
+    result:
+      id: ultramarine:cyan_and_blue_fangxin_edge
+      count: 1
+# 青蓝枋心外侧变种
+  ultramarine:cyan_and_blue_fangxin_edge_variant:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "E  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_edge_template"
+      C: "minecraft:green_dye"
+      D: "minecraft:cyan_dye"
+      E: "minecraft:blue_dye"
+    result:
+      id: ultramarine:cyan_and_blue_fangxin_edge_variant
+      count: 1
+# 青蓝白枋心中心
+  ultramarine:cyan_blue_white_fangxin:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "F  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_template"
+      C: "minecraft:green_dye"
+      D: "ultramarine:blue_dye_powder"
+      E: "ultramarine:white_dye_powder"
+      F: "minecraft:green_dye"
+    result:
+      id: ultramarine:cyan_blue_white_fangxin
+      count: 1
+# 青蓝白枋心外侧
+  ultramarine:cyan_blue_white_fangxin_edge:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "F  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_edge_template"
+      C: "minecraft:green_dye"
+      D: "ultramarine:blue_dye_powder"
+      E: "ultramarine:white_dye_powder"
+      F: "minecraft:green_dye"
+    result:
+      id: ultramarine:cyan_blue_white_fangxin_edge
+      count: 1
+# 蓝绿枋心外侧
+  ultramarine:blue_and_green_fangxin_edge:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDD"
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_edge_template"
+      C: "minecraft:blue_dye"
+      D: "minecraft:green_dye"
+    result:
+      id: ultramarine:blue_and_green_fangxin_edge
+      count: 1
+# 黄绿枋心外侧
+  ultramarine:yellow_and_green_fangxin_edge:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_edge_template"
+      C: "minecraft:yellow_dye"
+      D: "minecraft:green_dye"
+      E: "minecraft:blue_dye"
+    result:
+      id: ultramarine:yellow_and_green_fangxin_edge
+      count: 1
+# 深蓝枋心中心
+  ultramarine:dark_blue_fangxin:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CCC"
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_template"
+      C: "minecraft:blue_dye"
+    result:
+      id: ultramarine:dark_blue_fangxin
+      count: 1
+# 深蓝枋心外侧
+  ultramarine:dark_blue_fangxin_edge:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CCC"
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_edge_template"
+      C: "minecraft:blue_dye"
+    result:
+      id: ultramarine:dark_blue_fangxin_edge
+      count: 1
+# 蓝白枋心中心
+  ultramarine:blue_and_white_fangxin:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CCD"
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_template"
+      C: "minecraft:blue_dye"
+      D: "ultramarine:white_dye_powder"
+    result:
+      id: ultramarine:blue_and_white_fangxin
+      count: 1
+# 绿深蓝枋心中心
+  ultramarine:green_and_dark_blue_fangxin:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CCD"
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_template"
+      C: "minecraft:green_dye"
+      D: "ultramarine:blue_dye_powder"
+    result:
+      id: ultramarine:green_and_dark_blue_fangxin
+      count: 1
+# 白青枋心中心
+  ultramarine:white_and_cyan_fangxin:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_template"
+      C: "minecraft:white_dye"
+      D: "minecraft:cyan_dye"
+      E: "ultramarine:blue_dye_powder"
+    result:
+      id: ultramarine:white_and_cyan_fangxin
+      count: 1
+# 白青枋心外侧
+  ultramarine:white_and_cyan_fangxin_edge:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "ECD"
+      - "E  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_edge_template"
+      C: "minecraft:white_dye"
+      D: "minecraft:cyan_dye"
+      E: "ultramarine:blue_dye_powder"
+    result:
+      id: ultramarine:white_and_cyan_fangxin_edge
+      count: 1
+# 白蓝枋心中心
+  ultramarine:white_and_blue_fangxin:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDD"
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_template"
+      C: "minecraft:white_dye"
+      D: "minecraft:blue_dye"
+    result:
+      id: ultramarine:white_and_blue_fangxin
+      count: 1
+# 白蓝枋心外侧
+  ultramarine:white_and_blue_fangxin_edge:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "E  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_edge_template"
+      C: "ultramarine:cyan_dye_powder"
+      D: "minecraft:white_dye"
+      E: "minecraft:blue_dye"
+    result:
+      id: ultramarine:white_and_blue_fangxin_edge
+      count: 1
+# 红青蓝枋心中心
+  ultramarine:red_cyan_blue_fangxin:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "F  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_template"
+      C: "minecraft:red_dye"
+      D: "minecraft:cyan_dye"
+      E: "minecraft:blue_dye"
+      F: "ultramarine:red_dye_powder"
+    result:
+      id: ultramarine:red_cyan_blue_fangxin
+      count: 1
+# 青黄枋心外侧
+  ultramarine:cyan_and_yellow_fangxin_edge:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "F  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_edge_template"
+      C: "minecraft:cyan_dye"
+      D: "ultramarine:yellow_dye_powder"
+      E: "ultramarine:green_dye_powder"
+      F: "ultramarine:blue_dye_powder"
+    result:
+      id: ultramarine:cyan_and_yellow_fangxin_edge
+      count: 1
+# 明代金琢墨石碾玉旋子蓝底枋心外侧
+  ultramarine:ming_blue_jinzhuomo_shinianyu_xuanzi_fangxin_edge:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "E  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_edge_template"
+      C: "ultramarine:yellow_dye_powder"
+      D: "minecraft:green_dye"
+      E: "minecraft:blue_dye"
+    result:
+      id: ultramarine:ming_blue_jinzhuomo_shinianyu_xuanzi_fangxin_edge
+      count: 1
+# 明代金琢墨石碾玉旋子蓝底金纹枋心中心
+  ultramarine:ming_blue_gilded_jinzhuomo_shinianyu_xuanzi_fangxin:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CCD"
+      - "E  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_template"
+      C: "minecraft:blue_dye"
+      D: "ultramarine:gold_dye_powder"
+      E: "ultramarine:light_blue_dye_powder"
+    result:
+      id: ultramarine:ming_blue_gilded_jinzhuomo_shinianyu_xuanzi_fangxin
+      count: 1
+# 明代金琢墨石碾玉旋子蓝底金纹枋心外侧  
+  ultramarine:ming_blue_gilded_jinzhuomo_shinianyu_xuanzi_fangxin_edge:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "F  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_edge_template"
+      C: "ultramarine:yellow_dye_powder"
+      D: "minecraft:green_dye"
+      E: "minecraft:blue_dye"
+      F: "ultramarine:gold_dye_powder"
+    result:
+      id: ultramarine:ming_blue_gilded_jinzhuomo_shinianyu_xuanzi_fangxin_edge
+      count: 1
+# 明代金琢墨石碾玉旋子绿底金纹枋心中心
+  ultramarine:ming_green_gilded_jinzhuomo_shinianyu_xuanzi_fangxin:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "F  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_template"
+      C: "minecraft:blue_dye"
+      D: "minecraft:green_dye"
+      E: "ultramarine:gold_dye_powder"
+      F: "ultramarine:light_blue_dye_powder"
+    result:
+      id: ultramarine:ming_green_gilded_jinzhuomo_shinianyu_xuanzi_fangxin
+      count: 1
+# 明代金琢墨石碾玉旋子绿底金纹枋心外侧
+  ultramarine:ming_green_gilded_jinzhuomo_shinianyu_xuanzi_fangxin_edge:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDD"
+      - "E  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_edge_template"
+      C: "ultramarine:yellow_dye_powder"
+      D: "minecraft:green_dye"
+      E: "ultramarine:gold_dye_powder"
+    result:
+      id: ultramarine:ming_green_gilded_jinzhuomo_shinianyu_xuanzi_fangxin_edge
+      count: 1
+# 清代金琢墨石碾玉选子蓝底无花纹枋心中心
+  ultramarine:qing_blue_plain_jinzhuomo_shinianyu_fangxin:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "F  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_template"
+      C: "ultramarine:green_dye_powder"
+      D: "minecraft:light_blue_dye"
+      E: "minecraft:green_dye"
+      F: "minecraft:yellow_dye"
+    result:
+      id: ultramarine:qing_blue_plain_jinzhuomo_shinianyu_fangxin
+      count: 1
+# 元代碾玉装枋心中心
+  ultramarine:yuan_nianyuzhuang_fangxin:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDD"
+      - "D  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_template"
+      C: "ultramarine:blue_dye_powder"
+      D: "minecraft:blue_dye"
+    result:
+      id: ultramarine:yuan_nianyuzhuang_fangxin
+      count: 1
+# 元代碾玉枋心外侧
+  ultramarine:yuan_nianyuzhuang_fangxin_edge:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDC"
+      - "C  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_edge_template"
+      C: "minecraft:light_blue_dye"
+      D: "ultramarine:cyan_dye_powder"
+    result:
+      id: ultramarine:yuan_nianyuzhuang_fangxin_edge
+      count: 1
+# 元代碾玉装枋心带花纹枋心中心
+  ultramarine:yuan_patterned_nianyuzhuang_fangxin:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "F  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_template"
+      C: "ultramarine:blue_dye_powder"
+      D: "minecraft:blue_dye"
+      E: "minecraft:green_dye" 
+      F: "ultramarine:red_dye_powder"
+    result:
+      id: ultramarine:yuan_patterned_nianyuzhuang_fangxin
+      count: 1
+# 元代碾玉装枋心带花纹枋心外侧
+  ultramarine:yuan_patterned_nianyuzhuang_fangxin_edge:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "F  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_edge_template"
+      C: "minecraft:blue_dye"
+      D: "ultramarine:cyan_dye_powder"
+      E: "minecraft:green_dye" 
+      F: "ultramarine:red_dye_powder"
+    result:
+      id: ultramarine:yuan_patterned_nianyuzhuang_fangxin_edge
+      count: 1
+# 元代碾玉装枋心绿底枋心中心
+  ultramarine:yuan_green_nianyuzhuang_fangxin:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDD"
+      - "D  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_template"
+      C: "ultramarine:blue_dye_powder"
+      D: "minecraft:green_dye"
+    result:
+      id: ultramarine:yuan_green_nianyuzhuang_fangxin
+      count: 1
+# 元代碾玉装枋心绿底枋心外侧
+  ultramarine:yuan_green_nianyuzhuang_fangxin_edge:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "E  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_edge_template"
+      C: "minecraft:blue_dye"
+      D: "ultramarine:cyan_dye_powder"
+      E: "minecraft:green_dye"
+    result:
+      id: ultramarine:yuan_green_nianyuzhuang_fangxin_edge
+      count: 1
+# 元代五彩装枋心带花纹枋心中心
+  ultramarine:yuan_patterned_wuchaizhuang_fangxin:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "F  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_template"
+      C: "ultramarine:green_dye_powder"
+      D: "minecraft:blue_dye"
+      E: "minecraft:cyan_dye"
+      F: "ultramarine:orange_dye_powder"
+    result:
+      id: ultramarine:yuan_patterned_wuchaizhuang_fangxin
+      count: 1
+# 元代五彩装枋心带花纹枋心外侧
+  ultramarine:yuan_patterned_wuchaizhuang_fangxin_edge:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "F  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_edge_template"
+      C: "ultramarine:red_dye_powder"
+      D: "minecraft:blue_dye"
+      E: "minecraft:green_dye"
+      F: "ultramarine:orange_dye_powder"
+    result:
+      id: ultramarine:yuan_patterned_wuchaizhuang_fangxin_edge
+      count: 1
+# 元代五彩装枋心绿底枋心中心
+  ultramarine:yuan_green_wuchaizhuang_fangxin:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDD"
+      - "D  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_template"
+      C: "ultramarine:green_dye_powder"
+      D: "minecraft:green_dye"
+    result:
+      id: ultramarine:yuan_green_wuchaizhuang_fangxin
+      count: 1
+# 元代五彩装枋心绿底枋心外侧
+  ultramarine:yuan_green_wuchaizhuang_fangxin_edge:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "E  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:fangxin_edge_template"
+      C: "ultramarine:red_dye_powder"
+      D: "ultramarine:green_dye_powder"
+      E: "minecraft:green_dye"
+    result:
+      id: ultramarine:yuan_green_wuchaizhuang_fangxin_edge
+      count: 1
+# 蓝找头边缘
+  ultramarine:blue_zhaotou_edge:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:zhaotou_template"
+      C: "minecraft:green_dye"
+      D: "ultramarine:red_dye_powder"
+      E: "minecraft:blue_dye"
+    result:
+      id: ultramarine:blue_zhaotou_edge
+      count: 1
+# 绿蓝找头
+  ultramarine:green_and_blue_zhaotou:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:zhaotou_template"
+      C: "minecraft:green_dye"
+      D: "minecraft:blue_dye"
+      E: "ultramarine:blue_dye_powder"
+    result:
+      id: ultramarine:green_and_blue_zhaotou
+      count: 1
+# 蓝绿找头
+  ultramarine:blue_and_green_zhaotou:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:zhaotou_template"
+      C: "minecraft:blue_dye"
+      D: "minecraft:green_dye"
+      E: "ultramarine:gray_dye_powder"
+    result:
+      id: ultramarine:blue_and_green_zhaotou
+      count: 1
+# 蓝绿双层找头
+  ultramarine:blue_and_green_double_layered_zhaotou:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "F  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:zhaotou_template"
+      C: "minecraft:blue_dye"
+      D: "ultramarine:white_dye_powder"
+      E: "minecraft:green_dye"
+      F: "ultramarine:light_blue_dye_powder"
+    result:
+      id: ultramarine:blue_and_green_double_layered_zhaotou
+      count: 1
+# 青红找头
+  ultramarine:cyan_and_red_zhaotou:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDC"
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:zhaotou_template"
+      C: "minecraft:cyan_dye"
+      D: "minecraft:red_dye"
+    result:
+      id: ultramarine:cyan_and_red_zhaotou
+      count: 1
+# 青蓝找头
+  ultramarine:cyan_and_blue_zhaotou:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDC"
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:zhaotou_template"
+      C: "minecraft:cyan_dye"
+      D: "minecraft:blue_dye"
+    result:
+      id: ultramarine:cyan_and_blue_zhaotou
+      count: 1
+# 灰黑红找头
+  ultramarine:gray_black_red_zhaotou:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "F  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:zhaotou_template"
+      C: "minecraft:gray_dye"
+      D: "ultramarine:black_dye_powder"
+      E: "ultramarine:green_dye_powder"
+      F: "minecraft:red_dye"
+    result:
+      id: ultramarine:gray_black_red_zhaotou
+      count: 1
+# 蓝绿红找头
+  ultramarine:blue_green_red_zhaotou:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "F  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:zhaotou_template"
+      C: "minecraft:blue_dye"
+      D: "minecraft:green_dye"
+      E: "minecraft:red_dye"
+      F: "ultramarine:cyan_dye_powder"
+    result:
+      id: ultramarine:blue_green_red_zhaotou
+      count: 1
+# 红蓝找头
+  ultramarine:red_and_blue_zhaotou:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:zhaotou_template"
+      C: "minecraft:red_dye"
+      D: "ultramarine:white_dye_powder"
+      E: "minecraft:blue_dye"
+    result:
+      id: ultramarine:red_and_blue_zhaotou
+      count: 1
+# 绿黄找头
+  ultramarine:green_and_yellow_zhaotou:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:zhaotou_template"
+      C: "minecraft:green_dye"
+      D: "ultramarine:blue_dye_powder"
+      E: "minecraft:yellow_dye"
+    result:
+      id: ultramarine:green_and_yellow_zhaotou
+      count: 1
+# 红绿蓝找头
+  ultramarine:red_green_blue_zhaotou:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "F  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:zhaotou_template"
+      C: "minecraft:green_dye"
+      D: "minecraft:blue_dye"
+      E: "minecraft:yellow_dye"
+      F: "ultramarine:red_dye_powder"
+    result:
+      id: ultramarine:red_green_blue_zhaotou
+      count: 1
+# 白蓝绿找头
+  ultramarine:white_blue_green_zhaotou:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:zhaotou_template"
+      C: "minecraft:white_dye"
+      D: "minecraft:blue_dye"
+      E: "minecraft:gray_dye"
+    result:
+      id: ultramarine:white_blue_green_zhaotou
+      count: 1
+# 明代烟琢墨石碾玉找头外侧里
+  ultramarine:ming_yanzhuomo_shinianyu_outer_zhaotou:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDC"
+      - "E  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:zhaotou_template"
+      C: "minecraft:blue_dye"
+      D: "minecraft:green_dye"
+      E: "ultramarine:red_dye_powder"
+    result:
+      id: ultramarine:ming_yanzhuomo_shinianyu_outer_zhaotou
+      count: 1
+# 明代烟琢墨石碾玉找头外侧外
+  ultramarine:ming_yanzhuomo_shinianyu_outer_zhaotou_edge:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "D  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:zhaotou_template"
+      C: "minecraft:green_dye"
+      D: "minecraft:blue_dye"
+      E: "ultramarine:red_dye_powder"
+    result:
+      id: ultramarine:ming_yanzhuomo_shinianyu_outer_zhaotou_edge
+      count: 1
+# 元代碾玉装找头
+  ultramarine:yuan_nianyuzhuang_zhaotou:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDC"
+      - "D  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:zhaotou_template"
+      C: "minecraft:green_dye"
+      D: "minecraft:blue_dye"
+    result:
+      id: ultramarine:yuan_nianyuzhuang_zhaotou
+      count: 1
+# 元代碾玉装找头链接
+  ultramarine:yuan_nianyuzhuang_zhaotou_connection:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDD"
+      - "C  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:zhaotou_template"
+      C: "minecraft:green_dye"
+      D: "minecraft:blue_dye"
+    result:
+      id: ultramarine:yuan_nianyuzhuang_zhaotou_connection
+      count: 1
+# 绿蓝黑箍头
+  ultramarine:green_blue_black_gutou:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "F  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:gutou_template"
+      C: "minecraft:green_dye"
+      D: "ultramarine:yellow_dye_powder"
+      E: "ultramarine:light_blue_dye_powder"
+      F: "ultramarine:black_dye_powder"
+    result:
+      id: ultramarine:green_blue_black_gutou
+      count: 1
+# 蓝绿黄箍头
+  ultramarine:blue_green_yellow_gutou:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:gutou_template"
+      C: "minecraft:blue_dye"
+      D: "minecraft:green_dye"
+      E: "minecraft:yellow_dye"
+    result:
+      id: ultramarine:blue_green_yellow_gutou
+      count: 1
+# 绿黄箍头
+  ultramarine:green_and_yellow_gutou:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:gutou_template"
+      C: "minecraft:green_dye"
+      D: "minecraft:blue_dye"
+      E: "minecraft:yellow_dye"
+    result:
+      id: ultramarine:green_and_yellow_gutou
+      count: 1
+# 明代烟琢墨石碾玉箍头外侧外
+  ultramarine:ming_yanzhuomo_shinianyu_outer_gutou_edge:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDC"
+      - "D  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:gutou_template"
+      C: "minecraft:blue_dye"
+      D: "minecraft:green_dye"
+    result:
+      id: ultramarine:ming_yanzhuomo_shinianyu_outer_gutou_edge
+      count: 1
+# 元代碾玉装箍头
+  ultramarine:yuan_nianyuzhuang_gutou:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "C  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:gutou_template"
+      C: "minecraft:blue_dye"
+      D: "minecraft:green_dye"
+      E: "minecraft:brown_dye"
+    result:
+      id: ultramarine:yuan_nianyuzhuang_gutou
+      count: 1
+# 红青雕花额枋
+  ultramarine:red_and_cyan_carved_architrave:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:architrave_template"
+      C: "minecraft:red_dye"
+      D: "ultramarine:white_dye_powder"
+      E: "minecraft:cyan_dye"
+    result:
+      id: ultramarine:red_and_cyan_carved_architrave
+      count: 1
+# 红蓝雕花额枋
+  ultramarine:red_and_blue_carved_architrave:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDE"
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:architrave_template"
+      C: "minecraft:red_dye"
+      D: "ultramarine:white_dye_powder"
+      E: "minecraft:blue_dye"
+    result:
+      id: ultramarine:red_and_blue_carved_architrave
+      count: 1
+# 中式书架
+  ultramarine:bookshelf:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - "AAA"
+      - "AAA"
+    ingredient: 
+      A: "minecraft:bookshelf"
+    result:
+      id: ultramarine:bookshelf
+      count: 9
+# 中式书架（半满）
+  ultramarine:bookshelf_variant:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - "   "
+      - "AAA"
+    ingredient: 
+      A: "minecraft:bookshelf"
+    result:
+      id: ultramarine:bookshelf_variant
+      count: 6
+# 石头窗花
+  ultramarine:stone_flower_window:
+    type: stonecutting
+    ingredient: "minecraft:chiseled_stone_bricks"
+    result:
+      id: ultramarine:stone_flower_window
+      count: 1
+# 玉块
+  ultramarine:jade_block:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - "AAA"
+      - "AAA"
+    ingredient: 
+      A: "ultramarine:jade"
+    result:
+      id: ultramarine:jade_block
+      count: 1
+# 青铜块
+  ultramarine:bronze_block:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - "AAA"
+      - "AAA"
+    ingredient: 
+      A: "ultramarine:bronze_ingot"
+    result:
+      id: ultramarine:bronze_block
+      count: 1
+# 灰色瓦当
+  ultramarine:gray_roof_tile:
+    type: shaped
+    category: building
+    pattern:
+      - "   "
+      - "AAA"
+      - "   "
+    ingredient: 
+      A: "ultramarine:gray_roof_tile_item"
+    result:
+      id: ultramarine:gray_roof_tile
+      count: 1
+# 灰色瓦当楼梯
+  ultramarine:gray_roof_tile_stair:
+    type: shaped
+    category: building
+    pattern:
+      - "A  "
+      - "AA "
+      - "AAA"
+    ingredient: 
+      A: "ultramarine:gray_roof_tile_item"
+    result:
+      id: ultramarine:gray_roof_tile_stair
+      count: 1
+# 灰色瓦当边缘
+  ultramarine:gray_roof_tile_edge:
+    type: shaped
+    category: building
+    pattern:
+      - "   "
+      - "A  "
+      - "AAA"
+    ingredient: 
+      A: "ultramarine:gray_roof_tile_item"
+    result:
+      id: ultramarine:gray_roof_tile_edge
+      count: 1
+# 黄色瓦当
+  ultramarine:yellow_roof_tile:
+    type: shaped
+    category: building
+    pattern:
+      - "   "
+      - "AAA"
+      - "   "
+    ingredient: 
+      A: "ultramarine:yellow_roof_tile_item"
+    result:
+      id: ultramarine:yellow_roof_tile
+      count: 1
+# 黄色瓦当楼梯
+  ultramarine:yellow_roof_tile_stair:
+    type: shaped
+    category: building
+    pattern:
+      - "A  "
+      - "AA "
+      - "AAA"
+    ingredient: 
+      A: "ultramarine:yellow_roof_tile_item"
+    result:
+      id: ultramarine:yellow_roof_tile_stair
+      count: 1
+# 黄色瓦当边缘
+  ultramarine:yellow_roof_tile_edge:
+    type: shaped
+    category: building
+    pattern:
+      - "   "
+      - "A  "
+      - "AAA"
+    ingredient: 
+      A: "ultramarine:yellow_roof_tile_item"
+    result:
+      id: ultramarine:yellow_roof_tile_edge
+      count: 1
+# 绿色瓦当
+  ultramarine:green_roof_tile:
+    type: shaped
+    category: building
+    pattern:
+      - "   "
+      - "AAA"
+      - "   "
+    ingredient: 
+      A: "ultramarine:green_roof_tile_item"
+    result:
+      id: ultramarine:green_roof_tile
+      count: 1
+# 绿色瓦当楼梯
+  ultramarine:green_roof_tile_stair:
+    type: shaped
+    category: building
+    pattern:
+      - "A  "
+      - "AA "
+      - "AAA"
+    ingredient: 
+      A: "ultramarine:green_roof_tile_item"
+    result:
+      id: ultramarine:green_roof_tile_stair
+      count: 1
+# 绿色瓦当边缘
+  ultramarine:green_roof_tile_edge:
+    type: shaped
+    category: building
+    pattern:
+      - "   "
+      - "A  "
+      - "AAA"
+    ingredient: 
+      A: "ultramarine:green_roof_tile_item"
+    result:
+      id: ultramarine:green_roof_tile_edge
+      count: 1
+# 蓝色瓦当
+  ultramarine:blue_roof_tile:
+    type: shaped
+    category: building
+    pattern:
+      - "   "
+      - "AAA"
+      - "   "
+    ingredient: 
+      A: "ultramarine:blue_roof_tile_item"
+    result:
+      id: ultramarine:blue_roof_tile
+      count: 1
+# 蓝色瓦当楼梯
+  ultramarine:blue_roof_tile_stair:
+    type: shaped
+    category: building
+    pattern:
+      - "A  "
+      - "AA "
+      - "AAA"
+    ingredient: 
+      A: "ultramarine:blue_roof_tile_item"
+    result:
+      id: ultramarine:blue_roof_tile_stair
+      count: 1
+# 蓝色瓦当边缘
+  ultramarine:blue_roof_tile_edge:
+    type: shaped
+    category: building
+    pattern:
+      - "   "
+      - "A  "
+      - "AAA"
+    ingredient: 
+      A: "ultramarine:blue_roof_tile_item"
+    result:
+      id: ultramarine:blue_roof_tile_edge
+      count: 1
+# 青色瓦当
+  ultramarine:cyan_roof_tile:
+    type: shaped
+    category: building
+    pattern:
+      - "   "
+      - "AAA"
+      - "   "
+    ingredient: 
+      A: "ultramarine:cyan_roof_tile_item"
+    result:
+      id: ultramarine:cyan_roof_tile
+      count: 1
+# 青色瓦当楼梯
+  ultramarine:cyan_roof_tile_stair:
+    type: shaped
+    category: building
+    pattern:
+      - "A  "
+      - "AA "
+      - "AAA"
+    ingredient: 
+      A: "ultramarine:cyan_roof_tile_item"
+    result:
+      id: ultramarine:cyan_roof_tile_stair
+      count: 1
+# 青色瓦当边缘
+  ultramarine:cyan_roof_tile_edge:
+    type: shaped
+    category: building
+    pattern:
+      - "   "
+      - "A  "
+      - "AAA"
+    ingredient: 
+      A: "ultramarine:cyan_roof_tile_item"
+    result:
+      id: ultramarine:cyan_roof_tile_edge
+      count: 1
+# 黑色瓦当
+  ultramarine:black_roof_tile:
+    type: shaped
+    category: building
+    pattern:
+      - "   "
+      - "AAA"
+      - "   "
+    ingredient: 
+      A: "ultramarine:black_roof_tile_item"
+    result:
+      id: ultramarine:black_roof_tile
+      count: 1
+# 黑色瓦当楼梯
+  ultramarine:black_roof_tile_stair:
+    type: shaped
+    category: building
+    pattern:
+      - "A  "
+      - "AA "
+      - "AAA"
+    ingredient: 
+      A: "ultramarine:black_roof_tile_item"
+    result:
+      id: ultramarine:black_roof_tile_stair
+      count: 1
+# 黑色瓦当边缘
+  ultramarine:black_roof_tile_edge:
+    type: shaped
+    category: building
+    pattern:
+      - "   "
+      - "A  "
+      - "AAA"
+    ingredient: 
+      A: "ultramarine:black_roof_tile_item"
+    result:
+      id: ultramarine:black_roof_tile_edge
+      count: 1
+# 橡木木拱
+  ultramarine:oak_bracket:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - " A "
+      - " AA"
+    ingredient: 
+      A: "#minecraft:oak_logs"
+    result:
+      id: ultramarine:oak_bracket
+      count: 6
+# 云杉木拱
+  ultramarine:spruce_bracket:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - " A "
+      - " AA"
+    ingredient: 
+      A: "#minecraft:spruce_logs"
+    result:
+      id: ultramarine:spruce_bracket
+      count: 6
+# 白桦木拱
+  ultramarine:birch_bracket:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - " A "
+      - " AA"
+    ingredient: 
+      A: "#minecraft:birch_logs"
+    result:
+      id: ultramarine:birch_bracket
+      count: 6
+# 丛林木拱
+  ultramarine:jungle_bracket:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - " A "
+      - " AA"
+    ingredient: 
+      A: "#minecraft:jungle_logs"
+    result:
+      id: ultramarine:jungle_bracket
+      count: 6
+# 金合欢木拱
+  ultramarine:acacia_bracket:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - " A "
+      - " AA"
+    ingredient: 
+      A: "#minecraft:acacia_logs"
+    result:
+      id: ultramarine:acacia_bracket
+      count: 6
+# 深色橡木拱
+  ultramarine:dark_oak_bracket:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - " A "
+      - " AA"
+    ingredient: 
+      A: "#minecraft:dark_oak_logs"
+    result:
+      id: ultramarine:dark_oak_bracket
+      count: 6
+# 绯红木拱
+  ultramarine:crimson_bracket:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - " A "
+      - " AA"
+    ingredient: 
+      A: "#minecraft:crimson_stems"
+    result:
+      id: ultramarine:crimson_bracket
+      count: 6
+# 诡异木拱
+  ultramarine:warped_bracket:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - " A "
+      - " AA"
+    ingredient: 
+      A: "#minecraft:warped_stems"
+    result:
+      id: ultramarine:warped_bracket
+      count: 6
+# 红树木拱
+  ultramarine:mangrove_bracket:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - " A "
+      - " AA"
+    ingredient: 
+      A: "#minecraft:mangrove_logs"
+    result:
+      id: ultramarine:mangrove_bracket
+      count: 6
+# 樱花木拱
+  ultramarine:cherry_bracket:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - " A "
+      - " AA"
+    ingredient: 
+      A: "#minecraft:cherry_logs"
+    result:
+      id: ultramarine:cherry_bracket
+      count: 6
+# 漆红木拱
+  ultramarine:varnished_rosewood_bracket:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - " A "
+      - " AA"
+    ingredient: 
+      A: "ultramarine:varnished_rosewood"
+    result:
+      id: ultramarine:varnished_rosewood_bracket
+      count: 6
+# 蓝雕花木拱
+  ultramarine:blue_carved_wooden_bracket:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - " A "
+      - " AA"
+    ingredient: 
+      A: "ultramarine:blue_carved_wood"
+    result:
+      id: ultramarine:blue_carved_wooden_bracket
+      count: 6
+# 青雕花木拱
+  ultramarine:cyan_carved_wooden_bracket:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - " A "
+      - " AA"
+    ingredient: 
+      A: "ultramarine:cyan_carved_wood"
+    result:
+      id: ultramarine:cyan_carved_wooden_bracket
+      count: 6
+# 绿雕花木拱
+  ultramarine:green_carved_wooden_bracket:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - " A "
+      - " AA"
+    ingredient: 
+      A: "ultramarine:green_carved_wood"
+    result:
+      id: ultramarine:green_carved_wooden_bracket
+      count: 6
+# 黑金深色橡木拱
+  ultramarine:gilded_dark_oak_bracket:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - " A "
+      - " AA"
+    ingredient: 
+      A: "ultramarine:gilded_dark_oak"
+    result:
+      id: ultramarine:gilded_dark_oak_bracket
+      count: 6
+# 黑脊正脊厚板
+  ultramarine:black_main_roof_ridge_panel:
+    type: shaped
+    category: building
+    pattern:
+      - "A  "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:black_main_roof_ridge_connection"
+    result:
+      id: ultramarine:black_main_roof_ridge_panel
+      count: 2
+# 黑脊正脊薄板
+  ultramarine:black_main_roof_ridge_plate:
+    type: shaped
+    category: building
+    pattern:
+      - "A  "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:black_main_roof_ridge_panel"
+    result:
+      id: ultramarine:black_main_roof_ridge_plate
+      count: 2
+# 黄脊正脊厚板
+  ultramarine:yellow_main_roof_ridge_panel:
+    type: shaped
+    category: building
+    pattern:
+      - "A  "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:yellow_main_roof_ridge_connection"
+    result:
+      id: ultramarine:yellow_main_roof_ridge_panel
+      count: 2
+# 黄脊正脊薄板
+  ultramarine:yellow_main_roof_ridge_plate:
+    type: shaped
+    category: building
+    pattern:
+      - "A  "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:yellow_main_roof_ridge_panel"
+    result:
+      id: ultramarine:yellow_main_roof_ridge_plate
+      count: 2
+# 橡木椽身
+  ultramarine:oak_rafter:
+    type: stonecutting
+    ingredient: "#minecraft:oak_logs"
+    result:
+      id: ultramarine:oak_rafter
+      count: 1
+# 橡木椽头
+  ultramarine:oak_rafter_end:
+    type: stonecutting
+    ingredient: "#minecraft:oak_logs"
+    result:
+      id: ultramarine:oak_rafter_end
+      count: 1
+# 云杉木椽身
+  ultramarine:spruce_rafter:
+    type: stonecutting
+    ingredient: "#minecraft:spruce_logs"
+    result:
+      id: ultramarine:spruce_rafter
+      count: 1
+# 云杉木椽头
+  ultramarine:spruce_rafter_end:
+    type: stonecutting
+    ingredient: "#minecraft:spruce_logs"
+    result:
+      id: ultramarine:spruce_rafter_end
+      count: 1
+# 白桦木椽身
+  ultramarine:birch_rafter:
+    type: stonecutting
+    ingredient: "#minecraft:birch_logs"
+    result:
+      id: ultramarine:birch_rafter
+      count: 1
+# 白桦木椽头
+  ultramarine:birch_rafter_end:
+    type: stonecutting
+    ingredient: "#minecraft:birch_logs"
+    result:
+      id: ultramarine:birch_rafter_end
+      count: 1
+# 丛林木椽身
+  ultramarine:jungle_rafter:
+    type: stonecutting
+    ingredient: "#minecraft:jungle_logs"
+    result:
+      id: ultramarine:jungle_rafter
+      count: 1
+# 丛林木椽头
+  ultramarine:jungle_rafter_end:
+    type: stonecutting
+    ingredient: "#minecraft:jungle_logs"
+    result:
+      id: ultramarine:jungle_rafter_end
+      count: 1
+# 金合欢木椽身
+  ultramarine:acacia_rafter:
+    type: stonecutting
+    ingredient: "#minecraft:acacia_logs"
+    result:
+      id: ultramarine:acacia_rafter
+      count: 1
+# 金合欢木椽头
+  ultramarine:acacia_rafter_end:
+    type: stonecutting
+    ingredient: "#minecraft:acacia_logs"
+    result:
+      id: ultramarine:acacia_rafter_end
+      count: 1
+# 绯红木椽身
+  ultramarine:crimson_rafter:
+    type: stonecutting
+    ingredient: "#minecraft:crimson_stems"
+    result:
+      id: ultramarine:crimson_rafter
+      count: 1
+# 绯红木椽头
+  ultramarine:crimson_rafter_end:
+    type: stonecutting
+    ingredient: "#minecraft:crimson_stems"
+    result:
+      id: ultramarine:crimson_rafter_end
+      count: 1
+# 诡异木椽身
+  ultramarine:warped_rafter:
+    type: stonecutting
+    ingredient: "#minecraft:warped_stems"
+    result:
+      id: ultramarine:warped_rafter
+      count: 1
+# 诡异木椽头
+  ultramarine:warped_rafter_end:
+    type: stonecutting
+    ingredient: "#minecraft:warped_stems"
+    result:
+      id: ultramarine:warped_rafter_end
+      count: 1
+# 红树木椽身
+  ultramarine:mangrove_rafter:
+    type: stonecutting
+    ingredient: "#minecraft:mangrove_logs"
+    result:
+      id: ultramarine:mangrove_rafter
+      count: 1
+# 红树木椽头
+  ultramarine:mangrove_rafter_end:
+    type: stonecutting
+    ingredient: "#minecraft:mangrove_logs"
+    result:
+      id: ultramarine:mangrove_rafter_end
+      count: 1
+# 樱花木椽身
+  ultramarine:cherry_rafter:
+    type: stonecutting
+    ingredient: "#minecraft:cherry_logs"
+    result:
+      id: ultramarine:cherry_rafter
+      count: 1
+# 樱花木椽头
+  ultramarine:cherry_rafter_end:
+    type: stonecutting
+    ingredient: "#minecraft:cherry_logs"
+    result:
+      id: ultramarine:cherry_rafter_end
+      count: 1
+# 黑金深色橡木椽身
+  ultramarine:gilded_dark_oak_rafter:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:dark_oak_rafter"
+      B: "ultramarine:gold_parts"
+    result:
+      id: ultramarine:gilded_dark_oak_rafter
+      count: 1
+# 深色橡木椽头
+  ultramarine:gilded_dark_oak_rafter_end:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:dark_oak_rafter_end"
+      B: "ultramarine:gold_parts"
+    result:
+      id: ultramarine:gilded_dark_oak_rafter_end
+      count: 1
+# 深色橡木椽身
+  ultramarine:dark_oak_rafter:
+    type: stonecutting
+    ingredient: "#minecraft:dark_oak_logs"
+    result:
+      id: ultramarine:dark_oak_rafter
+      count: 1
+# 深色橡木椽头
+  ultramarine:dark_oak_rafter_end:
+    type: stonecutting
+    ingredient: "#minecraft:dark_oak_logs"
+    result:
+      id: ultramarine:dark_oak_rafter_end
+      count: 1
+# 蓝虎眼椽身
+  ultramarine:blue_tiger_eye_rafter:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CCD"
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:rafter_template"
+      C: "minecraft:blue_dye"
+      D: "ultramarine:gold_dye_powder"
+    result:
+      id: ultramarine:blue_tiger_eye_rafter
+      count: 1
+# 蓝虎眼椽头
+  ultramarine:blue_tiger_eye_rafter_end:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CCD"
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:rafter_end_template"
+      C: "minecraft:blue_dye"
+      D: "ultramarine:gold_dye_powder"
+    result:
+      id: ultramarine:blue_tiger_eye_rafter_end
+      count: 1
+# 蓝雕花虎眼椽身
+  ultramarine:blue_carved_tiger_eye_rafter:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDD"
+      - "E  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:rafter_template"
+      C: "minecraft:blue_dye"
+      D: "minecraft:yellow_dye"
+      E: "ultramarine:gold_dye_powder"
+    result:
+      id: ultramarine:blue_carved_tiger_eye_rafter
+      count: 1
+# 蓝雕花虎眼椽头
+  ultramarine:blue_carved_tiger_eye_rafter_end:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CDD"
+      - "E  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:rafter_end_template"
+      C: "minecraft:blue_dye"
+      D: "minecraft:yellow_dye"
+      E: "ultramarine:gold_dye_powder"
+    result:
+      id: ultramarine:blue_carved_tiger_eye_rafter_end
+      count: 1
+# 绿虎眼椽身
+  ultramarine:green_tiger_eye_rafter:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CCD"
+      - "E  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:rafter_template"
+      C: "minecraft:green_dye"
+      D: "ultramarine:blue_dye_powder"
+      E: "ultramarine:yellow_dye_powder"
+    result:
+      id: ultramarine:green_tiger_eye_rafter
+      count: 1
+# 绿虎眼椽头
+  ultramarine:green_tiger_eye_rafter_end:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CCD"
+      - "E  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:rafter_end_template"
+      C: "minecraft:green_dye"
+      D: "ultramarine:blue_dye_powder"
+      E: "ultramarine:gold_dye_powder"
+    result:
+      id: ultramarine:green_tiger_eye_rafter_end
+      count: 1
+# 绿万字椽身
+  ultramarine:green_wanzi_rafter:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CCD"
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:rafter_template"
+      C: "minecraft:green_dye"
+      D: "ultramarine:gold_dye_powder"
+    result:
+      id: ultramarine:green_wanzi_rafter
+      count: 1
+# 绿万字椽头
+  ultramarine:green_wanzi_rafter_end:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CCD"
+      - "   "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:rafter_end_template"
+      C: "minecraft:green_dye"
+      D: "ultramarine:gold_dye_powder"
+    result:
+      id: ultramarine:green_wanzi_rafter_end
+      count: 1
+# 雕花绿万字椽身
+  ultramarine:green_carved_wanzi_rafter:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CCD"
+      - "E  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:rafter_template"
+      C: "minecraft:green_dye"
+      D: "minecraft:yellow_dye"
+      E: "ultramarine:gold_dye_powder"
+    result:
+      id: ultramarine:green_carved_wanzi_rafter
+      count: 1
+# 雕花绿万字椽头
+  ultramarine:green_carved_wanzi_rafter_end:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "CCD"
+      - "E  "
+    ingredient: 
+      A: "#minecraft:logs"
+      B: "ultramarine:rafter_end_template"
+      C: "minecraft:green_dye"
+      D: "minecraft:yellow_dye"
+      E: "ultramarine:gold_dye_powder"
+    result:
+      id: ultramarine:green_carved_wanzi_rafter_end
+      count: 1
+# 黑金深色橡木梁头
+  ultramarine:gilded_dark_oak_beam_head:
+    type: shaped
+    category: building
+    pattern:
+      - "A  "
+      - "A  "
+      - "A  "
+    ingredient: 
+      A: "ultramarine:gilded_dark_oak"
+    result:
+      id: ultramarine:gilded_dark_oak_beam_head
+      count: 1
+# 清代绿梁头
+  ultramarine:qing_green_beam_head:
+    type: shaped
+    category: building
+    pattern:
+      - "A  "
+      - "A  "
+      - "A  "
+    ingredient: 
+      A: "ultramarine:green_carved_wood"
+    result:
+      id: ultramarine:qing_green_beam_head
+      count: 1
+# 黑金省替横向
+  ultramarine:horizontal_gilded_dark_oak_queti:
+    type: shaped
+    category: building
+    pattern:
+      - "AA "
+      - "A  "
+      - "   "
+    ingredient: 
+      A: "ultramarine:gilded_dark_oak"
+    result:
+      id: ultramarine:horizontal_gilded_dark_oak_queti
+      count: 1
+# 黑金省替中心
+  ultramarine:central_gilded_dark_oak_queti:
+    type: shaped
+    category: building
+    pattern:
+      - "   "
+      - "AA "
+      - "   "
+    ingredient: 
+      A: "ultramarine:horizontal_gilded_dark_oak_queti"
+    result:
+      id: ultramarine:central_gilded_dark_oak_queti
+      count: 1
+# 黑金省替竖向
+  ultramarine:vertical_gilded_dark_oak_queti:
+    type: shaped
+    category: building
+    pattern:
+      - " AA"
+      - " A "
+      - "   "
+    ingredient: 
+      A: "ultramarine:gilded_dark_oak"
+    result:
+      id: ultramarine:vertical_gilded_dark_oak_queti
+      count: 1
+# 石雕板
+  ultramarine:carved_stone_panel:
+    type: stonecutting
+    ingredient: "minecraft:stone"
+    result:
+      id: ultramarine:carved_stone_panel
+      count: 1
+# 石雕板边缘
+  ultramarine:carved_stone_panel_edge:
+    type: stonecutting
+    ingredient: "minecraft:stone"
+    result:
+      id: ultramarine:carved_stone_panel_edge
+      count: 1
+# 石雕板中心
+  ultramarine:carved_stone_panel_center:
+    type: stonecutting
+    ingredient: "minecraft:stone"
+    result:
+      id: ultramarine:carved_stone_panel_center
+      count: 1
+# 石雕省替部分
+  ultramarine:carved_stone_queti_part:
+    type: shaped
+    category: building
+    pattern:
+      - "   "
+      - "AA "
+      - "   "
+    ingredient: 
+      A: "ultramarine:carved_stone_panel_edge"
+    result:
+      id: ultramarine:carved_stone_queti_part
+      count: 1
+# 石雕横梁
+  ultramarine:carved_stone_beam:
+    type: shaped
+    category: building
+    pattern:
+      - "   "
+      - "AAA"
+      - "   "
+    ingredient: 
+      A: "ultramarine:carved_stone_panel"
+    result:
+      id: ultramarine:carved_stone_beam
+      count: 1
+# 石雕雀替
+  ultramarine:carved_stone_queti:
+    type: shaped
+    category: building
+    pattern:
+      - " A "
+      - " A "
+      - "   "
+    ingredient: 
+      A: "ultramarine:carved_stone_panel_edge"
+    result:
+      id: ultramarine:carved_stone_queti
+      count: 1
+# 蓝绿垂花
+  ultramarine:blue_and_green_chuihua:
+    type: shaped
+    category: building
+    pattern:
+      - " A "
+      - " B "
+      - " C "
+    ingredient: 
+      A: "ultramarine:red_carved_wood"
+      B: "ultramarine:blue_carved_wood"
+      C: "ultramarine:green_carved_wood"
+    result:
+      id: ultramarine:blue_and_green_chuihua
+      count: 1
+# 青黄垂花
+  ultramarine:cyan_and_yellow_chuihua:
+    type: shaped
+    category: building
+    pattern:
+      - " A "
+      - " B "
+      - " C "
+    ingredient: 
+      A: "ultramarine:cyan_carved_wood"
+      B: "ultramarine:blue_and_red_carved_wood"
+      C: "ultramarine:yellow_and_green_carved_wood"
+    result:
+      id: ultramarine:cyan_and_yellow_chuihua
+      count: 1
+# 黑金深色橡木垂花
+  ultramarine:gilded_dark_oak_chuihua:
+    type: shaped
+    category: building
+    pattern:
+      - " A "
+      - " A "
+      - " B "
+    ingredient: 
+      A: "ultramarine:gilded_dark_oak"
+      B: "ultramarine:gold_parts"
+    result:
+      id: ultramarine:gilded_dark_oak_chuihua
+      count: 1
+# 金琉璃正吻
+  ultramarine:golden_glazed_roof_charm:
+    type: shaped
+    category: building
+    pattern:
+      - " ED"
+      - "CAA"
+      - "BAA"
+    ingredient: 
+      A: "minecraft:yellow_glazed_terracotta"
+      B: "ultramarine:yellow_roof_ridge_connection"
+      C: "ultramarine:gold_dye_powder"
+      D: "ultramarine:gold_parts"
+      E: "ultramarine:yellow_roof_tile_stair"
+    result:
+      id: ultramarine:golden_glazed_roof_charm
+      count: 1
+# 青琉璃吻兽
+  ultramarine:green_glazed_roof_charm:
+    type: shaped
+    category: building
+    pattern:
+      - " DC"
+      - " CA"
+      - "BBA"
+    ingredient: 
+      A: "minecraft:green_glazed_terracotta"
+      B: "ultramarine:black_roof_ridge_connection"
+      C: "ultramarine:gold_parts"
+      D: "ultramarine:gray_roof_tile_stair"
+    result:
+      id: ultramarine:green_glazed_roof_charm
+      count: 1
+# 暗海晶石鸱尾
+  ultramarine:dark_prismarine_chiwei:
+    type: shaped
+    category: building
+    pattern:
+      - "CB "
+      - "BA "
+      - "AA "
+    ingredient: 
+      A: "minecraft:dark_prismarine"
+      B: "minecraft:dark_prismarine_stairs"
+      C: "minecraft:dark_prismarine_slab"
+    result:
+      id: ultramarine:dark_prismarine_chiwei
+      count: 1
+# 金龙清代天花
+  ultramarine:qing_golden_dragon_ceiling:
+    type: shaped
+    category: building
+    pattern:
+      - " A "
+      - " B "
+      - " C "
+    ingredient: 
+      A: "ultramarine:green_carved_wood"
+      B: "minecraft:blue_dye"
+      C: "ultramarine:gold_dye_powder"
+    result:
+      id: ultramarine:qing_golden_dragon_ceiling
+      count: 1
+# 斜向汉白玉栏杆
+  ultramarine:white_marble_railing_slant:
+    type: stonecutting
+    ingredient: "minecraft:quartz_block"
+    result:
+      id: ultramarine:white_marble_railing_slant
+      count: 1
+# 大红栏杆中心
+  ultramarine:red_wooden_railing:
+    type: shaped
+    category: building
+    pattern:
+      - "   "
+      - "AA "
+      - "   "
+    ingredient: 
+      A: "ultramarine:red_wooden_railing_edge"
+    result:
+      id: ultramarine:red_wooden_railing
+      count: 1
+# 大红栏杆
+  ultramarine:red_wooden_railing_edge1:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - "ABA"
+      - "AAA"
+    ingredient: 
+      A: "ultramarine:wooden_railing"
+      B: "minecraft:red_dye"
+    result:
+      id: ultramarine:red_wooden_railing_edge
+      count: 8
+  ultramarine:red_wooden_railing_edge2:
+    type: shaped
+    category: building
+    pattern:
+      - "   "
+      - "AB "
+      - "   "
+    ingredient: 
+      A: "ultramarine:wooden_railing"
+      B: "minecraft:red_dye"
+    result:
+      id: ultramarine:red_wooden_railing_edge
+      count: 1
+# 木栏杆
+  ultramarine:wooden_railing:
+    type: stonecutting
+    ingredient: "minecraft:oak_planks"
+    result:
+      id: ultramarine:wooden_railing
+      count: 1
+# 木栏杆变种
+  ultramarine:wooden_railing_variant:
+    type: stonecutting
+    ingredient: "minecraft:oak_planks"
+    result:
+      id: ultramarine:wooden_railing_variant
+      count: 1
+# 小木狮子
+  ultramarine:small_wooden_guardian_lion:
+    type: stonecutting
+    ingredient: "minecraft:oak_planks"
+    result:
+      id: ultramarine:small_wooden_guardian_lion
+      count: 1
+# 小石狮子
+  ultramarine:small_stone_guardian_lion:
+    type: stonecutting
+    ingredient: "minecraft:stone"
+    result:
+      id: ultramarine:small_stone_guardian_lion
+      count: 1
+# 小玉狮子
+  ultramarine:small_jade_guardian_lion:
+    type: shaped
+    category: building
+    pattern:
+      - "CAC"
+      - "ABA"
+      - "CAC"
+    ingredient: 
+      A: "ultramarine:jade"
+      B: "ultramarine:small_stone_guardian_lion"
+      C: "ultramarine:jade_parts"
+    result:
+      id: ultramarine:small_jade_guardian_lion
+      count: 1
+# 小黄琉璃狮子
+  ultramarine:small_yellow_glazed_guardian_lion:
+    type: shaped
+    category: building
+    pattern:
+      - "CAC"
+      - "ABA"
+      - "DAD"
+    ingredient: 
+      A: "minecraft:yellow_glazed_terracotta"
+      B: "ultramarine:small_stone_guardian_lion"
+      C: "ultramarine:gold_dye_powder"
+      D: "ultramarine:gold_parts"
+    result:
+      id: ultramarine:small_yellow_glazed_guardian_lion
+      count: 1
+# 小绿琉璃狮子
+  ultramarine:small_green_glazed_guardian_lion:
+    type: shaped
+    category: building
+    pattern:
+      - "CAC"
+      - "ABA"
+      - "CAC"
+    ingredient: 
+      A: "ultramarine:green_glazed_tile"
+      B: "ultramarine:small_stone_guardian_lion"
+      C: "ultramarine:porcelain_parts"
+    result:
+      id: ultramarine:small_green_glazed_guardian_lion
+      count: 1
+# 须弥石座
+  ultramarine:xumi_stone_monolith:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - "CDC"
+      - "BBB"
+    ingredient: 
+      A: "minecraft:stone_slab"
+      B: "ultramarine:stone_pillar_base"
+      C: "minecraft:stone"
+      D: "minecraft:chiseled_stone_bricks"
+    result:
+      id: ultramarine:xumi_stone_monolith
+      count: 1
+# 小荷叶
+  ultramarine:small_lotus_leaf:
+    type: shaped
+    category: misc
+    pattern:
+      - "AB "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "minecraft:lily_pad"
+      B: "minecraft:big_dripleaf"
+    result:
+      id: ultramarine:small_lotus_leaf
+      count: 1
+# 深绿小荷叶
+  ultramarine:small_dark_green_lotus_leaf:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - " A "
+      - "   "
+    ingredient: 
+      A: "ultramarine:small_lotus_leaf"
+    result:
+      id: ultramarine:small_dark_green_lotus_leaf
+      count: 1
+# 中型荷叶
+  ultramarine:medium_lotus_leaf:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - "AA "
+      - "   "
+    ingredient: 
+      A: "ultramarine:small_lotus_leaf"
+    result:
+      id: ultramarine:medium_lotus_leaf
+      count: 1
+# 大荷叶
+  ultramarine:large_lotus_leaf:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - "AAA"
+      - "   "
+    ingredient: 
+      A: "ultramarine:small_lotus_leaf"
+    result:
+      id: ultramarine:large_lotus_leaf
+      count: 1
+# 倾斜大荷叶
+  ultramarine:tilted_lotus_leaf:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - " A "
+      - "   "
+    ingredient: 
+      A: "ultramarine:large_lotus_leaf"
+    result:
+      id: ultramarine:tilted_lotus_leaf
+      count: 1
+# 小型荷叶群
+  ultramarine:small_lotus_leaf_cluster:
+    type: shaped
+    category: misc
+    pattern:
+      - "A  "
+      - " A "
+      - "   "
+    ingredient: 
+      A: "ultramarine:small_lotus_leaf"
+    result:
+      id: ultramarine:small_lotus_leaf_cluster
+      count: 1
+# 中型荷叶群
+  ultramarine:medium_lotus_leaf_cluster:
+    type: shaped
+    category: misc
+    pattern:
+      - "A  "
+      - " A "
+      - "   "
+    ingredient: 
+      A: "ultramarine:medium_lotus_leaf"
+    result:
+      id: ultramarine:medium_lotus_leaf_cluster
+      count: 1
+# 荷花苞
+  ultramarine:lotus_bud:
+    type: shaped
+    category: misc
+    pattern:
+      - " A "
+      - " B "
+      - "   "
+    ingredient: 
+      A: "minecraft:spore_blossom"
+      B: "minecraft:big_dripleaf"
+    result:
+      id: ultramarine:lotus_bud
+      count: 1
+# 中型荷花
+  ultramarine:medium_lotus:
+    type: shaped
+    category: misc
+    pattern:
+      - "AB "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:lotus_bud"
+      B: "minecraft:bone_meal"
+    result:
+      id: ultramarine:medium_lotus
+      count: 1
+# 小型迎客松盆景
+  ultramarine:small_greeting_pine_bonsai:
+    type: shaped
+    category: misc
+    pattern:
+      - "A  "
+      - "BC "
+      - "   "
+    ingredient: 
+      A: "minecraft:spruce_sapling"
+      B: "minecraft:flower_pot"
+      C: "minecraft:brown_dye"
+    result:
+      id: ultramarine:small_greeting_pine_bonsai
+      count: 1
+# 中型迎客松盆景
+  ultramarine:medium_greeting_pine_bonsai:
+    type: shaped
+    category: misc
+    pattern:
+      - "AA "
+      - "BC "
+      - "   "
+    ingredient: 
+      A: "minecraft:spruce_sapling"
+      B: "minecraft:flower_pot"
+      C: "minecraft:black_dye"
+    result:
+      id: ultramarine:medium_greeting_pine_bonsai
+      count: 1
+# 大型迎客松盆景
+  ultramarine:large_greeting_pine_bonsai:
+    type: shaped
+    category: misc
+    pattern:
+      - "AA "
+      - "BC "
+      - "DE "
+    ingredient: 
+      A: "minecraft:spruce_sapling"
+      B: "minecraft:flower_pot"
+      C: "minecraft:cyan_dye"
+      D: "ultramarine:wooden_frame"
+      E: "#ultramarine:polished_planks"
+    result:
+      id: ultramarine:large_greeting_pine_bonsai
+      count: 1
+# 小型白瓷瓶盆栽
+  ultramarine:small_white_porcelain_vase_bonsai:
+    type: shaped
+    category: misc
+    pattern:
+      - " A "
+      - " B "
+      - "   "
+    ingredient: 
+      A: "#minecraft:saplings"
+      B: "ultramarine:small_white_porcelain_vase"
+    result:
+      id: ultramarine:small_white_porcelain_vase_bonsai
+      count: 1
+# 中型白瓷瓶盆栽
+  ultramarine:medium_white_porcelain_vase_bonsai:
+    type: shaped
+    category: misc
+    pattern:
+      - " A "
+      - " B "
+      - "   "
+    ingredient: 
+      A: "#minecraft:saplings"
+      B: "ultramarine:medium_white_porcelain_vase"
+    result:
+      id: ultramarine:medium_white_porcelain_vase_bonsai
+      count: 1
+# 大型白瓷瓶盆栽
+  ultramarine:large_white_porcelain_vase_bonsai:
+    type: shaped
+    category: misc
+    pattern:
+      - " A "
+      - " B "
+      - "   "
+    ingredient: 
+      A: "#minecraft:saplings"
+      B: "ultramarine:large_white_porcelain_vase"
+    result:
+      id: ultramarine:large_white_porcelain_vase_bonsai
+      count: 1
+# 小型绿瓷瓶盆栽
+  ultramarine:small_green_porcelain_vase_bonsai:
+    type: shaped
+    category: misc
+    pattern:
+      - " A "
+      - " B "
+      - "   "
+    ingredient: 
+      A: "#minecraft:saplings"
+      B: "ultramarine:small_green_porcelain_vase"
+    result:
+      id: ultramarine:small_green_porcelain_vase_bonsai
+      count: 1
+# 绿瓷瓶盆栽
+  ultramarine:green_porcelain_vase_bonsai:
+    type: shaped
+    category: misc
+    pattern:
+      - " A "
+      - " B "
+      - "   "
+    ingredient: 
+      A: "#minecraft:saplings"
+      B: "ultramarine:medium_green_porcelain_vase"
+    result:
+      id: ultramarine:green_porcelain_vase_bonsai
+      count: 1
+# 红珊瑚盆栽
+  ultramarine:red_coral_bonsai:
+    type: shaped
+    category: misc
+    pattern:
+      - "A  "
+      - "BC "
+      - "   "
+    ingredient: 
+      A: "minecraft:fire_coral"
+      B: "minecraft:flower_pot"
+      C: "minecraft:black_dye"
+    result:
+      id: ultramarine:red_coral_bonsai
+      count: 1
+# 红梅盆景
+  ultramarine:red_plum_bonsai:
+    type: shaped
+    category: misc
+    pattern:
+      - "A  "
+      - "BC "
+      - "   "
+    ingredient: 
+      A: "#minecraft:saplings"
+      B: "minecraft:flower_pot"
+      C: "minecraft:cyan_dye"
+    result:
+      id: ultramarine:red_plum_bonsai
+      count: 1
+# 竹子盆景
+  ultramarine:bamboo_bonsai:
+    type: shaped
+    category: misc
+    pattern:
+      - "A  "
+      - "BC "
+      - "   "
+    ingredient: 
+      A: "minecraft:bamboo"
+      B: "minecraft:flower_pot"
+      C: "minecraft:cyan_dye"
+    result:
+      id: ultramarine:bamboo_bonsai
+      count: 1
+# 蓝色高瓶盆栽
+  ultramarine:tall_blue_vase_bonsai:
+    type: shaped
+    category: misc
+    pattern:
+      - " A "
+      - " B "
+      - "   "
+    ingredient: 
+      A: "#minecraft:saplings"
+      B: "ultramarine:tall_blue_porcelain_vase"
+    result:
+      id: ultramarine:tall_blue_vase_bonsai
+      count: 1
+# 高青花瓷盆栽
+  ultramarine:tall_blue_and_white_porcelain_bonsai:
+    type: shaped
+    category: misc
+    pattern:
+      - " A "
+      - " B "
+      - "   "
+    ingredient: 
+      A: "#minecraft:saplings"
+      B: "ultramarine:tall_blue_and_white_porcelain_vase"
+    result:
+      id: ultramarine:tall_blue_and_white_porcelain_bonsai
+      count: 1
+# 中型盆栽
+  ultramarine:medium_bonsai:
+    type: shaped
+    category: misc
+    pattern:
+      - " A "
+      - "CBC"
+      - " D "
+    ingredient: 
+      A: "#minecraft:saplings"
+      B: "minecraft:flower_pot"
+      C: "minecraft:cyan_dye"
+      D: "minecraft:brick"
+    result:
+      id: ultramarine:medium_bonsai
+      count: 1
+# 大型盆栽
+  ultramarine:large_bonsai:
+    type: shaped
+    category: misc
+    pattern:
+      - " A "
+      - "CBC"
+      - " C "
+    ingredient: 
+      A: "#minecraft:saplings"
+      B: "minecraft:flower_pot"
+      C: "minecraft:brick"
+    result:
+      id: ultramarine:large_bonsai
+      count: 1
+# 板条箱
+  ultramarine:wooden_crate:
+    type: shaped
+    category: misc
+    pattern:
+      - "AAA"
+      - "ABA"
+      - "AAA"
+    ingredient: 
+      A: "#ultramarine:polished_planks"
+      B: "ultramarine:wooden_frame"
+    result:
+      id: ultramarine:wooden_crate
+      count: 1
+# 八角宫灯
+  ultramarine:octagonal_palace_lantern:
+    type: shaped
+    category: building
+    pattern:
+      - "ABA"
+      - "BCB"
+      - "ABA"
+    ingredient: 
+      A: "ultramarine:wooden_frame"
+      B: "#ultramarine:polished_planks"
+      C: "#minecraft:candles"
+    result:
+      id: ultramarine:octagonal_palace_lantern
+      count: 1
+# 四角宫灯
+  ultramarine:square_palace_lantern:
+    type: shaped
+    category: building
+    pattern:
+      - " A "
+      - "ABA"
+      - " A "
+    ingredient: 
+      A: "ultramarine:wooden_frame"
+      B: "#minecraft:candles"
+    result:
+      id: ultramarine:square_palace_lantern
+      count: 1
+# 小红灯笼
+  ultramarine:small_red_lantern:
+    type: shaped
+    category: building
+    pattern:
+      - " A "
+      - "BCB"
+      - "DBD"
+    ingredient: 
+      A: "minecraft:stick"
+      B: "minecraft:paper"
+      C: "#minecraft:candles"
+      D: "minecraft:red_dye"
+    result:
+      id: ultramarine:small_red_lantern
+      count: 1
+# 白孔明灯
+  ultramarine:white_sky_lantern:
+    type: shaped
+    category: building
+    pattern:
+      - "ABA"
+      - "ACA"
+      - " D "
+    ingredient: 
+      A: "ultramarine:xuan_paper"
+      B: "minecraft:white_dye"
+      C: "#minecraft:candles"
+      D: "ultramarine:wooden_frame"
+    result:
+      id: ultramarine:white_sky_lantern
+      count: 1
+# 红孔明灯
+  ultramarine:red_sky_lantern:
+    type: shaped
+    category: building
+    pattern:
+      - "ABA"
+      - "ACA"
+      - " D "
+    ingredient: 
+      A: "ultramarine:xuan_paper"
+      B: "minecraft:red_dye"
+      C: "#minecraft:candles"
+      D: "ultramarine:wooden_frame"
+    result:
+      id: ultramarine:red_sky_lantern
+      count: 1
+# 黄孔明灯
+  ultramarine:yellow_sky_lantern:
+    type: shaped
+    category: building
+    pattern:
+      - "ABA"
+      - "ACA"
+      - " D "
+    ingredient: 
+      A: "ultramarine:xuan_paper"
+      B: "minecraft:yellow_dye"
+      C: "#minecraft:candles"
+      D: "ultramarine:wooden_frame"
+    result:
+      id: ultramarine:yellow_sky_lantern
+      count: 1
+# 立灯
+  ultramarine:standing_lamp:
+    type: shaped
+    category: building
+    pattern:
+      - "ABA"
+      - "CDC"
+      - " E "
+    ingredient: 
+      A: "ultramarine:xuan_paper"
+      B: "#minecraft:candles"
+      C: "ultramarine:wooden_parts"
+      D: "ultramarine:wooden_frame"
+      E: "#minecraft:planks"
+    result:
+      id: ultramarine:standing_lamp
+      count: 1
+# 小立灯
+  ultramarine:small_standing_lamp:
+    type: shaped
+    category: building
+    pattern:
+      - "ABA"
+      - "CDC"
+      - " E "
+    ingredient: 
+      A: "ultramarine:xuan_paper"
+      B: "#minecraft:candles"
+      C: "ultramarine:wooden_parts"
+      D: "ultramarine:wooden_frame"
+      E: "minecraft:stick"
+    result:
+      id: ultramarine:small_standing_lamp
+      count: 1
+# 石灯
+  ultramarine:stone_lamp:
+    type: shaped
+    category: building
+    pattern:
+      - " A "
+      - "BCB"
+      - " D "
+    ingredient: 
+      A: "minecraft:stone_slab"
+      B: "minecraft:cobblestone_wall"
+      C: "#minecraft:candles"
+      D: "minecraft:stone"
+    result:
+      id: ultramarine:stone_lamp
+      count: 1
+# 红灯笼路灯
+  ultramarine:red_lantern_streetlight_1:
+    type: shaped
+    category: building
+    pattern:
+      - "AA "
+      - "BC "
+      - "B  "
+    ingredient: 
+      A: "#minecraft:planks"
+      B: "#minecraft:logs"
+      C: "ultramarine:small_red_lantern"
+    result:
+      id: ultramarine:red_lantern_streetlight_1
+      count: 1
+# 靠枕
+  ultramarine:back_cushion:
+    type: shaped
+    category: building
+    pattern:
+      - "AB "
+      - "AB "
+      - "   "
+    ingredient: 
+      A: "minecraft:yellow_wool"
+      B: "ultramarine:silk"
+    result:
+      id: ultramarine:back_cushion
+      count: 1
+# 风铃
+  ultramarine:wind_chime:
+    type: shaped
+    category: building
+    pattern:
+      - " A "
+      - " B "
+      - " C "
+    ingredient: 
+      A: 
+        $$>=1.21.9: "minecraft:iron_chain"  
+        $$<=1.21.8: "minecraft:chain" 
+      B: "ultramarine:bronze_ingot"
+      C: "ultramarine:bronze_parts"
+    result:
+      id: ultramarine:wind_chime
+      count: 1
+# 木锤
+  ultramarine:wooden_mallet:
+    type: shaped
+    category: misc
+    pattern:
+      - " A "
+      - " BA"
+      - "B  "
+    ingredient: 
+      A: "#minecraft:planks"
+      B: "minecraft:stick"
+    result:
+      id: ultramarine:wooden_mallet
+      count: 1
+# 草帽
+  ultramarine:straw_hat:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - "ABA"
+      - "CCC"
+    ingredient: 
+      A: "ultramarine:red_dye_powder"
+      B: "ultramarine:silk"
+      C: "minecraft:wheat"
+    result:
+      id: ultramarine:straw_hat
+      count: 1
+# 玉
+  ultramarine:jade:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - " A "
+      - "   "
+    ingredient: 
+      A: "ultramarine:jade_block"
+    result:
+      id: ultramarine:jade
+      count: 9
+# 白松石粉
+  ultramarine:magnesite_dust:
+    type: blasting
+    experience: 0.05
+    category: misc
+    time: 200
+    ingredient: "ultramarine:magnesite"
+    result:
+      id: ultramarine:magnesite_dust
+      count: 1
+# 赤铁粉
+  ultramarine:hematite_dust:
+    type: blasting
+    experience: 0.05
+    category: misc
+    time: 200
+    ingredient: "ultramarine:raw_hematite"
+    result:
+      id: ultramarine:hematite_dust
+      count: 1
+# 钴粉
+  ultramarine:cobalt_dust:
+    type: blasting
+    experience: 0.05
+    category: misc
+    time: 200
+    ingredient: "ultramarine:raw_cobalt"
+    result:
+      id: ultramarine:cobalt_dust
+      count: 1
+# 青砖
+  ultramarine:cyan_brick_item_1:
+    type: smelting
+    experience: 0.1
+    category: misc
+    time: 200
+    ingredient: "ultramarine:unfired_cyan_brick"
+    result:
+      id: ultramarine:cyan_brick_item
+      count: 1
+  ultramarine:cyan_brick_item_2:
+    type: blasting
+    experience: 0.05
+    category: misc
+    time: 100
+    ingredient: "ultramarine:unfired_cyan_brick"
+    result:
+      id: ultramarine:cyan_brick_item
+      count: 1
+# 黑砖
+  ultramarine:black_brick_item_1:
+    type: smelting
+    experience: 0.1
+    category: misc
+    time: 200
+    ingredient: "ultramarine:unfired_black_brick"
+    result:
+      id: ultramarine:black_brick_item
+      count: 1
+  ultramarine:black_brick_item_2:
+    type: blasting
+    experience: 0.05
+    category: misc
+    time: 100
+    ingredient: "ultramarine:unfired_black_brick"
+    result:
+      id: ultramarine:black_brick_item
+      count: 1
+# 棕红砖
+  ultramarine:brownish_red_stone_brick_item_1:
+    type: smelting
+    experience: 0.1
+    category: misc
+    time: 200
+    ingredient: "ultramarine:unfired_brownish_red_stone_brick"
+    result:
+      id: ultramarine:brownish_red_stone_brick_item
+      count: 1
+  ultramarine:brownish_red_stone_brick_item_2:
+    type: blasting
+    experience: 0.05
+    category: misc
+    time: 100
+    ingredient: "ultramarine:unfired_brownish_red_stone_brick"
+    result:
+      id: ultramarine:brownish_red_stone_brick_item
+      count: 1
+# 砖胚
+  ultramarine:unfired_clay_brick:
+    type: shaped
+    category: building
+    pattern:
+      - "   "
+      - "AAA"
+      - "   "
+    ingredient: 
+      A: "minecraft:clay_ball"
+    result:
+      id: ultramarine:unfired_clay_brick
+      count: 3
+# 青砖胚
+  ultramarine:unfired_cyan_brick:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - "AAA"
+      - "B  "
+    ingredient: 
+      A: "ultramarine:unfired_clay_brick"
+      B: "ultramarine:prismarine_dust"
+    result:
+      id: ultramarine:unfired_cyan_brick
+      count: 6
+# 黑砖胚
+  ultramarine:unfired_black_brick:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - "AAA"
+      - "B  "
+    ingredient: 
+      A: "ultramarine:unfired_clay_brick"
+      B: "ultramarine:hematite_dust"
+    result:
+      id: ultramarine:unfired_black_brick
+      count: 6
+# 棕红砖胚
+  ultramarine:unfired_brownish_red_stone_brick:
+    type: shaped
+    category: building
+    pattern:
+      - "AAA"
+      - "AAA"
+      - "B  "
+    ingredient: 
+      A: "ultramarine:unfired_clay_brick"
+      B: "ultramarine:magnesite_dust"
+    result:
+      id: ultramarine:unfired_brownish_red_stone_brick
+      count: 6
+# 新砖
+  ultramarine:fired_brick_1:
+    type: smelting
+    experience: 0.1
+    category: misc
+    time: 200
+    ingredient: "ultramarine:unfired_clay_brick"
+    result:
+      id: ultramarine:fired_brick
+      count: 1
+  ultramarine:fired_brick_2:
+    type: blasting
+    experience: 0.05
+    category: misc
+    time: 100
+    ingredient: "ultramarine:unfired_clay_brick"
+    result:
+      id: ultramarine:fired_brick
+      count: 1
+# 海晶石粉
+  ultramarine:prismarine_dust:
+    type: stonecutting
+    ingredient: "minecraft:prismarine_shard"
+    result:
+      id: ultramarine:prismarine_dust
+      count: 1
+# 瓦片胚
+  ultramarine:unfired_roof_tile:
+    type: shaped
+    category: misc
+    pattern:
+      - "A  "
+      - " A "
+      - "   "
+    ingredient: 
+      A: "minecraft:clay_ball"
+    result:
+      id: ultramarine:unfired_roof_tile
+      count: 2
+# 灰色瓦片
+  ultramarine:gray_roof_tile_item:
+    type: shaped
+    category: misc
+    pattern:
+      - "AB "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:unfired_roof_tile"
+      B: "ultramarine:gray_dye_powder"
+    result:
+      id: ultramarine:gray_roof_tile_item
+      count: 1
+# 黄色瓦片
+  ultramarine:yellow_roof_tile_item:
+    type: shaped
+    category: misc
+    pattern:
+      - "AB "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:unfired_roof_tile"
+      B: "ultramarine:yellow_dye_powder"
+    result:
+      id: ultramarine:yellow_roof_tile_item
+      count: 1
+# 绿色瓦片
+  ultramarine:green_roof_tile_item:
+    type: shaped
+    category: misc
+    pattern:
+      - "AB "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:unfired_roof_tile"
+      B: "ultramarine:green_dye_powder"
+    result:
+      id: ultramarine:green_roof_tile_item
+      count: 1
+# 蓝色瓦片
+  ultramarine:blue_roof_tile_item:
+    type: shaped
+    category: misc
+    pattern:
+      - "AB "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:unfired_roof_tile"
+      B: "ultramarine:blue_dye_powder"
+    result:
+      id: ultramarine:blue_roof_tile_item
+      count: 1
+# 青色瓦片
+  ultramarine:cyan_roof_tile_item:
+    type: shaped
+    category: misc
+    pattern:
+      - "AB "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:unfired_roof_tile"
+      B: "ultramarine:cyan_dye_powder"
+    result:
+      id: ultramarine:cyan_roof_tile_item
+      count: 1
+# 黑色瓦片
+  ultramarine:black_roof_tile_item:
+    type: shaped
+    category: misc
+    pattern:
+      - "AB "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:unfired_roof_tile"
+      B: "ultramarine:black_dye_powder"
+    result:
+      id: ultramarine:black_roof_tile_item
+      count: 1
+# 橡木板材
+  ultramarine:polished_oak_plank:
+    type: stonecutting
+    ingredient: "minecraft:oak_planks"
+    result:
+      id: ultramarine:polished_oak_plank
+      count: 2
+# 白桦木板材
+  ultramarine:polished_birch_plank:
+    type: stonecutting
+    ingredient: "minecraft:birch_planks"
+    result:
+      id: ultramarine:polished_birch_plank
+      count: 2
+# 云杉木板材
+  ultramarine:polished_spruce_plank:
+    type: stonecutting
+    ingredient: "minecraft:spruce_planks"
+    result:
+      id: ultramarine:polished_spruce_plank
+      count: 2
+# 丛林木板材
+  ultramarine:polished_jungle_plank:
+    type: stonecutting
+    ingredient: "minecraft:jungle_planks"
+    result:
+      id: ultramarine:polished_jungle_plank
+      count: 2
+# 金合欢木板材
+  ultramarine:polished_acacia_plank:
+    type: stonecutting
+    ingredient: "minecraft:acacia_planks"
+    result:
+      id: ultramarine:polished_acacia_plank
+      count: 2
+# 深色橡木板材
+  ultramarine:polished_dark_oak_plank:
+    type: stonecutting
+    ingredient: "minecraft:dark_oak_planks"
+    result:
+      id: ultramarine:polished_dark_oak_plank
+      count: 2
+# 诡异木板材
+  ultramarine:polished_warped_plank:
+    type: stonecutting
+    ingredient: "minecraft:warped_planks"
+    result:
+      id: ultramarine:polished_warped_plank
+      count: 2
+# 绯红木板材
+  ultramarine:polished_crimson_plank:
+    type: stonecutting
+    ingredient: "minecraft:crimson_planks"
+    result:
+      id: ultramarine:polished_crimson_plank
+      count: 2
+# 红树木板材
+  ultramarine:polished_mangrove_plank:
+    type: stonecutting
+    ingredient: "minecraft:mangrove_planks"
+    result:
+      id: ultramarine:polished_mangrove_plank
+      count: 2
+# 樱花木板材
+  ultramarine:polished_cherry_plank:
+    type: stonecutting
+    ingredient: "minecraft:cherry_planks"
+    result:
+      id: ultramarine:polished_cherry_plank
+      count: 2
+# 木制框架
+  ultramarine:wooden_frame:
+    type: stonecutting
+    ingredient: "minecraft:oak_planks"
+    result:
+      id: ultramarine:wooden_frame
+      count: 2
+# 方解石粉
+  ultramarine:calcite_dust:
+    type: stonecutting
+    ingredient: "minecraft:calcite"
+    result:
+      id: ultramarine:calcite_dust
+      count: 1
+# 青花釉粉
+  ultramarine:blue_and_white_glaze_powder:
+    type: shaped
+    category: misc
+    pattern:
+      - "AA "
+      - "B  "
+      - "   "
+    ingredient: 
+      A: "ultramarine:calcite_dust"
+      B: "ultramarine:cobalt_dust"
+    result:
+      id: ultramarine:blue_and_white_glaze_powder
+      count: 3
+# 小粘土瓶
+  ultramarine:small_clay_vase:
+    type: shaped
+    category: misc
+    pattern:
+      - " A "
+      - " A "
+      - "   "
+    ingredient: 
+      A: "minecraft:clay_ball"
+    result:
+      id: ultramarine:small_clay_vase
+      count: 1
+# 中粘土瓶
+  ultramarine:medium_clay_vase:
+    type: shaped
+    category: misc
+    pattern:
+      - " A "
+      - " B "
+      - "   "
+    ingredient: 
+      A: "minecraft:clay_ball"
+      B: "minecraft:clay"
+    result:
+      id: ultramarine:medium_clay_vase
+      count: 1
+# 大粘土瓶
+  ultramarine:large_clay_vase:
+    type: shaped
+    category: misc
+    pattern:
+      - " A "
+      - " A "
+      - "   "
+    ingredient: 
+      A: "minecraft:clay"
+    result:
+      id: ultramarine:large_clay_vase
+      count: 1
+# 高粘土瓶
+  ultramarine:tall_clay_vase:
+    type: shaped
+    category: misc
+    pattern:
+      - " A "
+      - " A "
+      - " B "
+    ingredient: 
+      A: "minecraft:clay_ball"
+      B: "minecraft:clay"
+    result:
+      id: ultramarine:tall_clay_vase
+      count: 1
+# 粘土罐
+  ultramarine:clay_pot:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - "A A"
+      - " B "
+    ingredient: 
+      A: "minecraft:clay_ball"
+      B: "minecraft:clay"
+    result:
+      id: ultramarine:clay_pot
+      count: 1
+# 粘土高罐
+  ultramarine:tall_clay_pot:
+    type: shaped
+    category: misc
+    pattern:
+      - "A A"
+      - "A A"
+      - " B "
+    ingredient: 
+      A: "minecraft:clay_ball"
+      B: "minecraft:clay"
+    result:
+      id: ultramarine:tall_clay_pot
+      count: 1
+# 粘土盘
+  ultramarine:clay_plate:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - "ABA"
+      - "   "
+    ingredient: 
+      A: "minecraft:clay_ball"
+      B: "minecraft:clay"
+    result:
+      id: ultramarine:clay_plate
+      count: 1
+# 粘土碗
+  ultramarine:clay_bowl:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - "A A"
+      - " A "
+    ingredient: 
+      A: "minecraft:clay"
+    result:
+      id: ultramarine:clay_bowl
+      count: 1
+# 小白瓷瓶
+  ultramarine:small_white_porcelain_vase:
+    type: shaped
+    category: misc
+    pattern:
+      - "AB "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:small_clay_vase"
+      B: "minecraft:white_dye"
+    result:
+      id: ultramarine:small_white_porcelain_vase
+      count: 1
+# 中白瓷瓶
+  ultramarine:medium_white_porcelain_vase:
+    type: shaped
+    category: misc
+    pattern:
+      - "AB "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:medium_clay_vase"
+      B: "minecraft:white_dye"
+    result:
+      id: ultramarine:medium_white_porcelain_vase
+      count: 1
+# 大白瓷瓶
+  ultramarine:large_white_porcelain_vase:
+    type: shaped
+    category: misc
+    pattern:
+      - "AB "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:large_clay_vase"
+      B: "minecraft:white_dye"
+    result:
+      id: ultramarine:large_white_porcelain_vase
+      count: 1
+# 小绿瓷瓶
+  ultramarine:small_green_porcelain_vase:
+    type: shaped
+    category: misc
+    pattern:
+      - "AB "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:small_clay_vase"
+      B: "minecraft:green_dye"
+    result:
+      id: ultramarine:small_green_porcelain_vase
+      count: 1
+# 中绿瓷瓶
+  ultramarine:medium_green_porcelain_vase:
+    type: shaped
+    category: misc
+    pattern:
+      - "AB "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:medium_clay_vase"
+      B: "minecraft:green_dye"
+    result:
+      id: ultramarine:medium_green_porcelain_vase
+      count: 1
+# 高蓝瓷瓶
+  ultramarine:tall_blue_porcelain_vase:
+    type: shaped
+    category: misc
+    pattern:
+      - "AB "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:tall_clay_vase"
+      B: "minecraft:blue_dye"
+    result:
+      id: ultramarine:tall_blue_porcelain_vase
+      count: 1
+# 高青花瓷瓶
+  ultramarine:tall_blue_and_white_porcelain_vase:
+    type: shaped
+    category: misc
+    pattern:
+      - "AB "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:tall_clay_vase"
+      B: "ultramarine:blue_and_white_glaze_powder"
+    result:
+      id: ultramarine:tall_blue_and_white_porcelain_vase
+      count: 1
+# 黑瓷盘
+  ultramarine:black_porcelain_plate:
+    type: shaped
+    category: misc
+    pattern:
+      - "AB "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:clay_plate"
+      B: "minecraft:black_dye"
+    result:
+      id: ultramarine:black_porcelain_plate
+      count: 1
+# 木制部件
+  ultramarine:wooden_parts:
+    type: stonecutting
+    ingredient: "minecraft:oak_planks"
+    result:
+      id: ultramarine:wooden_parts
+      count: 2
+# 黄金部件
+  ultramarine:gold_parts:
+    type: stonecutting
+    ingredient: "minecraft:gold_ingot"
+    result:
+      id: ultramarine:gold_parts
+      count: 2
+# 玉部件
+  ultramarine:jade_parts:
+    type: shaped
+    category: misc
+    pattern:
+      - "AB "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:jade"
+      B: "minecraft:oak_planks"
+    result:
+      id: ultramarine:jade_parts
+      count: 1
+# 陶瓷部件
+  ultramarine:porcelain_parts:
+    type: shaped
+    category: misc
+    pattern:
+      - "AB "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "#ultramarine:piece"
+      B: "minecraft:oak_planks"
+    result:
+      id: ultramarine:porcelain_parts
+      count: 1
+# 青铜部件
+  ultramarine:bronze_parts:
+    type: stonecutting
+    ingredient: "minecraft:copper_ingot"
+    result:
+      id: ultramarine:bronze_parts
+      count: 2
+# 青花瓷盘
+  ultramarine:blue_and_white_porcelain_plate:
+    type: shaped
+    category: misc
+    pattern:
+      - "AB "
+      - "   "
+      - "   "
+    ingredient: 
+      A: "ultramarine:clay_plate"
+      B: "ultramarine:blue_and_white_glaze_powder"
+    result:
+      id: ultramarine:blue_and_white_porcelain_plate
+      count: 1
+# 白色染料粉
+  ultramarine:white_dye_powder:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - " A "
+      - "   "
+    ingredient: 
+      A: "minecraft:white_dye"
+    result:
+      id: ultramarine:white_dye_powder
+      count: 4
+# 橙色染料粉
+  ultramarine:orange_dye_powder:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - " A "
+      - "   "
+    ingredient: 
+      A: "minecraft:orange_dye"
+    result:
+      id: ultramarine:orange_dye_powder
+      count: 4
+# 品红色染料粉
+  ultramarine:magenta_dye_powder:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - " A "
+      - "   "
+    ingredient: 
+      A: "minecraft:magenta_dye"
+    result:
+      id: ultramarine:magenta_dye_powder
+      count: 4
+# 淡蓝色染料粉
+  ultramarine:light_blue_dye_powder:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - " A "
+      - "   "
+    ingredient: 
+      A: "minecraft:light_blue_dye"
+    result:
+      id: ultramarine:light_blue_dye_powder
+      count: 4
+# 黄色染料粉
+  ultramarine:yellow_dye_powder:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - " A "
+      - "   "
+    ingredient: 
+      A: "minecraft:yellow_dye"
+    result:
+      id: ultramarine:yellow_dye_powder
+      count: 4
+# 黄绿色染料粉
+  ultramarine:lime_dye_powder:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - " A "
+      - "   "
+    ingredient: 
+      A: "minecraft:lime_dye"
+    result:
+      id: ultramarine:lime_dye_powder
+      count: 4
+# 粉红色染料粉
+  ultramarine:pink_dye_powder:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - " A "
+      - "   "
+    ingredient: 
+      A: "minecraft:pink_dye"
+    result:
+      id: ultramarine:pink_dye_powder
+      count: 4
+# 灰色染料粉
+  ultramarine:gray_dye_powder:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - " A "
+      - "   "
+    ingredient: 
+      A: "minecraft:gray_dye"
+    result:
+      id: ultramarine:gray_dye_powder
+      count: 4
+# 淡灰色染料粉
+  ultramarine:light_gray_dye_powder:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - " A "
+      - "   "
+    ingredient: 
+      A: "minecraft:light_gray_dye"
+    result:
+      id: ultramarine:light_gray_dye_powder
+      count: 4
+# 青色染料粉
+  ultramarine:cyan_dye_powder:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - " A "
+      - "   "
+    ingredient: 
+      A: "minecraft:cyan_dye"
+    result:
+      id: ultramarine:cyan_dye_powder
+      count: 4
+# 紫色染料粉
+  ultramarine:purple_dye_powder:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - " A "
+      - "   "
+    ingredient: 
+      A: "minecraft:purple_dye"
+    result:
+      id: ultramarine:purple_dye_powder
+      count: 4
+# 蓝色染料粉
+  ultramarine:blue_dye_powder:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - " A "
+      - "   "
+    ingredient: 
+      A: "minecraft:blue_dye"
+    result:
+      id: ultramarine:blue_dye_powder
+      count: 4
+# 棕色染料粉
+  ultramarine:brown_dye_powder:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - " A "
+      - "   "
+    ingredient: 
+      A: "minecraft:brown_dye"
+    result:
+      id: ultramarine:brown_dye_powder
+      count: 4
+# 绿色染料粉
+  ultramarine:green_dye_powder:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - " A "
+      - "   "
+    ingredient: 
+      A: "minecraft:green_dye"
+    result:
+      id: ultramarine:green_dye_powder
+      count: 4
+# 红色染料粉
+  ultramarine:red_dye_powder:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - " A "
+      - "   "
+    ingredient: 
+      A: "minecraft:red_dye"
+    result:
+      id: ultramarine:red_dye_powder
+      count: 4
+# 黑色染料粉
+  ultramarine:black_dye_powder:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - " A "
+      - "   "
+    ingredient: 
+      A: "minecraft:black_dye"
+    result:
+      id: ultramarine:black_dye_powder
+      count: 4
+# 金色染料粉
+  ultramarine:gold_dye_powder:
+    type: stonecutting
+    ingredient: "minecraft:gold_nugget"
+    result:
+      id: ultramarine:gold_dye_powder
+      count: 1
+# 模板:雕花木
+  ultramarine:carved_wood_template:
+    type: stonecutting
+    ingredient: "minecraft:polished_blackstone"
+    result:
+      id: ultramarine:carved_wood_template
+      count: 1
+# 模板:雕花羊毛
+  ultramarine:carved_wool_template:
+    type: stonecutting
+    ingredient: "minecraft:polished_blackstone"
+    result:
+      id: ultramarine:carved_wool_template
+      count: 1
+# 模板:枋心
+  ultramarine:fangxin_template:
+    type: stonecutting
+    ingredient: "minecraft:polished_blackstone"
+    result:
+      id: ultramarine:fangxin_template
+      count: 1
+# 模板:枋心边缘
+  ultramarine:fangxin_edge_template:
+    type: stonecutting
+    ingredient: "minecraft:polished_blackstone"
+    result:
+      id: ultramarine:fangxin_edge_template
+      count: 1
+# 模板:找头
+  ultramarine:zhaotou_template:
+    type: stonecutting
+    ingredient: "minecraft:polished_blackstone"
+    result:
+      id: ultramarine:zhaotou_template
+      count: 1
+# 模板:箍头
+  ultramarine:gutou_template:
+    type: stonecutting
+    ingredient: "minecraft:polished_blackstone"
+    result:
+      id: ultramarine:gutou_template
+      count: 1
+# 模板:椽身
+  ultramarine:rafter_template:
+    type: stonecutting
+    ingredient: "minecraft:polished_blackstone"
+    result:
+      id: ultramarine:rafter_template
+      count: 1
+# 模板:椽头
+  ultramarine:rafter_end_template:
+    type: stonecutting
+    ingredient: "minecraft:polished_blackstone"
+    result:
+      id: ultramarine:rafter_end_template
+      count: 1
+# 模板:额枋
+  ultramarine:architrave_template:
+    type: stonecutting
+    ingredient: "minecraft:polished_blackstone"
+    result:
+      id: ultramarine:architrave_template
+      count: 1
+# 模板:彩画
+  ultramarine:caihua_template:
+    type: stonecutting
+    ingredient: "minecraft:polished_blackstone"
+    result:
+      id: ultramarine:caihua_template
+      count: 1
+# 铜钱
+  ultramarine:copper_cash_coin_1:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - " A "
+      - "   "
+    ingredient: 
+      A: 
+       items: "ultramarine:jade"
+       count: 1
+    result:
+      id: ultramarine:copper_cash_coin
+      count: 15
+# 青桐锭
+  ultramarine:bronze_ingot:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - " A "
+      - "   "
+    ingredient: 
+      A: "ultramarine:bronze_block"
+    result:
+      id: ultramarine:bronze_ingot
+      count: 1
+# 青花瓷瓶
+  ultramarine:blue_and_white_porcelain_vase:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - "AB "
+      - "   "
+    ingredient: 
+      A: "ultramarine:medium_clay_vase"
+      B: "ultramarine:blue_and_white_glaze_powder"
+    result:
+      id: ultramarine:blue_and_white_porcelain_vase
+      count: 1
+# 青花瓷大瓶
+  ultramarine:large_blue_and_white_porcelain_vase:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - "AB "
+      - "   "
+    ingredient: 
+      A: "ultramarine:large_clay_vase"
+      B: "ultramarine:blue_and_white_glaze_powder"
+    result:
+      id: ultramarine:large_blue_and_white_porcelain_vase
+      count: 1
+# 青花瓷矮罐
+  ultramarine:short_blue_and_white_porcelain_pot:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - "AB "
+      - "   "
+    ingredient: 
+      A: "ultramarine:clay_pot"
+      B: "ultramarine:blue_and_white_glaze_powder"
+    result:
+      id: ultramarine:short_blue_and_white_porcelain_pot
+      count: 1
+# 青花瓷高罐
+  ultramarine:tall_blue_and_white_porcelain_pot:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - "AB "
+      - "   "
+    ingredient: 
+      A: "ultramarine:tall_clay_pot"
+      B: "ultramarine:blue_and_white_glaze_powder"
+    result:
+      id: ultramarine:tall_blue_and_white_porcelain_pot
+      count: 1
+# 青花瓷碗
+  ultramarine:blue_and_white_porcelain_bowl:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - "AB "
+      - "   "
+    ingredient: 
+      A: "ultramarine:clay_bowl"
+      B: "ultramarine:blue_and_white_glaze_powder"
+    result:
+      id: ultramarine:blue_and_white_porcelain_bowl
+      count: 1
+# 青花瓷花盆
+  ultramarine:blue_and_white_porcelain_flowerpot:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - "AB "
+      - "   "
+    ingredient: 
+      A: "minecraft:flower_pot"
+      B: "ultramarine:blue_and_white_glaze_powder"
+    result:
+      id: ultramarine:blue_and_white_porcelain_flowerpot
+      count: 1
+# 橡木橱柜
+  ultramarine:oak_cabinet:
+    type: shaped
+    category: misc
+    pattern:
+      - "AAA"
+      - "ABA"
+      - "ACA"
+    ingredient: 
+      A: "ultramarine:polished_oak_plank"
+      B: "minecraft:chest"
+      C: "ultramarine:wooden_frame"
+    result:
+      id: ultramarine:oak_cabinet
+      count: 1
+# 诡异木橱柜
+  ultramarine:warped_cabinet:
+    type: shaped
+    category: misc
+    pattern:
+      - "AAA"
+      - "ABA"
+      - "DCD"
+    ingredient: 
+      A: "ultramarine:polished_warped_plank"
+      B: "minecraft:chest"
+      C: "ultramarine:wooden_frame"
+      D: "minecraft:warped_planks"
+    result:
+      id: ultramarine:warped_cabinet
+      count: 1
+# 乌木橱柜
+  ultramarine:ebony_cabinet:
+    type: shaped
+    category: misc
+    pattern:
+      - "CAC"
+      - "ABA"
+      - "ABA"
+    ingredient: 
+      A: "ultramarine:polished_ebony_plank"
+      B: "minecraft:chest"
+      C: "ultramarine:gold_parts"
+    result:
+      id: ultramarine:ebony_cabinet
+      count: 1
+# 大茶几
+  ultramarine:large_tea_table:
+    type: shaped
+    category: misc
+    pattern:
+      - "AAA"
+      - "BBB"
+      - "CDC"
+    ingredient: 
+      A: "ultramarine:polished_spruce_plank"
+      B: "minecraft:spruce_planks"
+      C: "minecraft:stick"
+      D: "ultramarine:wooden_frame"
+    result:
+      id: ultramarine:large_tea_table
+      count: 1
+# 白底高几
+  ultramarine:high_table_with_white_top:
+    type: shaped
+    category: misc
+    pattern:
+      - " A "
+      - "BCB"
+      - "B B"
+    ingredient: 
+      A: "ultramarine:polished_birch_plank"
+      B: "minecraft:stick"
+      C: "ultramarine:wooden_frame"
+    result:
+      id: ultramarine:high_table_with_white_top
+      count: 1
+# 香几
+  ultramarine:censer_table:
+    type: shaped
+    category: misc
+    pattern:
+      - "BAB"
+      - "CDC"
+      - "CAC"
+    ingredient: 
+      A: "ultramarine:polished_spruce_plank"
+      B: "ultramarine:gold_parts"
+      C: "minecraft:stick"
+      D: "ultramarine:wooden_frame"
+    result:
+      id: ultramarine:censer_table
+      count: 1
+# 镶瓷桌子
+  ultramarine:porcelain_inlaid_table:
+    type: shaped
+    category: misc
+    pattern:
+      - " A "
+      - "BCB"
+      - "DED"
+    ingredient: 
+      A: "ultramarine:porcelain_parts"
+      B: "ultramarine:wooden_parts"
+      C: "ultramarine:polished_rosewood_plank"
+      D: "ultramarine:rosewood_plank"
+      E: "ultramarine:wooden_frame"
+    result:
+      id: ultramarine:porcelain_inlaid_table
+      count: 1
+# 小型桌子
+  ultramarine:small_table:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - " A "
+      - "BCB"
+    ingredient: 
+      A: "#ultramarine:polished_planks"
+      B: "minecraft:stick"
+      C: "ultramarine:wooden_frame"
+    result:
+      id: ultramarine:small_table
+      count: 1
+# 乌木小桌子
+  ultramarine:small_ebony_table:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - " A "
+      - "BCB"
+    ingredient: 
+      A: "ultramarine:polished_ebony_plank"
+      B: "minecraft:stick"
+      C: "ultramarine:wooden_frame"
+    result:
+      id: ultramarine:small_ebony_table
+      count: 1
+# 大号桌子
+  ultramarine:large_table:
+    type: shaped
+    category: misc
+    pattern:
+      - "AAA"
+      - "AAA"
+      - "BCB"
+    ingredient: 
+      A: "#minecraft:planks"
+      B: "minecraft:stick"
+      C: "ultramarine:wooden_frame"
+    result:
+      id: ultramarine:large_table
+      count: 1
+# 长桌子
+  ultramarine:long_table:
+    type: shaped
+    category: misc
+    pattern:
+      - "AAA"
+      - "BBB"
+      - "CDC"
+    ingredient: 
+      A: "ultramarine:polished_rosewood_plank"
+      B: "ultramarine:rosewood_plank"
+      C: "minecraft:stick"
+      D: "ultramarine:wooden_frame"
+    result:
+      id: ultramarine:long_table
+      count: 1
+# 乌木椅子
+  ultramarine:ebony_chair:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - "AB "
+      - "CAC"
+    ingredient: 
+      A: "ultramarine:wooden_frame"
+      B: "ultramarine:polished_ebony_plank"
+      C: "minecraft:stick"
+    result:
+      id: ultramarine:ebony_chair
+      count: 1
+# 黄坐垫椅子
+  ultramarine:chair_with_yellow_cushion:
+    type: shaped
+    category: misc
+    pattern:
+      - "   "
+      - "AB "
+      - "CAC"
+    ingredient: 
+      A: "ultramarine:wooden_frame"
+      B: "ultramarine:yellow_cushion"
+      C: "minecraft:stick"
+    result:
+      id: ultramarine:chair_with_yellow_cushion
+      count: 1
+# 凳子
+# 镶瓷太师椅
+  ultramarine:porcelain_inlaid_grand_chair:
+    type: shaped
+    category: misc
+    pattern:
+      - "ABC"
+      - "DBC"
+      - "DAD"
+    ingredient: 
+      A: "ultramarine:wooden_frame"
+      B: "ultramarine:porcelain_parts"
+      C: "ultramarine:wooden_parts"
+      D: "ultramarine:polished_rosewood_plank"
+    result:
+      id: ultramarine:porcelain_inlaid_grand_chair
+      count: 1
+# 黄坐垫
+  ultramarine:yellow_cushion:
+    type: shaped
+    category: misc
+    pattern:
+      - "AA "
+      - "BB "
+      - "   "
+    ingredient: 
+      A: "ultramarine:silk"
+      B: "minecraft:yellow_wool"
+    result:
+      id: ultramarine:yellow_cushion
+      count: 1
+# 橡木床
+  ultramarine:oak_bed:
+    type: shaped
+    category: misc
+    pattern:
+      - "ACA"
+      - "BBB"
+      - "BAB"
+    ingredient: 
+      A: "ultramarine:wooden_frame"
+      B: "ultramarine:polished_oak_plank"
+      C: "ultramarine:wooden_parts"
+    result:
+      id: ultramarine:oak_bed
+      count: 1
+# 乌木床
+  ultramarine:ebony_bed:
+    type: shaped
+    category: misc
+    pattern:
+      - "ACA"
+      - "DBD"
+      - "BAB"
+    ingredient: 
+      A: "ultramarine:wooden_frame"
+      B: "ultramarine:wooden_parts"
+      C: "ultramarine:silk"
+      D: "ultramarine:gilded_dark_oak"
+    result:
+      id: ultramarine:ebony_bed
+      count: 1
+# 雕花木门
+# 宋代木门
+# 宋代木窗
+# 琉璃砖网格窗户
+  ultramarine:glazed_tile_grid_window:
+    type: shaped
+    category: misc
+    pattern:
+      - "AAA"
+      - "ABA"
+      - "AAA"
+    ingredient: 
+      A: "ultramarine:green_glazed_tile"
+      B: "minecraft:iron_bars"
+    result:
+      id: ultramarine:glazed_tile_grid_window
+      count: 1
+# 熟肉
+  ultramarine:cooked_meat_1:
+    type: smelting
+    experience: 0.05
+    category: misc
+    time: 200
+    ingredient: "ultramarine:raw_meat"
+    result:
+      id: ultramarine:cooked_meat
+      count: 1
+  ultramarine:cooked_meat_2:
+    type: smoking
+    experience: 0.025
+    category: misc
+    time: 100
+    ingredient: "ultramarine:raw_meat"
+    result:
+      id: ultramarine:cooked_meat
+      count: 1
+# 荷花盆
+  ultramarine:lotus_leaves_bowl_empty:
+    type: shaped
+    category: misc
+    pattern:
+      - "ABA"
+      - "AAA"
+      - " C "
+    ingredient: 
+      A: "ultramarine:small_lotus_leaf"
+      B: "minecraft:andesite"
+      C: "minecraft:iron_ingot"
+    result:
+      id: ultramarine:glazed_tile_grid_window
+      count: 1
+# 青花瓷升级锻造模板
+  ultramarine:blue_and_white_porcelain_upgrade_smithing_template:
+    type: shaped
+    category: misc
+    pattern:
+      - "ACA"
+      - "ADA"
+      - "BBB"
+    ingredient: 
+      A: "ultramarine:porcelain_parts"
+      B: "ultramarine:porcelain_piece"
+      C: "ultramarine:blue_and_white_porcelain_shards"
+      D: "ultramarine:blue_and_white_glaze_powder"
+    result:
+      id: ultramarine:blue_and_white_porcelain_upgrade_smithing_template
+      count: 1
+# 青花瓷剑
+  ultramarine:blue_and_white_porcelain_sword:
+    type: smithing_transform
+    base: minecraft:golden_sword 
+    addition: ultramarine:blue_and_white_porcelain_piece
+    template-type: ultramarine:blue_and_white_porcelain_upgrade_smithing_template 
+    result:
+      id: ultramarine:blue_and_white_porcelain_sword
+      count: 1
+# 青花瓷锹
+  ultramarine:blue_and_white_porcelain_shovel:
+    type: smithing_transform
+    base: minecraft:golden_shovel 
+    addition: ultramarine:blue_and_white_porcelain_piece
+    template-type: ultramarine:blue_and_white_porcelain_upgrade_smithing_template 
+    result:
+      id: ultramarine:blue_and_white_porcelain_shovel
+      count: 1
+# 青花瓷斧
+  ultramarine:blue_and_white_porcelain_axe:
+    type: smithing_transform
+    base: minecraft:golden_axe 
+    addition: ultramarine:blue_and_white_porcelain_piece
+    template-type: ultramarine:blue_and_white_porcelain_upgrade_smithing_template 
+    result:
+      id: ultramarine:blue_and_white_porcelain_axe
+      count: 1
+# 青花瓷镐
+  ultramarine:blue_and_white_porcelain_pickaxe:
+    type: smithing_transform
+    base: minecraft:golden_pickaxe 
+    addition: ultramarine:blue_and_white_porcelain_piece
+    template-type: ultramarine:blue_and_white_porcelain_upgrade_smithing_template 
+    result:
+      id: ultramarine:blue_and_white_porcelain_pickaxe
+      count: 1

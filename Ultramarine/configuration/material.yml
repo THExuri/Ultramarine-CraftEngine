@@ -1,0 +1,812 @@
+items:
+# 玉
+  ultramarine:jade:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.jade>
+    texture: minecraft:item/custom/jade
+# 白松石
+  ultramarine:magnesite:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.magnesite>
+    texture: minecraft:item/custom/magnesite
+# 白松石粉
+  ultramarine:magnesite_dust:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.magnesite_dust>
+    texture: minecraft:item/custom/magnesite_dust
+# 粗赤铁
+  ultramarine:raw_hematite:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.raw_hematite>
+    texture: minecraft:item/custom/raw_hematite
+# 赤铁粉
+  ultramarine:hematite_dust:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.hematite_dust>
+    texture: minecraft:item/custom/hematite_dust
+# 粗钴
+  ultramarine:raw_cobalt:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.raw_cobalt>
+    texture: minecraft:item/custom/raw_cobalt
+# 钴粉
+  ultramarine:cobalt_dust:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.cobalt_dust>
+    texture: minecraft:item/custom/cobalt_dust
+# 青砖
+  ultramarine:cyan_brick_item:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.cyan_brick>
+    texture: minecraft:item/custom/cyan_brick
+# 黑砖
+  ultramarine:black_brick_item:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.black_brick>
+    texture: minecraft:item/custom/black_brick
+# 棕红砖
+  ultramarine:brownish_red_stone_brick_item:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.brownish_red_stone_brick_item>
+    texture: minecraft:item/custom/brownish_red_stone_brick
+# 砖胚
+  ultramarine:unfired_clay_brick:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.unfired_clay_brick>
+    texture: minecraft:item/custom/unfired_clay_brick
+# 青砖胚
+  ultramarine:unfired_cyan_brick:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.unfired_cyan_brick>
+    texture: minecraft:item/custom/unfired_cyan_brick
+# 黑砖胚
+  ultramarine:unfired_black_brick:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.unfired_black_brick>
+    texture: minecraft:item/custom/unfired_black_brick
+# 棕红砖胚
+  ultramarine:unfired_brownish_red_stone_brick:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.unfired_brownish_red_stone_brick>
+    texture: minecraft:item/custom/unfired_brownish_red_stone_brick
+# 新砖
+  ultramarine:fired_brick:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.fired_brick>
+    texture: minecraft:item/custom/fired_brick
+# 海晶石粉
+  ultramarine:prismarine_dust:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.prismarine_dust>
+    texture: minecraft:item/custom/prismarine_dust
+# 瓦片胚
+  ultramarine:unfired_roof_tile:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.unfired_roof_tile>
+    texture: minecraft:item/custom/unfired_roof_tile
+# 灰色瓦片
+  ultramarine:gray_roof_tile_item:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.gray_roof_tile_item>
+    texture: minecraft:item/custom/gray_roof_tile
+# 黄色瓦片
+  ultramarine:yellow_roof_tile_item:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.yellow_roof_tile_item>
+    texture: minecraft:item/custom/yellow_roof_tile
+# 绿色瓦片
+  ultramarine:green_roof_tile_item:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.green_roof_tile_item>
+    texture: minecraft:item/custom/green_roof_tile
+# 蓝色瓦片
+  ultramarine:blue_roof_tile_item:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.blue_roof_tile_item>
+    texture: minecraft:item/custom/blue_roof_tile
+# 青色瓦片
+  ultramarine:cyan_roof_tile_item:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.cyan_roof_tile_item>
+    texture: minecraft:item/custom/cyan_roof_tile
+# 黑色瓦片
+  ultramarine:black_roof_tile_item:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.black_roof_tile_item>
+    texture: minecraft:item/custom/black_roof_tile
+# 橡木板材
+  ultramarine:polished_oak_plank:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.polished_oak_plank>
+    settings:
+      tags:
+        - "ultramarine:polished_planks"
+    texture: minecraft:item/custom/polished_oak_plank
+# 白桦木板材
+  ultramarine:polished_birch_plank:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.polished_birch_plank>
+    settings:
+      tags:
+        - "ultramarine:polished_planks"
+    texture: minecraft:item/custom/polished_birch_plank
+# 云杉木板材
+  ultramarine:polished_spruce_plank:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.polished_spruce_plank>
+    settings:
+      tags:
+        - "ultramarine:polished_planks"
+    texture: minecraft:item/custom/polished_spruce_plank
+# 丛林木板材
+  ultramarine:polished_jungle_plank:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.polished_jungle_plank>
+    settings:
+      tags:
+        - "ultramarine:polished_planks"
+    texture: minecraft:item/custom/polished_jungle_plank
+# 金合欢木板材
+  ultramarine:polished_acacia_plank:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.polished_acacia_plank>
+    settings:
+      tags:
+        - "ultramarine:polished_planks"
+    texture: minecraft:item/custom/polished_acacia_plank
+# 深色橡木板材
+  ultramarine:polished_dark_oak_plank:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.polished_dark_oak_plank>
+    settings:
+      tags:
+        - "ultramarine:polished_planks"
+    texture: minecraft:item/custom/polished_dark_oak_plank
+# 诡异木板材
+  ultramarine:polished_warped_plank:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.polished_warped_plank>
+    settings:
+      tags:
+        - "ultramarine:polished_planks"
+    texture: minecraft:item/custom/polished_warped_plank
+# 绯红木板材
+  ultramarine:polished_crimson_plank:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.polished_crimson_plank>
+    settings:
+      tags:
+        - "ultramarine:polished_planks"
+    texture: minecraft:item/custom/polished_crimson_plank
+# 红树木板材
+  ultramarine:polished_mangrove_plank:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.polished_mangrove_plank>
+    settings:
+      tags:
+        - "ultramarine:polished_planks"
+    texture: minecraft:item/custom/polished_mangrove_plank
+# 樱花木板材
+  ultramarine:polished_cherry_plank:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.polished_cherry_plank>
+    settings:
+      tags:
+        - "ultramarine:polished_planks"
+    texture: minecraft:item/custom/polished_cherry_plank
+# 红木板材
+  ultramarine:polished_rosewood_plank:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.polished_rosewood_plank>
+    settings:
+      tags:
+        - "ultramarine:polished_planks"
+    texture: minecraft:item/custom/polished_rosewood_plank
+# 乌木板材
+  ultramarine:polished_ebony_plank:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.polished_ebony_plank>
+    settings:
+      tags:
+        - "ultramarine:polished_planks"
+    texture: minecraft:item/custom/polished_ebony_plank
+# 木制框架
+  ultramarine:wooden_frame:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.wooden_frame>
+    texture: minecraft:item/custom/wooden_frame
+# 方解石粉
+  ultramarine:calcite_dust:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.calcite_dust>
+    texture: minecraft:item/custom/calcite_dust
+# 青花釉粉
+  ultramarine:blue_and_white_glaze_powder:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.blue_and_white_glaze_powder>
+    texture: minecraft:item/custom/blue_and_white_glaze_powder
+# 小粘土瓶
+  ultramarine:small_clay_vase:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.small_clay_vase>
+    texture: minecraft:item/custom/small_clay_vase
+# 中粘土瓶
+  ultramarine:medium_clay_vase:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.medium_clay_vase>
+    texture: minecraft:item/custom/medium_clay_vase
+# 大粘土瓶
+  ultramarine:large_clay_vase:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.large_clay_vase>
+    texture: minecraft:item/custom/large_clay_vase
+# 高粘土瓶
+  ultramarine:tall_clay_vase:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.tall_clay_vase>
+    texture: minecraft:item/custom/tall_clay_vase
+# 粘土罐
+  ultramarine:clay_pot:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.clay_pot>
+    texture: minecraft:item/custom/clay_pot
+# 粘土高罐
+  ultramarine:tall_clay_pot:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.tall_clay_pot>
+    texture: minecraft:item/custom/tall_clay_pot
+# 粘土盘
+  ultramarine:clay_plate:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.clay_plate>
+    texture: minecraft:item/custom/clay_plate
+# 粘土碗
+  ultramarine:clay_bowl:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.clay_bowl>
+    texture: minecraft:item/custom/clay_bowl
+# 小白瓷瓶
+  ultramarine:small_white_porcelain_vase:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.small_white_porcelain_vase>
+    texture: minecraft:item/custom/small_white_porcelain_vase
+# 中白瓷瓶
+  ultramarine:medium_white_porcelain_vase:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.medium_white_porcelain_vase>
+    texture: minecraft:item/custom/medium_white_porcelain_vase
+# 大白瓷瓶
+  ultramarine:large_white_porcelain_vase:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.large_white_porcelain_vase>
+    texture: minecraft:item/custom/large_white_porcelain_vase
+# 小绿瓷瓶
+  ultramarine:small_green_porcelain_vase:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.small_green_porcelain_vase>
+    texture: minecraft:item/custom/small_green_porcelain_vase
+# 中绿瓷瓶
+  ultramarine:medium_green_porcelain_vase:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.medium_green_porcelain_vase>
+    texture: minecraft:item/custom/medium_green_porcelain_vase
+# 高蓝瓷瓶
+  ultramarine:tall_blue_porcelain_vase:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.tall_blue_porcelain_vase>
+    texture: minecraft:item/custom/tall_blue_porcelain_vase
+# 高青花瓷瓶
+  ultramarine:tall_blue_and_white_porcelain_vase:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.tall_blue_and_white_porcelain_vase>
+    texture: minecraft:item/custom/tall_blue_and_white_porcelain_vase
+# 黑瓷盘
+  ultramarine:black_porcelain_plate:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.black_porcelain_plate>
+    texture: minecraft:item/custom/black_porcelain_plate
+# 青花瓷盘
+  ultramarine:blue_and_white_porcelain_plate:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.blue_and_white_porcelain_plate>
+    texture: minecraft:item/custom/blue_and_white_porcelain_plate
+# 青花瓷片
+  ultramarine:blue_and_white_porcelain_piece:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.blue_and_white_porcelain_piece>
+    settings:
+      tags:
+        - "ultramarine:piece"
+    texture: minecraft:item/custom/blue_and_white_porcelain_piece
+# 青花瓷碎片
+  ultramarine:blue_and_white_porcelain_shards:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.blue_and_white_porcelain_shards>
+    texture: minecraft:item/custom/blue_and_white_porcelain_shards
+# 瓷片
+  ultramarine:porcelain_piece:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.porcelain_piece>
+    settings:
+      tags:
+        - "ultramarine:piece"
+    texture: minecraft:item/custom/porcelain_piece
+# 木制部件
+  ultramarine:wooden_parts:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.wooden_parts>
+    texture: minecraft:item/custom/wooden_parts
+# 黄金部件
+  ultramarine:gold_parts:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.gold_parts>
+    texture: minecraft:item/custom/gold_parts
+# 玉部件
+  ultramarine:jade_parts:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.jade_parts>
+    texture: minecraft:item/custom/jade_parts
+# 陶瓷部件
+  ultramarine:porcelain_parts:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.porcelain_parts>
+    texture: minecraft:item/custom/porcelain_parts
+# 青铜部件
+  ultramarine:bronze_parts:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.bronze_parts>
+    texture: minecraft:item/custom/bronze_parts
+# 白色染料粉
+  ultramarine:white_dye_powder:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.white_dye_powder>
+    texture: minecraft:item/custom/white_dye_powder
+# 橙色染料粉
+  ultramarine:orange_dye_powder:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.orange_dye_powder>
+    texture: minecraft:item/custom/orange_dye_powder
+# 品红色染料粉
+  ultramarine:magenta_dye_powder:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.magenta_dye_powder>
+    texture: minecraft:item/custom/magenta_dye_powder
+# 淡蓝色染料粉
+  ultramarine:light_blue_dye_powder:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.light_blue_dye_powder>
+    texture: minecraft:item/custom/light_blue_dye_powder
+# 黄色染料粉
+  ultramarine:yellow_dye_powder:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.yellow_dye_powder>
+    texture: minecraft:item/custom/yellow_dye_powder
+# 黄绿色染料粉
+  ultramarine:lime_dye_powder:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.lime_dye_powder>
+    texture: minecraft:item/custom/lime_dye_powder
+# 粉红色染料粉
+  ultramarine:pink_dye_powder:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.pink_dye_powder>
+    texture: minecraft:item/custom/pink_dye_powder
+# 灰色染料粉
+  ultramarine:gray_dye_powder:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.gray_dye_powder>
+    texture: minecraft:item/custom/gray_dye_powder
+# 淡灰色染料粉
+  ultramarine:light_gray_dye_powder:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.light_gray_dye_powder>
+    texture: minecraft:item/custom/light_gray_dye_powder
+# 青色染料粉
+  ultramarine:cyan_dye_powder:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.cyan_dye_powder>
+    texture: minecraft:item/custom/cyan_dye_powder
+# 紫色染料粉
+  ultramarine:purple_dye_powder:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.purple_dye_powder>
+    texture: minecraft:item/custom/purple_dye_powder
+# 蓝色染料粉
+  ultramarine:blue_dye_powder:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.blue_dye_powder>
+    texture: minecraft:item/custom/blue_dye_powder
+# 棕色染料粉
+  ultramarine:brown_dye_powder:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.brown_dye_powder>
+    texture: minecraft:item/custom/brown_dye_powder
+# 绿色染料粉
+  ultramarine:green_dye_powder:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.green_dye_powder>
+    texture: minecraft:item/custom/green_dye_powder
+# 红色染料粉
+  ultramarine:red_dye_powder:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.red_dye_powder>
+    texture: minecraft:item/custom/red_dye_powder
+# 黑色染料粉
+  ultramarine:black_dye_powder:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.black_dye_powder>
+    texture: minecraft:item/custom/black_dye_powder
+# 金色染料粉
+  ultramarine:gold_dye_powder:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.gold_dye_powder>
+    texture: minecraft:item/custom/gold_dye_powder
+# 模板:雕花木
+  ultramarine:carved_wood_template:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.carved_wood_template>
+    settings:
+      craft-remainder: ultramarine:carved_wood_template
+    texture: minecraft:item/custom/carved_wood_template
+# 模板:雕花羊毛
+  ultramarine:carved_wool_template:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.carved_wool_template>
+    settings:
+      craft-remainder: ultramarine:carved_wool_template
+    texture: minecraft:item/custom/carved_wool_template
+# 模板:枋心
+  ultramarine:fangxin_template:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.fangxin_template>
+    settings:
+      craft-remainder: ultramarine:fangxin_template
+    texture: minecraft:item/custom/fangxin_template
+# 模板:枋心边缘
+  ultramarine:fangxin_edge_template:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.fangxin_edge_template>
+    settings:
+      craft-remainder: ultramarine:fangxin_edge_template
+    texture: minecraft:item/custom/fangxin_edge_template
+# 模板:找头
+  ultramarine:zhaotou_template:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.zhaotou_template>
+    settings:
+      craft-remainder: ultramarine:zhaotou_template
+    texture: minecraft:item/custom/zhaotou_template
+# 模板:箍头
+  ultramarine:gutou_template:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.gutou_template>
+    settings:
+      craft-remainder: ultramarine:gutou_template
+    texture: minecraft:item/custom/gutou_template
+# 模板:椽身
+  ultramarine:rafter_template:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.rafter_template>
+    settings:
+      craft-remainder: ultramarine:rafter_template
+    texture: minecraft:item/custom/rafter_template
+# 模板:椽头
+  ultramarine:rafter_end_template:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.rafter_end_template>
+    settings:
+      craft-remainder: ultramarine:rafter_end_template
+    texture: minecraft:item/custom/rafter_end_template
+# 模板:额枋
+  ultramarine:architrave_template:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.architrave_template>
+    settings:
+      craft-remainder: ultramarine:architrave_template
+    texture: minecraft:item/custom/architrave_template
+# 模板:彩画
+  ultramarine:caihua_template:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.caihua_template>
+    settings:
+      craft-remainder: ultramarine:caihua_template
+    texture: minecraft:item/custom/caihua_template
+# 熏香
+  ultramarine:incense:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.incense>
+    texture: minecraft:item/custom/incense
+# 毛发
+  ultramarine:fur:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.fur>
+    texture: minecraft:item/custom/fur
+# 油脂
+  ultramarine:grease:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.grease>
+    texture: minecraft:item/custom/grease
+# 丝绸
+  ultramarine:silk:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.silk>
+    texture: minecraft:item/custom/silk
+# 宣纸
+  ultramarine:xuan_paper:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.xuan_paper>
+    texture: minecraft:item/custom/xuan_paper
+# 铜钱
+  ultramarine:copper_cash_coin:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.copper_cash_coin>
+    texture: minecraft:item/custom/copper_cash_coin
+    events:
+      - on: right_click
+        functions:
+          - type: merchant_trade
+            title: "行商"
+            offers:
+              - cost-1:
+                  item: ultramarine:copper_cash_coin
+                  count: 10
+                result: 
+                  item: ultramarine:incense
+                  count: 1
+              - cost-1: 
+                  item: ultramarine:copper_cash_coin
+                  count: 6
+                result: ultramarine:silk
+              - cost-1: 
+                  item: ultramarine:copper_cash_coin
+                  count: 4
+                result: 
+                  item: ultramarine:xuan_paper
+                  count: 1
+              - cost-1: 
+                  item: minecraft:amethyst_shard
+                  count: 1
+                result: 
+                  item: ultramarine:copper_cash_coin
+                  count: 6
+              - cost-1: 
+                  item: minecraft:ender_pearl
+                  count: 1
+                result: 
+                  item: ultramarine:copper_cash_coin
+                  count: 3
+              - cost-1: 
+                  item: minecraft:book
+                  count: 1
+                result: 
+                  item: ultramarine:copper_cash_coin
+                  count: 3
+# 青桐锭
+  ultramarine:bronze_ingot:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.bronze_ingot>
+    texture: minecraft:item/custom/bronze_ingot
+# 青铜粉
+  ultramarine:bronze_dust:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.bronze_dust>
+    texture: minecraft:item/custom/bronze_dust
+# 月饼
+  ultramarine:mooncake:
+    material: nether_brick
+    client_bound_material:  
+      $$<1.20.5: bread   
+    data:
+      item-name: <!i><lang:item.ultramarine.mooncake>
+      $$>=1.20.5:
+        food:
+          nutrition: 2
+          saturation: 0.5
+          can_always_eat: false
+        components:
+          minecraft:consumable: {}
+    settings:
+      $$<1.20.5: 
+        food:
+          nutrition: 2
+          saturation: 0.5
+    texture: minecraft:item/custom/mooncake
+# 绿豆糕
+  ultramarine:mung_bean_cake:
+    material: nether_brick
+    client_bound_material:  
+      $$<1.20.5: bread   
+    data:
+      item-name: <!i><lang:item.ultramarine.mung_bean_cake>
+      $$>=1.20.5:
+        food:
+          nutrition: 2
+          saturation: 0.5
+          can_always_eat: false
+        components:
+          minecraft:consumable: {}
+    settings:
+      $$<1.20.5: 
+        food:
+          nutrition: 2
+          saturation: 0.5
+    texture: minecraft:item/custom/mung_bean_cake
+# 生肉
+  ultramarine:raw_meat:
+    material: nether_brick
+    client_bound_material:  
+      $$<1.20.5: bread   
+    data:
+      item-name: <!i><lang:item.ultramarine.raw_meat>
+      $$>=1.20.5:
+        food:
+          nutrition: 2
+          saturation: 0.5
+          can_always_eat: false
+        components:
+          minecraft:consumable: 
+            on_consume_effects:
+              - type: apply_effects
+                effects:
+                  - id: minecraft:hunger
+                    amplifier: 0 
+                    duration: 600
+    settings:
+      $$<1.20.5: 
+        food:
+          nutrition: 2
+          saturation: 0.5
+    texture: minecraft:item/custom/raw_meat
+# 熟肉
+  ultramarine:cooked_meat:
+    material: nether_brick
+    client_bound_material:  
+      $$<1.20.5: bread   
+    data:
+      item-name: <!i><lang:item.ultramarine.cooked_meat>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 4.0
+          can_always_eat: false
+        components:
+          minecraft:consumable: {}
+    settings:
+      $$<1.20.5: 
+        food:
+          nutrition: 4
+          saturation: 4.0
+    texture: minecraft:item/custom/cooked_meat
+# 包子
+  ultramarine:baozi:
+    material: nether_brick
+    client_bound_material:  
+      $$<1.20.5: bread   
+    data:
+      item-name: <!i><lang:item.ultramarine.baozi>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 4.0
+          can_always_eat: false
+        components:
+          minecraft:consumable: {}
+    settings:
+      $$<1.20.5: 
+        food:
+          nutrition: 1
+          saturation: 4.0
+    texture: minecraft:item/custom/baozi
+# 青花瓷升级锻造模板
+  ultramarine:blue_and_white_porcelain_upgrade_smithing_template:
+    material: nether_brick
+    data:
+      item-name: <!i><lang:item.ultramarine.blue_and_white_porcelain_upgrade_smithing_template>
+      components:
+        minecraft:rarity: uncommon
+      lore:
+        - '<!i><grey>锻造模板'
+        - ''
+        - '<!i><grey>可运用于:'
+        - ' <!i><blue>金质武器与工具'
+        - '<!i><grey>所需原材料:'
+        - ' <!i><blue>青花瓷片'
+    texture: minecraft:item/custom/blue_and_white_porcelain_upgrade_smithing_template

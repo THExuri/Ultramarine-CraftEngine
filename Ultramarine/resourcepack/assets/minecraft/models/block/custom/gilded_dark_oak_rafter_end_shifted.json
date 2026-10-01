@@ -1,0 +1,7 @@
+{
+  "parent": "block/custom/decorated_rafter_end_shifted",
+  "textures": {
+    "1": "block/custom/gilded_dark_oak_rafter_end",
+    "particle": "block/custom/gilded_dark_oak"
+  }
+}

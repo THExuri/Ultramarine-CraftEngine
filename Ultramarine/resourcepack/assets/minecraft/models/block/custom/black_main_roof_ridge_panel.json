@@ -1,0 +1,9 @@
+{
+  "parent": "block/custom/roof_panel",
+  "textures": {
+    "bottom": "block/custom/black_main_roof_ridge_slab_bottom",
+    "front": "block/custom/black_main_roof_ridge_slab_front",
+    "side": "block/custom/black_main_roof_ridge_slab_side",
+    "top": "block/custom/black_main_roof_ridge_slab_top"
+  }
+}

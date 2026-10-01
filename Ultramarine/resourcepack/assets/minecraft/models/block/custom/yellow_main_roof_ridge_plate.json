@@ -1,0 +1,9 @@
+{
+  "parent": "block/custom/roof_plate",
+  "textures": {
+    "bottom": "block/custom/yellow_main_roof_ridge_slab_bottom",
+    "front": "block/custom/yellow_main_roof_ridge_slab_front",
+    "side": "block/custom/yellow_main_roof_ridge_slab_side",
+    "top": "block/custom/yellow_main_roof_ridge_slab_top"
+  }
+}

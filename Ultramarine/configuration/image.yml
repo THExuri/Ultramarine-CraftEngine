@@ -1,0 +1,6 @@
+images:
+  ultramarine:muchui:
+    height: 10
+    ascent: 9
+    font: ultramarine:muchui
+    file: minecraft:font/wooden_mallet.png

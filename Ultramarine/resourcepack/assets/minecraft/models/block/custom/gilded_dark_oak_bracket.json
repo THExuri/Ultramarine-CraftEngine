@@ -1,0 +1,6 @@
+{
+  "parent": "block/custom/bracket",
+  "textures": {
+    "1": "block/custom/gilded_dark_oak_bracket"
+  }
+}
