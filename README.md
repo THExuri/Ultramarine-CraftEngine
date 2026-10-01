@@ -74,5 +74,6 @@ Ultramarine/
 
 ## 许可
 
-- 原模组代码遵循 BSD-3-Clause，美术资源遵循 **CC BY-NC 4.0（署名 - 非商业性使用）**。
-- 本项目仅为**非商业性**移植与学习交流用途，请勿用于任何商业用途；使用与转载时请保留原作者署名。
+- 本项目代码与配置（CraftEngine 配置等）遵循 **MIT**，见 [LICENSE](LICENSE)。
+- 美术资源（`Ultramarine/resourcepack/` 下的模型与贴图）来自原模组，遵循 **CC BY-NC 4.0（署名 - 非商业性使用）**，见 [resourcepack/LICENSE](Ultramarine/resourcepack/LICENSE)。
+- 原模组代码遵循 BSD-3-Clause；本项目仅为**非商业性**移植与学习交流用途，使用与转载时请保留原作者署名。

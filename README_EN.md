@@ -73,5 +73,6 @@ Ultramarine/
 
 ## License
 
-- The original mod's code is licensed under BSD-3-Clause, and its art assets under **CC BY-NC 4.0 (Attribution-NonCommercial)**.
-- This project is a **non-commercial** port for learning and exchange only. Do not use it for any commercial purpose, and keep the original author's attribution when using or redistributing it.
+- This project's code and configuration (CraftEngine configs, etc.) are licensed under the **MIT** License, see [LICENSE](LICENSE).
+- The art assets (models and textures under `Ultramarine/resourcepack/`) come from the original mod and are licensed under **CC BY-NC 4.0 (Attribution-NonCommercial)**, see [resourcepack/LICENSE](Ultramarine/resourcepack/LICENSE).
+- The original mod's code is licensed under BSD-3-Clause. This project is a **non-commercial** port for learning and exchange only; keep the original author's attribution when using or redistributing it.
